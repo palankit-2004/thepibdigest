@@ -8,12 +8,10 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-
 START_PAGE = "https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"
 BASE = "https://www.pib.gov.in/"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 
-# Expanded UPSC-relevant ministries
 ALLOW_MINISTRIES = {
     "Ministry of Defence",
     "Ministry of Home Affairs",
@@ -48,7 +46,7 @@ ALLOW_MINISTRIES = {
     "NITI Aayog",
 }
 
-MAX_RELEASE_LINKS = 700   # bigger window => more chances to include MHA etc.
+MAX_RELEASE_LINKS = 700
 DELAY_SEC = 0.65
 
 OUT_DIR = os.path.join("public", "data")
@@ -80,11 +78,9 @@ def atomic_write_json(path: str, obj: dict):
 
 def clean_text(s: str) -> str:
     s = s.replace("\r", "").replace("\t", " ")
-    # normalize newlines and trim line ends
     s = re.sub(r"[ \t]+\n", "\n", s)
     s = re.sub(r"\n{3,}", "\n\n", s)
 
-    # remove large leading indentation per line (PIB layout artifacts)
     out_lines = []
     for line in s.split("\n"):
         line = re.sub(r"\s+$", "", line)
@@ -139,8 +135,8 @@ def collect_release_links(session: requests.Session) -> list[str]:
 
 def detect_ministry(soup: BeautifulSoup) -> str | None:
     lines = [t.strip() for t in soup.get_text("\n").split("\n")]
-    lines = [t for t in lines if t and len(t) < 200]
-    for t in lines[:300]:
+    lines = [t for t in lines if t and len(t) < 220]
+    for t in lines[:320]:
         if t.startswith("Ministry of "):
             return t
         if t == "NITI Aayog":
@@ -215,6 +211,15 @@ def scrape_release(session: requests.Session, url: str) -> dict | None:
 def main():
     os.makedirs(OUT_ITEMS, exist_ok=True)
 
+    # Read previous index (for fallback)
+    prev_index = None
+    if os.path.exists(OUT_INDEX):
+        try:
+            with open(OUT_INDEX, "r", encoding="utf-8") as f:
+                prev_index = json.load(f)
+        except Exception:
+            prev_index = None
+
     s = requests.Session()
 
     # warm up
@@ -223,24 +228,27 @@ def main():
     except Exception:
         pass
 
-    links = collect_release_links(s)
+    # collect links
+    try:
+        links = collect_release_links(s)
+    except Exception as e:
+        print("⚠️ Failed to collect release links:", e)
+        links = []
 
     if not links:
+        # Keep old data if available
+        if prev_index and int(prev_index.get("count", 0)) > 0:
+            print("⚠️ No links collected. Keeping previous index.json (no overwrite).")
+            return
+
+        # Otherwise write a valid empty index (first run)
         atomic_write_json(OUT_INDEX, {
-           new_count = len(index_items)
-
-# If scrape failed (0 items), keep old production data
-if new_count == 0 and os.path.exists(OUT_INDEX):
-    print("⚠️ Scrape returned 0 items. Keeping existing index.json (no overwrite).")
-    return
-
-atomic_write_json(OUT_INDEX, {
-    "updated_at_utc": datetime.now(timezone.utc).isoformat(),
-    "count": new_count,
-    "items": index_items
-})
+            "updated_at_utc": datetime.now(timezone.utc).isoformat(),
+            "count": 0,
+            "items": [],
+            "note": "No release links found. PIB may be blocking requests."
         })
-        print("⚠️ No links found on All Releases page.")
+        print("⚠️ No links found; wrote empty index.json.")
         return
 
     index_items = []
@@ -285,15 +293,21 @@ atomic_write_json(OUT_INDEX, {
         except Exception:
             continue
 
+    new_count = len(index_items)
+
+    # If scrape returned 0, keep old data (do not overwrite)
+    if new_count == 0 and prev_index and int(prev_index.get("count", 0)) > 0:
+        print("⚠️ Scrape returned 0 items. Keeping previous index.json (no overwrite).")
+        return
+
     atomic_write_json(OUT_INDEX, {
         "updated_at_utc": datetime.now(timezone.utc).isoformat(),
-        "count": len(index_items),
+        "count": new_count,
         "items": index_items
     })
 
     print(f"✅ Collected release links: {len(links)}")
-    print(f"✅ Written index items: {len(index_items)}")
-    print(f"✅ Detail files: {OUT_ITEMS}")
+    print(f"✅ Written index items: {new_count}")
 
 
 if __name__ == "__main__":

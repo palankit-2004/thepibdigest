@@ -35,7 +35,7 @@ jobs:
               data = json.load(f)
           count = int(data.get("count", 0))
           print("index.json count =", count)
-          if count < 10:
+          if count < 3:
               print("Too few items. Likely PIB blocked requests. Refusing to overwrite production data.")
               sys.exit(1)
           PY

@@ -40,7 +40,7 @@ jobs:
               with open(path, "r", encoding="utf-8") as f:
                   data = json.load(f)
               count = int(data.get("count", 0))
-              publish = count >= 3   # threshold
+              publish = count >= 3
 
           print("index.json count =", count)
           print("publish =", publish)

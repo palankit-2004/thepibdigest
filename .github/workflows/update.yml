@@ -26,24 +26,43 @@ jobs:
         run: |
           python scripts/build_data.py
 
-      - name: Safety check (don’t publish blocked/empty data)
+      # ✅ Instead of failing, we SKIP publishing when count is too low.
+      - name: Decide publish or skip
+        id: decide
         run: |
           python - << 'PY'
-          import json, sys
+          import json, os
+
           path = "public/data/index.json"
+          if not os.path.exists(path):
+              print("publish=false")
+              print("reason=index.json missing")
+              raise SystemExit(0)
+
           with open(path, "r", encoding="utf-8") as f:
               data = json.load(f)
+
           count = int(data.get("count", 0))
           print("index.json count =", count)
-          if count < 3:
-              print("Too few items. Likely PIB blocked requests. Refusing to overwrite production data.")
-              sys.exit(1)
+
+          # Change threshold if you want
+          publish = count >= 3
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
+              out.write(f"publish={'true' if publish else 'false'}\n")
+              out.write(f"count={count}\n")
           PY
 
-      - name: Commit & push
+      - name: Commit & push (only if publish=true)
+        if: steps.decide.outputs.publish == 'true'
         run: |
           git config user.name "pib-types-bot"
           git config user.email "actions@users.noreply.github.com"
           git add public/data/index.json public/data/items
           git commit -m "chore: update PIB Types data" || echo "No changes"
           git push
+
+      - name: Skip message (publish=false)
+        if: steps.decide.outputs.publish != 'true'
+        run: |
+          echo "Skipping publish because scrape returned too few items (count=${{ steps.decide.outputs.count }}). Keeping previous production data."

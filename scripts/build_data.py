@@ -227,10 +227,18 @@ def main():
 
     if not links:
         atomic_write_json(OUT_INDEX, {
-            "updated_at_utc": datetime.now(timezone.utc).isoformat(),
-            "count": 0,
-            "items": [],
-            "note": "No release links found. PIB may be blocking requests."
+           new_count = len(index_items)
+
+# If scrape failed (0 items), keep old production data
+if new_count == 0 and os.path.exists(OUT_INDEX):
+    print("⚠️ Scrape returned 0 items. Keeping existing index.json (no overwrite).")
+    return
+
+atomic_write_json(OUT_INDEX, {
+    "updated_at_utc": datetime.now(timezone.utc).isoformat(),
+    "count": new_count,
+    "items": index_items
+})
         })
         print("⚠️ No links found on All Releases page.")
         return

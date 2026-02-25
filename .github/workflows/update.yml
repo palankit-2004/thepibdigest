@@ -1,0 +1,49 @@
+name: Update PIB Types data
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          pip install requests beautifulsoup4 lxml
+
+      - name: Build data
+        run: |
+          python scripts/build_data.py
+
+      - name: Safety check (don’t publish blocked/empty data)
+        run: |
+          python - << 'PY'
+          import json, sys
+          path = "public/data/index.json"
+          with open(path, "r", encoding="utf-8") as f:
+              data = json.load(f)
+          count = int(data.get("count", 0))
+          print("index.json count =", count)
+          if count < 10:
+              print("Too few items. Likely PIB blocked requests. Refusing to overwrite production data.")
+              sys.exit(1)
+          PY
+
+      - name: Commit & push
+        run: |
+          git config user.name "pib-types-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data/index.json public/data/items
+          git commit -m "chore: update PIB Types data" || echo "No changes"
+          git push

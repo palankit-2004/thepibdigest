@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>PIB Types</title>
+  <meta name="description" content="UPSC-ready PIB feed • clean, fast, filtered" />
+  <meta name="theme-color" content="#0b0f17" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="The PIB Digest" />
+  <meta property="og:description" content="UPSC-ready PIB feed • clean, fast, filtered" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:," />
+</head>
+
+<body>
+  <header class="top">
+    <div class="brand" role="banner" aria-label="PIB Types header">
+      <div class="logo" aria-hidden="true">⌁</div>
+      <div>
+        <h1>PIB Types</h1>
+        <p class="sub">UPSC-ready PIB feed • clean, fast, filtered</p>
+      </div>
+    </div>
+
+    <div class="controls" role="search" aria-label="Search and filters">
+      <label for="q" class="sr-only">Search</label>
+      <input
+        id="q"
+        type="search"
+        placeholder="Search (scheme, act, exercise, summit...)"
+        autocomplete="off"
+        inputmode="search"
+        aria-label="Search press releases"
+      />
+
+      <label for="ministry" class="sr-only">Ministry filter</label>
+      <select id="ministry" aria-label="Filter by ministry">
+        <option value="__all__">All tracked ministries</option>
+      </select>
+
+      <button id="toggleTheme" type="button" title="Toggle theme" aria-label="Toggle theme">
+        🌙
+      </button>
+    </div>
+
+    <div class="meta" aria-label="Update info and bookmarks">
+      <span id="updated">Loading…</span>
+      <span class="dot" aria-hidden="true">•</span>
+      <button id="showBookmarks" class="linkBtn" type="button">Bookmarks</button>
+    </div>
+  </header>
+
+  <main class="wrap" role="main">
+    <section id="chips" class="chips" aria-label="Quick filters"></section>
+
+    <section id="list" class="list" aria-label="Press release list">
+      <div class="skeleton" aria-hidden="true"></div>
+      <div class="skeleton" aria-hidden="true"></div>
+      <div class="skeleton" aria-hidden="true"></div>
+    </section>
+
+    <div class="moreRow" aria-label="Pagination controls">
+      <button id="loadMore" class="moreBtn" type="button" style="display:none;">Load more</button>
+      <span id="countInfo" class="countInfo"></span>
+    </div>
+  </main>
+
+  <dialog id="reader" class="reader" aria-label="Reader">
+    <form method="dialog" class="readerTop">
+      <button class="x" aria-label="Close reader" type="submit">✕</button>
+    </form>
+
+    <div class="readerBody">
+      <div class="readerHead">
+        <div id="rMinistry" class="pill"></div>
+        <h2 id="rTitle"></h2>
+
+        <div class="readerMeta">
+          <span id="rPosted"></span>
+          <span class="dot" aria-hidden="true">•</span>
+          <a id="rSource" target="_blank" rel="noopener">Open on PIB</a>
+          <span class="dot" aria-hidden="true">•</span>
+          <button id="rBookmark" class="linkBtn" type="button">☆ Bookmark</button>
+        </div>
+      </div>
+
+      <div id="rPdfs" class="pdfs" aria-label="PDF attachments"></div>
+      <pre id="rText" class="text" aria-label="Press release text"></pre>
+    </div>
+  </dialog>
+
+  <script src="app.js"></script>
+
+  <!-- Keep SW OFF during dev. Enable later if you want offline. -->
+  <!--
+  <script>
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+  </script>
+  -->
+</body>
+</html>

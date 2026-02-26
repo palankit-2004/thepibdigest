@@ -8,11 +8,17 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: pib-digest-update
+  cancel-in-progress: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -40,7 +46,7 @@ jobs:
               with open(path, "r", encoding="utf-8") as f:
                   data = json.load(f)
               count = int(data.get("count", 0))
-              publish = count >= 1   # latest-only: even 1 item is fine
+              publish = count >= 1
 
           print("index.json count =", count)
           print("publish =", publish)
@@ -50,16 +56,19 @@ jobs:
               out.write(f"count={count}\n")
           PY
 
-      - name: Commit & push (only if publish=true)
+      - name: Commit & push (safe)
         if: steps.decide.outputs.publish == 'true'
         run: |
           git config user.name "pib-digest-bot"
           git config user.email "actions@users.noreply.github.com"
+
+          git pull --rebase origin main
+
           git add public/data/index.json public/data/items
           git commit -m "chore: update pib digest data" || echo "No changes"
-          git push
+          git push origin main
 
-      - name: Skip publish (publish=false)
+      - name: Skip publish
         if: steps.decide.outputs.publish != 'true'
         run: |
           echo "Skipping publish because count=${{ steps.decide.outputs.count }}. Keeping previous production data."

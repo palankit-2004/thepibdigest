@@ -8,12 +8,11 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-
 # ---------------- CONFIG ----------------
 
 BASE = "https://www.pib.gov.in/"
 LISTING_URLS = [
-    # Try multiple variants (sometimes one shows links when another shows 0)
+    # These variants often behave differently. We try all until we get PRIDs.
     "https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3",
     "https://www.pib.gov.in/Allrel.aspx?lang=1&reg=1",
     "https://www.pib.gov.in/Allrel.aspx?lang=1",
@@ -56,8 +55,8 @@ ALLOW_MINISTRIES = {
     "NITI Aayog",
 }
 
-MAX_RELEASE_LINKS = 300     # "latest only" window
-DELAY_SEC = 0.55            # polite delay
+MAX_RELEASE_LINKS = 300
+DELAY_SEC = 0.50
 
 OUT_DIR = os.path.join("public", "data")
 OUT_INDEX = os.path.join(OUT_DIR, "index.json")
@@ -126,20 +125,19 @@ def fetch_html(session: requests.Session, url: str, referer: str) -> str:
     return r.text or ""
 
 
-def load_prev_index_count() -> int:
+def load_prev_index() -> dict | None:
     if not os.path.exists(OUT_INDEX):
-        return 0
+        return None
     try:
         with open(OUT_INDEX, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        return int(data.get("count", 0))
+            return json.load(f)
     except Exception:
-        return 0
+        return None
 
 
 def collect_release_links(session: requests.Session) -> tuple[list[str], str]:
     """
-    Try multiple listing URLs. Return (links, used_url_note).
+    Robust: try multiple listing URLs until we find PRIDs.
     """
     for u in LISTING_URLS:
         try:
@@ -166,9 +164,21 @@ def collect_release_links(session: requests.Session) -> tuple[list[str], str]:
 
 
 def detect_ministry(soup: BeautifulSoup) -> str | None:
-    lines = [t.strip() for t in soup.get_text("\n").split("\n")]
-    lines = [t for t in lines if t and len(t) < 220]
-    for t in lines[:320]:
+    """
+    More robust ministry detection:
+    - Look for exact allowlist strings in the visible text.
+    - Else fallback to 'Ministry of ...' line.
+    """
+    text = soup.get_text("\n", strip=True)
+
+    # 1) Exact allowlist match in text (best)
+    for m in ALLOW_MINISTRIES:
+        if m in text:
+            return m
+
+    # 2) Fallback: first line that looks like Ministry of ...
+    lines = [t.strip() for t in text.split("\n") if t.strip()]
+    for t in lines[:500]:
         if t.startswith("Ministry of "):
             return t
         if t == "NITI Aayog":
@@ -177,7 +187,7 @@ def detect_ministry(soup: BeautifulSoup) -> str | None:
 
 
 def extract_title(soup: BeautifulSoup) -> str:
-    h = soup.find(["h2", "h1"])
+    h = soup.find(["h1", "h2"])
     if h:
         t = h.get_text(" ", strip=True)
         if t:
@@ -221,6 +231,8 @@ def scrape_release(session: requests.Session, url: str) -> dict | None:
         return None
 
     ministry = detect_ministry(soup)
+    if not ministry:
+        return None
     if ministry not in ALLOW_MINISTRIES:
         return None
 
@@ -243,11 +255,12 @@ def scrape_release(session: requests.Session, url: str) -> dict | None:
 def main():
     os.makedirs(OUT_ITEMS, exist_ok=True)
 
-    prev_count = load_prev_index_count()
+    prev = load_prev_index()
+    prev_count = int(prev.get("count", 0)) if prev else 0
 
     s = requests.Session()
 
-    # warm up
+    # warm-up
     try:
         s.get(BASE, headers=headers(BASE), timeout=25)
     except Exception:
@@ -255,13 +268,11 @@ def main():
 
     links, note = collect_release_links(s)
 
-    # If no links, KEEP previous data (don’t overwrite)
+    # If no listing links, keep previous site data
     if not links:
         if prev_count > 0:
             print(f"⚠️ No links collected. Keeping previous index.json (no overwrite). ({note})")
             return
-
-        # first run fallback: write empty valid json
         atomic_write_json(OUT_INDEX, {
             "updated_at_utc": datetime.now(timezone.utc).isoformat(),
             "count": 0,
@@ -271,19 +282,11 @@ def main():
         print(f"⚠️ No links found; wrote empty index.json. ({note})")
         return
 
-    # fresh build: gather latest items
+    # Build latest-only dataset in memory first
     index_items = []
-    seen_prid = set()
+    seen = set()
 
-    # OPTIONAL: clear old items directory for "latest only"
-    # (keeps repo lighter and avoids stale details)
-    for fn in os.listdir(OUT_ITEMS):
-        if fn.endswith(".json"):
-            try:
-                os.remove(os.path.join(OUT_ITEMS, fn))
-            except Exception:
-                pass
-
+    # Scrape each PRID page
     for url in links:
         try:
             data = scrape_release(s, url)
@@ -293,11 +296,10 @@ def main():
                 continue
 
             prid = data["prid"]
-            if prid in seen_prid:
+            if prid in seen:
                 continue
-            seen_prid.add(prid)
+            seen.add(prid)
 
-            detail_path = os.path.join(OUT_ITEMS, f"{prid}.json")
             detail_obj = {
                 "prid": data["prid"],
                 "ministry": data["ministry"],
@@ -308,7 +310,6 @@ def main():
                 "text": data.get("text", ""),
                 "fetched_at_utc": datetime.now(timezone.utc).isoformat(),
             }
-            atomic_write_json(detail_path, detail_obj)
 
             index_items.append({
                 "prid": detail_obj["prid"],
@@ -320,16 +321,31 @@ def main():
                 "snippet": snippet(detail_obj["text"]),
             })
 
+            # write detail file
+            atomic_write_json(os.path.join(OUT_ITEMS, f"{prid}.json"), detail_obj)
+
         except Exception:
             continue
 
     new_count = len(index_items)
 
-    # If we got zero after filtering ministries, keep previous data
+    # If filtering removed everything, keep previous data (don’t wipe)
     if new_count == 0 and prev_count > 0:
-        print("⚠️ Got 0 matching items after filtering ministries. Keeping previous index.json (no overwrite).")
+        print("⚠️ 0 items after ministry filter. Keeping previous index.json (no overwrite).")
         return
 
+    # ✅ Now that we have good data, clean old detail files not in this run (latest-only)
+    keep = set(x["prid"] for x in index_items)
+    for fn in os.listdir(OUT_ITEMS):
+        if fn.endswith(".json"):
+            prid = fn[:-5]
+            if prid not in keep:
+                try:
+                    os.remove(os.path.join(OUT_ITEMS, fn))
+                except Exception:
+                    pass
+
+    # write index
     atomic_write_json(OUT_INDEX, {
         "updated_at_utc": datetime.now(timezone.utc).isoformat(),
         "count": new_count,
@@ -337,7 +353,7 @@ def main():
         "note": note
     })
 
-    print(f"✅ Links collected: {len(links)} ({note})")
+    print(f"✅ Listing links: {len(links)} ({note})")
     print(f"✅ Items written: {new_count}")
 
 

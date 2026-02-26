@@ -1,7 +1,5 @@
 const $ = (s) => document.querySelector(s);
 
-/* ================= STATE ================= */
-
 const state = {
   all: [],
   view: [],
@@ -12,16 +10,9 @@ const state = {
   renderLimit: 40
 };
 
-/* ================= BOOKMARKS ================= */
-
-const BM_KEY = "pibtypes_bookmarks_v1";
+const BM_KEY = "pibdigest_bookmarks_v1";
 const getBms = () => new Set(JSON.parse(localStorage.getItem(BM_KEY) || "[]"));
 const setBms = (set) => localStorage.setItem(BM_KEY, JSON.stringify([...set]));
-
-/* ================= UPSC MINISTRIES (STATIC DROPDOWN) =================
-   Fix: dropdown should not depend on what happened to be scraped today.
-   We show an UPSC-relevant list always + any extra present in data.
-*/
 
 const UPSC_MINISTRY_ORDER = [
   "Ministry of Defence",
@@ -63,8 +54,6 @@ function dropdownMinistries(items){
   return [...UPSC_MINISTRY_ORDER, ...extras];
 }
 
-/* ================= HELPERS ================= */
-
 function escapeHtml(str){
   return String(str ?? "")
     .replaceAll("&","&amp;")
@@ -80,7 +69,7 @@ function formatUpdated(iso){
 
 function setTheme(theme){
   document.documentElement.dataset.theme = theme;
-  localStorage.setItem("pibtypes_theme", theme);
+  localStorage.setItem("pibdigest_theme", theme);
   $("#toggleTheme").textContent = theme === "light" ? "☀️" : "🌙";
 }
 
@@ -91,74 +80,23 @@ function setErrorUI(msg){
       <div class="kicker">Error</div>
       <h3 class="title">Couldn’t load PIB data</h3>
       <p class="snip">${escapeHtml(msg)}</p>
-      <p class="snip">Fix: run <b>python scripts/build_data.py</b> and serve the <b>public/</b> folder.</p>
+      <p class="snip">Fix: ensure <b>/public/data/index.json</b> exists and Netlify publishes the <b>public/</b> folder.</p>
     </div>
   `;
   $("#loadMore").style.display = "none";
   $("#countInfo").textContent = "";
 }
 
-/* ===================== KEYWORD PACK CHIPS ===================== */
-
+/* Chips = keyword packs (better than filtering by chip id text) */
 const CHIP_PACKS = {
   "__all__": { label: "All", keywords: [] },
-
-  "budget": {
-    label: "Budget",
-    keywords: [
-      "budget", "union budget", "interim budget", "finance bill", "economic survey",
-      "fiscal", "allocation", "outlay", "expenditure", "tax", "gst", "customs", "subsidy"
-    ]
-  },
-
-  "cabinet": {
-    label: "Cabinet",
-    keywords: [
-      "cabinet", "union cabinet", "cabinet approves", "cabinet approved",
-      "cabinet committee", "ccs", "committee on security", "approved by the cabinet"
-    ]
-  },
-
-  "exercises": {
-    label: "Exercises",
-    keywords: [
-      "exercise", "joint exercise", "bilateral exercise", "multilateral exercise",
-      "war game", "drill", "training exercise", "naval exercise", "air exercise",
-      "army exercise", "tri-service"
-    ]
-  },
-
-  "schemes": {
-    label: "Schemes",
-    keywords: [
-      "scheme", "yojana", "mission", "programme", "program", "initiative",
-      "launch", "launched", "rollout", "rolled out", "inaugurate", "inaugurated"
-    ]
-  },
-
-  "bills": {
-    label: "Bills/Acts",
-    keywords: [
-      "bill", "act", "amendment", "amend", "ordinance", "rules",
-      "regulation", "notification", "gazette", "statutory", "framework"
-    ]
-  },
-
-  "summits": {
-    label: "Summits",
-    keywords: [
-      "summit", "conference", "meet", "meeting", "dialogue",
-      "conclave", "roundtable", "delegation", "visit"
-    ]
-  },
-
-  "missions": {
-    label: "Missions",
-    keywords: [
-      "mission", "roadmap", "strategy", "action plan", "blueprint",
-      "target", "milestone", "phase"
-    ]
-  }
+  "budget": { label: "Budget", keywords: ["budget", "union budget", "finance bill", "economic survey", "allocation", "outlay"] },
+  "cabinet": { label: "Cabinet", keywords: ["cabinet", "union cabinet", "cabinet approves", "ccs", "committee on security"] },
+  "exercises": { label: "Exercises", keywords: ["exercise", "joint exercise", "bilateral exercise", "multilateral exercise", "drill", "naval exercise"] },
+  "schemes": { label: "Schemes", keywords: ["scheme", "yojana", "mission", "programme", "initiative", "launch", "launched"] },
+  "bills": { label: "Bills/Acts", keywords: ["bill", "act", "amendment", "ordinance", "rules", "notification"] },
+  "summits": { label: "Summits", keywords: ["summit", "conference", "conclave", "meeting", "dialogue", "visit"] },
+  "missions": { label: "Missions", keywords: ["mission", "roadmap", "strategy", "action plan", "milestone"] },
 };
 
 function renderChips(){
@@ -178,24 +116,17 @@ function renderChips(){
   });
 }
 
-/* ===================== PIB TEXT NORMALIZER ===================== */
-
-function normalizePibText(raw){
+function normalizeText(raw){
   if (!raw) return "";
   let t = String(raw).replace(/\t/g, " ");
-
   let lines = t.split("\n").map(line => {
-    line = line.replace(/\s+$/g, "");       // trim right
-    line = line.replace(/^\s{2,}/g, "");    // remove big left indent
-    line = line.replace(/ {2,}/g, " ");     // collapse inner spaces
+    line = line.replace(/\s+$/g, "");
+    line = line.replace(/^\s{2,}/g, "");
+    line = line.replace(/ {2,}/g, " ");
     return line;
   });
-
-  t = lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
-  return t;
+  return lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
 }
-
-/* ===================== FILTERS ===================== */
 
 function applyFilters(){
   const bms = getBms();
@@ -205,8 +136,7 @@ function applyFilters(){
   if (state.ministry !== "__all__") items = items.filter(x => x.ministry === state.ministry);
 
   if (state.chip !== "__all__"){
-    const pack = CHIP_PACKS[state.chip];
-    const kws = (pack?.keywords || []).map(k => k.toLowerCase());
+    const kws = (CHIP_PACKS[state.chip]?.keywords || []).map(k => k.toLowerCase());
     items = items.filter(x => {
       const t = ((x.title||"") + " " + (x.snippet||"")).toLowerCase();
       return kws.some(k => t.includes(k));
@@ -226,8 +156,6 @@ function applyFilters(){
   state.renderLimit = Math.min(40, state.view.length);
   renderList();
 }
-
-/* ===================== LIST ===================== */
 
 function renderList(){
   const el = $("#list");
@@ -263,8 +191,6 @@ function renderList(){
   $("#countInfo").textContent = `Showing ${shown.length} of ${state.view.length}`;
   $("#loadMore").style.display = (state.renderLimit < state.view.length) ? "inline-flex" : "none";
 }
-
-/* ===================== READER ===================== */
 
 async function openReader(prid){
   const idx = state.all.find(i => String(i.prid) === String(prid));
@@ -306,16 +232,15 @@ async function openReader(prid){
     const txt = await res.text();
     if (!txt.trim()) throw new Error("detail empty");
     const d = JSON.parse(txt);
-    $("#rText").textContent = normalizePibText(d.text || "");
+    $("#rText").textContent = normalizeText(d.text || "");
   } catch {
-    $("#rText").textContent = normalizePibText(idx.snippet || "Unable to load full text.");
+    $("#rText").textContent = normalizeText(idx.snippet || "Unable to load full text.");
   }
 }
 
-/* ===================== INIT ===================== */
-
 async function init(){
-  const savedTheme = localStorage.getItem("pibtypes_theme") || "dark";
+  // theme
+  const savedTheme = localStorage.getItem("pibdigest_theme") || "dark";
   setTheme(savedTheme);
   $("#toggleTheme").onclick = () => {
     const next = document.documentElement.dataset.theme === "light" ? "dark" : "light";
@@ -325,9 +250,8 @@ async function init(){
   try{
     const res = await fetch("data/index.json", { cache: "no-store" });
     const txt = await res.text();
-
     if (!res.ok) throw new Error(`HTTP ${res.status} while loading /data/index.json`);
-    if (!txt.trim()) throw new Error("index.json is empty. Run: python scripts/build_data.py");
+    if (!txt.trim()) throw new Error("index.json is empty.");
 
     const data = JSON.parse(txt);
 
@@ -335,7 +259,7 @@ async function init(){
     state.all = (data.items || []).map(x => ({ ...x, prid: String(x.prid || "") }));
     state.view = state.all;
 
-    // ministry dropdown (static UPSC list + extras)
+    // dropdown (UPSC list always visible)
     const mins = dropdownMinistries(state.all);
     const sel = $("#ministry");
     sel.innerHTML =
@@ -343,14 +267,17 @@ async function init(){
       mins.map(m => `<option value="${escapeHtml(m)}">${escapeHtml(m)}</option>`).join("");
     sel.onchange = () => { state.ministry = sel.value; applyFilters(); };
 
+    // search
     $("#q").addEventListener("input", (e) => { state.q = e.target.value; applyFilters(); });
 
+    // bookmarks toggle
     $("#showBookmarks").onclick = () => {
       state.bookmarksOnly = !state.bookmarksOnly;
       $("#showBookmarks").textContent = state.bookmarksOnly ? "All items" : "Bookmarks";
       applyFilters();
     };
 
+    // load more
     $("#loadMore").onclick = () => {
       state.renderLimit = Math.min(state.renderLimit + 40, state.view.length);
       renderList();
@@ -358,7 +285,6 @@ async function init(){
 
     renderChips();
     applyFilters();
-
   }catch(e){
     setErrorUI(e.message || String(e));
   }

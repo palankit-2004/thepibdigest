@@ -2,15 +2,24 @@ import os
 import re
 import json
 import time
-import hashlib
 from datetime import datetime, timezone
 from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
-START_PAGE = "https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"
+
+# ---------------- CONFIG ----------------
+
 BASE = "https://www.pib.gov.in/"
+LISTING_URLS = [
+    # Try multiple variants (sometimes one shows links when another shows 0)
+    "https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3",
+    "https://www.pib.gov.in/Allrel.aspx?lang=1&reg=1",
+    "https://www.pib.gov.in/Allrel.aspx?lang=1",
+    "https://www.pib.gov.in/Allrel.aspx",
+]
+
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 
 ALLOW_MINISTRIES = {
@@ -47,13 +56,15 @@ ALLOW_MINISTRIES = {
     "NITI Aayog",
 }
 
-MAX_RELEASE_LINKS = 700
-DELAY_SEC = 0.65
+MAX_RELEASE_LINKS = 300     # "latest only" window
+DELAY_SEC = 0.55            # polite delay
 
 OUT_DIR = os.path.join("public", "data")
 OUT_INDEX = os.path.join(OUT_DIR, "index.json")
 OUT_ITEMS = os.path.join(OUT_DIR, "items")
 
+
+# ---------------- HELPERS ----------------
 
 def headers(referer: str) -> dict:
     return {
@@ -115,23 +126,43 @@ def fetch_html(session: requests.Session, url: str, referer: str) -> str:
     return r.text or ""
 
 
-def collect_release_links(session: requests.Session) -> list[str]:
-    html = fetch_html(session, START_PAGE, BASE)
-    soup = BeautifulSoup(html, "lxml")
+def load_prev_index_count() -> int:
+    if not os.path.exists(OUT_INDEX):
+        return 0
+    try:
+        with open(OUT_INDEX, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return int(data.get("count", 0))
+    except Exception:
+        return 0
 
-    links = []
-    seen = set()
 
-    for a in soup.select("a[href]"):
-        href = a.get("href", "")
-        if "PressReleasePage.aspx" in href and "PRID=" in href:
-            full = absolutize(href)
-            prid = extract_prid(full)
-            if prid and prid not in seen:
-                seen.add(prid)
-                links.append(full)
+def collect_release_links(session: requests.Session) -> tuple[list[str], str]:
+    """
+    Try multiple listing URLs. Return (links, used_url_note).
+    """
+    for u in LISTING_URLS:
+        try:
+            html = fetch_html(session, u, BASE)
+            soup = BeautifulSoup(html, "lxml")
 
-    return links[:MAX_RELEASE_LINKS]
+            links = []
+            seen = set()
+            for a in soup.select("a[href]"):
+                href = a.get("href", "")
+                if "PressReleasePage.aspx" in href and "PRID=" in href:
+                    full = absolutize(href)
+                    prid = extract_prid(full)
+                    if prid and prid not in seen:
+                        seen.add(prid)
+                        links.append(full)
+
+            if links:
+                return links[:MAX_RELEASE_LINKS], f"listing={u}"
+        except Exception:
+            continue
+
+    return [], "no listing url returned PRIDs"
 
 
 def detect_ministry(soup: BeautifulSoup) -> str | None:
@@ -179,7 +210,7 @@ def extract_pdfs(soup: BeautifulSoup) -> list[dict]:
 
 
 def scrape_release(session: requests.Session, url: str) -> dict | None:
-    html = fetch_html(session, url, START_PAGE)
+    html = fetch_html(session, url, BASE)
     if len(html) < 800:
         return None
 
@@ -209,70 +240,49 @@ def scrape_release(session: requests.Session, url: str) -> dict | None:
     }
 
 
-def load_prev_index() -> dict | None:
-    if not os.path.exists(OUT_INDEX):
-        return None
-    try:
-        with open(OUT_INDEX, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return None
-
-
-def signature_for_items(items: list[dict]) -> str:
-    """
-    Stable signature based on PRIDs + titles + posted time.
-    If signature changes => content changed.
-    """
-    compact = [
-        {"prid": x.get("prid"), "title": x.get("title"), "posted_on_raw": x.get("posted_on_raw")}
-        for x in items
-    ]
-    blob = json.dumps(compact, ensure_ascii=False, sort_keys=True).encode("utf-8")
-    return hashlib.sha256(blob).hexdigest()
-
-
 def main():
     os.makedirs(OUT_ITEMS, exist_ok=True)
 
-    prev_index = load_prev_index()
-    prev_count = int(prev_index.get("count", 0)) if prev_index else 0
-    prev_sig = prev_index.get("signature") if prev_index else None
+    prev_count = load_prev_index_count()
 
     s = requests.Session()
 
     # warm up
     try:
-        s.get(BASE, headers=headers(BASE), timeout=30)
+        s.get(BASE, headers=headers(BASE), timeout=25)
     except Exception:
         pass
 
-    # collect links
-    try:
-        links = collect_release_links(s)
-    except Exception as e:
-        print("⚠️ Failed to collect release links:", e)
-        links = []
+    links, note = collect_release_links(s)
 
-    # If we can't even get links, keep previous data
+    # If no links, KEEP previous data (don’t overwrite)
     if not links:
-        if prev_index and prev_count > 0:
-            print("⚠️ No links collected. Keeping previous index.json (no overwrite).")
+        if prev_count > 0:
+            print(f"⚠️ No links collected. Keeping previous index.json (no overwrite). ({note})")
             return
 
-        # first-ever run fallback
+        # first run fallback: write empty valid json
         atomic_write_json(OUT_INDEX, {
             "updated_at_utc": datetime.now(timezone.utc).isoformat(),
             "count": 0,
             "items": [],
-            "signature": signature_for_items([]),
-            "note": "No release links found. PIB may be blocking requests."
+            "note": f"No links found. {note}"
         })
-        print("⚠️ No links found; wrote empty index.json.")
+        print(f"⚠️ No links found; wrote empty index.json. ({note})")
         return
 
+    # fresh build: gather latest items
     index_items = []
-    seen = set()
+    seen_prid = set()
+
+    # OPTIONAL: clear old items directory for "latest only"
+    # (keeps repo lighter and avoids stale details)
+    for fn in os.listdir(OUT_ITEMS):
+        if fn.endswith(".json"):
+            try:
+                os.remove(os.path.join(OUT_ITEMS, fn))
+            except Exception:
+                pass
 
     for url in links:
         try:
@@ -283,9 +293,9 @@ def main():
                 continue
 
             prid = data["prid"]
-            if prid in seen:
+            if prid in seen_prid:
                 continue
-            seen.add(prid)
+            seen_prid.add(prid)
 
             detail_path = os.path.join(OUT_ITEMS, f"{prid}.json")
             detail_obj = {
@@ -315,27 +325,20 @@ def main():
 
     new_count = len(index_items)
 
-    # If scrape produced 0 items, keep previous good data (don’t overwrite)
-    if new_count == 0 and prev_index and prev_count > 0:
-        print("⚠️ Scrape returned 0 items. Keeping previous index.json (no overwrite).")
+    # If we got zero after filtering ministries, keep previous data
+    if new_count == 0 and prev_count > 0:
+        print("⚠️ Got 0 matching items after filtering ministries. Keeping previous index.json (no overwrite).")
         return
 
-    new_sig = signature_for_items(index_items)
-
-    # ✅ Always bump updated_at_utc when we have data.
-    # Even if content signature is the same, we still write a new timestamp so Netlify can redeploy if you want.
     atomic_write_json(OUT_INDEX, {
         "updated_at_utc": datetime.now(timezone.utc).isoformat(),
         "count": new_count,
         "items": index_items,
-        "signature": new_sig,
-        "same_as_previous": bool(prev_sig and prev_sig == new_sig),
+        "note": note
     })
 
-    print(f"✅ Collected release links: {len(links)}")
-    print(f"✅ Written index items: {new_count}")
-    if prev_sig and prev_sig == new_sig:
-        print("ℹ️ Content signature unchanged (same items as previous run).")
+    print(f"✅ Links collected: {len(links)} ({note})")
+    print(f"✅ Items written: {new_count}")
 
 
 if __name__ == "__main__":

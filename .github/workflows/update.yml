@@ -1,4 +1,4 @@
-name: Update PIB Types data
+name: Update PIB Digest data
 
 on:
   schedule:
@@ -40,7 +40,7 @@ jobs:
               with open(path, "r", encoding="utf-8") as f:
                   data = json.load(f)
               count = int(data.get("count", 0))
-              publish = count >= 3
+              publish = count >= 1   # latest-only: even 1 item is fine
 
           print("index.json count =", count)
           print("publish =", publish)
@@ -53,13 +53,13 @@ jobs:
       - name: Commit & push (only if publish=true)
         if: steps.decide.outputs.publish == 'true'
         run: |
-          git config user.name "pib-types-bot"
+          git config user.name "pib-digest-bot"
           git config user.email "actions@users.noreply.github.com"
           git add public/data/index.json public/data/items
-          git commit -m "chore: update PIB Types data" || echo "No changes"
+          git commit -m "chore: update pib digest data" || echo "No changes"
           git push
 
       - name: Skip publish (publish=false)
         if: steps.decide.outputs.publish != 'true'
         run: |
-          echo "Skipping publish because scrape returned too few items (count=${{ steps.decide.outputs.count }}). Keeping previous production data."
+          echo "Skipping publish because count=${{ steps.decide.outputs.count }}. Keeping previous production data."

@@ -3,76 +3,55 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-  <title>PIB Types</title>
-  <meta name="description" content="UPSC-ready PIB feed • clean, fast, filtered" />
-  <meta name="theme-color" content="#0b0f17" />
-
-  <!-- Open Graph / Social -->
-  <meta property="og:title" content="The PIB Digest" />
-  <meta property="og:description" content="UPSC-ready PIB feed • clean, fast, filtered" />
-  <meta property="og:type" content="website" />
-
+  <title>PIB Digest</title>
+  <meta name="description" content="UPSC-ready PIB Digest • clean, fast, filtered" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="data:," />
 </head>
 
 <body>
   <header class="top">
-    <div class="brand" role="banner" aria-label="PIB Types header">
-      <div class="logo" aria-hidden="true">⌁</div>
+    <div class="brand">
+      <div class="logo">⚡</div>
       <div>
         <h1>PIB Digest</h1>
-        <p class="sub">UPSC-ready PIB feed • clean, fast, filtered</p>
+        <p class="sub">Latest PIB releases for UPSC/CAPF/CDS • fast filters • clean reader</p>
       </div>
     </div>
 
-    <div class="controls" role="search" aria-label="Search and filters">
-      <label for="q" class="sr-only">Search</label>
-      <input
-        id="q"
-        type="search"
-        placeholder="Search (scheme, act, exercise, summit...)"
-        autocomplete="off"
-        inputmode="search"
-        aria-label="Search press releases"
-      />
-
-      <label for="ministry" class="sr-only">Ministry filter</label>
-      <select id="ministry" aria-label="Filter by ministry">
+    <div class="controls">
+      <input id="q" placeholder="Search (scheme, act, exercise, summit...)" autocomplete="off" />
+      <select id="ministry">
         <option value="__all__">All tracked ministries</option>
       </select>
-
-      <button id="toggleTheme" type="button" title="Toggle theme" aria-label="Toggle theme">
-        🌙
-      </button>
+      <button id="toggleTheme" title="Toggle theme">🌙</button>
     </div>
 
-    <div class="meta" aria-label="Update info and bookmarks">
+    <div class="meta">
       <span id="updated">Loading…</span>
-      <span class="dot" aria-hidden="true">•</span>
-      <button id="showBookmarks" class="linkBtn" type="button">Bookmarks</button>
+      <span class="dot">•</span>
+      <button id="showBookmarks" class="linkBtn">Bookmarks</button>
     </div>
   </header>
 
-  <main class="wrap" role="main">
-    <section id="chips" class="chips" aria-label="Quick filters"></section>
+  <main class="wrap">
+    <section id="chips" class="chips"></section>
 
-    <section id="list" class="list" aria-label="Press release list">
-      <div class="skeleton" aria-hidden="true"></div>
-      <div class="skeleton" aria-hidden="true"></div>
-      <div class="skeleton" aria-hidden="true"></div>
+    <section id="list" class="list">
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
     </section>
 
-    <div class="moreRow" aria-label="Pagination controls">
-      <button id="loadMore" class="moreBtn" type="button" style="display:none;">Load more</button>
+    <div class="moreRow">
+      <button id="loadMore" class="moreBtn" style="display:none;">Load more</button>
       <span id="countInfo" class="countInfo"></span>
     </div>
   </main>
 
-  <dialog id="reader" class="reader" aria-label="Reader">
+  <dialog id="reader" class="reader">
     <form method="dialog" class="readerTop">
-      <button class="x" aria-label="Close reader" type="submit">✕</button>
+      <button class="x" aria-label="Close">✕</button>
     </form>
 
     <div class="readerBody">
@@ -82,25 +61,18 @@
 
         <div class="readerMeta">
           <span id="rPosted"></span>
-          <span class="dot" aria-hidden="true">•</span>
+          <span class="dot">•</span>
           <a id="rSource" target="_blank" rel="noopener">Open on PIB</a>
-          <span class="dot" aria-hidden="true">•</span>
+          <span class="dot">•</span>
           <button id="rBookmark" class="linkBtn" type="button">☆ Bookmark</button>
         </div>
       </div>
 
-      <div id="rPdfs" class="pdfs" aria-label="PDF attachments"></div>
-      <pre id="rText" class="text" aria-label="Press release text"></pre>
+      <div id="rPdfs" class="pdfs"></div>
+      <pre id="rText" class="text"></pre>
     </div>
   </dialog>
 
   <script src="app.js"></script>
-
-  <!-- Keep SW OFF during dev. Enable later if you want offline. -->
-  <!--
-  <script>
-    if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
-  </script>
-  -->
 </body>
 </html>

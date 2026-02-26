@@ -165,24 +165,60 @@ def collect_release_links(session: requests.Session) -> tuple[list[str], str]:
 
 def detect_ministry(soup: BeautifulSoup) -> str | None:
     """
-    More robust ministry detection:
-    - Look for exact allowlist strings in the visible text.
-    - Else fallback to 'Ministry of ...' line.
+    Fix ministry confusion:
+    - Prefer ministry extracted from the main release content block (near title)
+    - Avoid scanning full-page text (nav/related items can contain other ministries)
+    - Fallbacks are still safe
     """
+
+    # Try common main content containers (PIB layout varies)
+    containers = []
+
+    # 1) Main content wrappers (best-effort selectors)
+    for sel in ["div#ContentPlaceHolder1_divContent", "div#ContentPlaceHolder1_MainContent",
+                "div.content", "div#content", "div.container"]:
+        node = soup.select_one(sel)
+        if node:
+            containers.append(node)
+
+    # 2) Also try nearest parent blocks around the title (very reliable)
+    title_tag = soup.find(["h1", "h2"])
+    if title_tag:
+        p = title_tag
+        for _ in range(4):  # walk up a few levels
+            p = p.parent
+            if not p:
+                break
+            containers.append(p)
+
+    # Deduplicate container objects
+    seen_ids = set()
+    uniq = []
+    for c in containers:
+        cid = id(c)
+        if cid not in seen_ids:
+            seen_ids.add(cid)
+            uniq.append(c)
+
+    # Search ministry lines in those containers
+    for c in uniq:
+        text = c.get_text("\n", strip=True)
+        lines = [ln.strip() for ln in text.split("\n") if ln.strip()]
+        # ministry is usually near top
+        for ln in lines[:120]:
+            if ln in ALLOW_MINISTRIES:
+                return ln
+            if ln.startswith("Ministry of ") or ln == "NITI Aayog":
+                # only accept if it's in allowlist (prevents random ministry names)
+                if ln in ALLOW_MINISTRIES:
+                    return ln
+
+    # Final fallback (old behavior but guarded): scan whole page for allowlist lines only
     text = soup.get_text("\n", strip=True)
+    for ln in [t.strip() for t in text.split("\n") if t.strip()][:800]:
+        if ln in ALLOW_MINISTRIES:
+            return ln
 
-    # 1) Exact allowlist match in text (best)
-    for m in ALLOW_MINISTRIES:
-        if m in text:
-            return m
-
-    # 2) Fallback: first line that looks like Ministry of ...
-    lines = [t.strip() for t in text.split("\n") if t.strip()]
-    for t in lines[:500]:
-        if t.startswith("Ministry of "):
-            return t
-        if t == "NITI Aayog":
-            return t
     return None
 
 

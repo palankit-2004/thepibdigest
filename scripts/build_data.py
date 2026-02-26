@@ -2,6 +2,7 @@ import os
 import re
 import json
 import time
+import hashlib
 from datetime import datetime, timezone
 from urllib.parse import urljoin
 
@@ -208,17 +209,35 @@ def scrape_release(session: requests.Session, url: str) -> dict | None:
     }
 
 
+def load_prev_index() -> dict | None:
+    if not os.path.exists(OUT_INDEX):
+        return None
+    try:
+        with open(OUT_INDEX, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def signature_for_items(items: list[dict]) -> str:
+    """
+    Stable signature based on PRIDs + titles + posted time.
+    If signature changes => content changed.
+    """
+    compact = [
+        {"prid": x.get("prid"), "title": x.get("title"), "posted_on_raw": x.get("posted_on_raw")}
+        for x in items
+    ]
+    blob = json.dumps(compact, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    return hashlib.sha256(blob).hexdigest()
+
+
 def main():
     os.makedirs(OUT_ITEMS, exist_ok=True)
 
-    # Read previous index (for fallback)
-    prev_index = None
-    if os.path.exists(OUT_INDEX):
-        try:
-            with open(OUT_INDEX, "r", encoding="utf-8") as f:
-                prev_index = json.load(f)
-        except Exception:
-            prev_index = None
+    prev_index = load_prev_index()
+    prev_count = int(prev_index.get("count", 0)) if prev_index else 0
+    prev_sig = prev_index.get("signature") if prev_index else None
 
     s = requests.Session()
 
@@ -235,17 +254,18 @@ def main():
         print("⚠️ Failed to collect release links:", e)
         links = []
 
+    # If we can't even get links, keep previous data
     if not links:
-        # Keep old data if available
-        if prev_index and int(prev_index.get("count", 0)) > 0:
+        if prev_index and prev_count > 0:
             print("⚠️ No links collected. Keeping previous index.json (no overwrite).")
             return
 
-        # Otherwise write a valid empty index (first run)
+        # first-ever run fallback
         atomic_write_json(OUT_INDEX, {
             "updated_at_utc": datetime.now(timezone.utc).isoformat(),
             "count": 0,
             "items": [],
+            "signature": signature_for_items([]),
             "note": "No release links found. PIB may be blocking requests."
         })
         print("⚠️ No links found; wrote empty index.json.")
@@ -295,19 +315,27 @@ def main():
 
     new_count = len(index_items)
 
-    # If scrape returned 0, keep old data (do not overwrite)
-    if new_count == 0 and prev_index and int(prev_index.get("count", 0)) > 0:
+    # If scrape produced 0 items, keep previous good data (don’t overwrite)
+    if new_count == 0 and prev_index and prev_count > 0:
         print("⚠️ Scrape returned 0 items. Keeping previous index.json (no overwrite).")
         return
 
+    new_sig = signature_for_items(index_items)
+
+    # ✅ Always bump updated_at_utc when we have data.
+    # Even if content signature is the same, we still write a new timestamp so Netlify can redeploy if you want.
     atomic_write_json(OUT_INDEX, {
         "updated_at_utc": datetime.now(timezone.utc).isoformat(),
         "count": new_count,
-        "items": index_items
+        "items": index_items,
+        "signature": new_sig,
+        "same_as_previous": bool(prev_sig and prev_sig == new_sig),
     })
 
     print(f"✅ Collected release links: {len(links)}")
     print(f"✅ Written index items: {new_count}")
+    if prev_sig and prev_sig == new_sig:
+        print("ℹ️ Content signature unchanged (same items as previous run).")
 
 
 if __name__ == "__main__":

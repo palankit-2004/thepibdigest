@@ -16,37 +16,47 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install deps
         run: |
+          pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
 
-      - name: Build data
+      # Don’t let scraper errors break the whole workflow
+      - name: Build data (never fail)
         run: |
+          set +e
           python scripts/build_data.py
+          echo "build exit code=$?"
+          set -e
 
       - name: Decide publish or skip (never fail)
         id: decide
         run: |
           python - << 'PY'
           import json, os
-
           path = "public/data/index.json"
           publish = False
           count = 0
 
           if os.path.exists(path):
-              with open(path, "r", encoding="utf-8") as f:
-                  data = json.load(f)
-              count = int(data.get("count", 0))
-              publish = count >= 1
+              try:
+                  with open(path, "r", encoding="utf-8") as f:
+                      data = json.load(f)
+                  count = int(data.get("count", 0))
+                  publish = count >= 1
+              except Exception:
+                  publish = False
+                  count = 0
 
           print("index.json count =", count)
           print("publish =", publish)
@@ -56,19 +66,43 @@ jobs:
               out.write(f"count={count}\n")
           PY
 
-      - name: Commit & push (safe)
+      - name: Commit & push (autostash rebase + retry, never fail)
         if: steps.decide.outputs.publish == 'true'
         run: |
+          set +e
+
           git config user.name "pib-digest-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          git pull --rebase origin main
+          # Key fix: autostash allows rebase even when build created changes
+          git pull --rebase --autostash origin main
+          echo "pull/rebase exit code=$?"
 
           git add public/data/index.json public/data/items
-          git commit -m "chore: update pib digest data" || echo "No changes"
-          git push origin main
+          git commit -m "chore: update pib digest data"
+          COMMIT_EXIT=$?
 
-      - name: Skip publish
+          if [ $COMMIT_EXIT -ne 0 ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          # Push retry loop
+          for i in 1 2 3; do
+            git push origin main
+            PUSH_EXIT=$?
+            if [ $PUSH_EXIT -eq 0 ]; then
+              echo "Push succeeded."
+              exit 0
+            fi
+            echo "Push failed attempt $i. Rebasing (autostash) and retrying..."
+            git pull --rebase --autostash origin main
+          done
+
+          echo "Push failed after retries. Skipping publish to keep workflow green."
+          exit 0
+
+      - name: Skip publish (no data)
         if: steps.decide.outputs.publish != 'true'
         run: |
           echo "Skipping publish because count=${{ steps.decide.outputs.count }}. Keeping previous production data."

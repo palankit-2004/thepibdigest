@@ -1,7 +1,16 @@
 {
-  "updated_at_utc": "2026-03-01T05:19:55.769043+00:00",
-  "count": 2,
+  "updated_at_utc": "2026-03-01T06:55:40.980260+00:00",
+  "count": 4,
   "items": [
+    {
+      "prid": "2234119",
+      "ministry": "Ministry of Defence",
+      "title": "INS TARANGINI ARRIVES AT TRINCOMALEE, SRI LANKA",
+      "posted_on_raw": "01 MAR 2026 10:30AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2234119",
+      "pdfs": [],
+      "snippet": "Press Release:Press Information Bureau Ministry of Defence INS TARANGINI ARRIVES AT TRINCOMALEE, SRI LANKA Posted On: 01 MAR 2026 10:30AM by PIB Delhi Indian Navy’s Sail Training Ship INS Tarangini arrived at Trincomalee Harbour, Sri Lanka on a training visit on 27 Feb 2026 . The ship was accorded a warm welcome by representatives of the Eastern Naval Area of the Sri Lanka Navy. The visit follows the ship’s recent pa…"
+    },
     {
       "prid": "2234116",
       "ministry": "Ministry of Finance",
@@ -15,6 +24,15 @@
         }
       ],
       "snippet": "Press Release:Press Information Bureau Ministry of Finance Central Board of Indirect Taxes and Customs (CBIC) introduces deferred Customs Duty payment facility for Eligible Manufacturer Importers as announced in Union Budget 2026-27 CBIC also notifies eligibility and guidelines for Eligible Manufacturer Importer Scheme EMI Scheme is a Trust-Based Customs Facilitation Scheme to improve cash flow, promote compliance an…"
+    },
+    {
+      "prid": "2234120",
+      "ministry": "Ministry of Science & Technology",
+      "title": "CSIR-National Physical Laboratory Celebrates National Science Day",
+      "posted_on_raw": "01 MAR 2026 11:54AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2234120",
+      "pdfs": [],
+      "snippet": "Press Release:Press Information Bureau Ministry of Science & Technology CSIR-National Physical Laboratory Celebrates National Science Day Posted On: 01 MAR 2026 11:54AM by PIB Delhi To commemorate the historic announcement of the discovery of the Raman Effect by C. V. Raman on 28 February 1928, CSIR–National Physical Laboratory (CSIR-NPL) celebrated National Science Day (NSD-2026) on 28 February 2026. “National Scien…"
     },
     {
       "prid": "2234117",

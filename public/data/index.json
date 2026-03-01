@@ -1,7 +1,16 @@
 {
-  "updated_at_utc": "2026-03-01T10:32:32.834036+00:00",
-  "count": 7,
+  "updated_at_utc": "2026-03-01T13:03:00.606264+00:00",
+  "count": 9,
   "items": [
+    {
+      "prid": "2234215",
+      "ministry": "Ministry of Defence",
+      "title": "CHANGE OF COMMAND: BASE REPAIR DEPOT, PALAM",
+      "posted_on_raw": "01 MAR 2026 4:59PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2234215",
+      "pdfs": [],
+      "snippet": "Press Release:Press Information Bureau Ministry of Defence CHANGE OF COMMAND: BASE REPAIR DEPOT, PALAM Posted On: 01 MAR 2026 4:59PM by PIB Delhi Air Commodore B S Vijay Rao, VSM, assumed command of Base Repair Depot, Palam, New Delhi as the Air Officer Commanding on 01 March 2026. Commissioned into the Aeronautical Engineering (Electronics) Branch of the Indian Air Force on 27 November 1995, Air Comodore Vijay Rao b…"
+    },
     {
       "prid": "2234119",
       "ministry": "Ministry of Defence",
@@ -33,6 +42,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2234134",
       "pdfs": [],
       "snippet": "Press Release:Press Information Bureau Ministry of Power Bureau of Energy Efficiency Commemorates 25th Foundation Day Minister of Power Graces 25th Foundation Day Celebrations; Unveils BEE@25 Logo, Launches BEE Star Label Mobile App and RCO Portal. Posted On: 01 MAR 2026 12:54PM by PIB Delhi The 25th Foundation Day of the Bureau of Energy Efficiency (BEE), Ministry of Power, Government of India, was celebrated today …"
+    },
+    {
+      "prid": "2234232",
+      "ministry": "Ministry of Science & Technology",
+      "title": "CSIR and its Laboratories Celebrate National Science Day 2026 Across the Country with Lectures, Demonstrations and Public Outreach",
+      "posted_on_raw": "01 MAR 2026 5:56PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2234232",
+      "pdfs": [],
+      "snippet": "Press Release:Press Information Bureau Ministry of Science & Technology CSIR and its Laboratories Celebrate National Science Day 2026 Across the Country with Lectures, Demonstrations and Public Outreach Posted On: 01 MAR 2026 5:56PM by PIB Delhi New Delhi: The Council of Scientific & Industrial Research (CSIR) and its laboratories celebrated National Science Day 2026 across the nation through a series of engaging act…"
     },
     {
       "prid": "2234181",

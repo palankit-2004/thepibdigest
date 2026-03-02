@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-03-02T07:07:48.270381+00:00",
-  "count": 1,
+  "updated_at_utc": "2026-03-02T08:54:56.172837+00:00",
+  "count": 3,
   "items": [
     {
       "prid": "2234343",
@@ -10,6 +10,82 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2234343",
       "pdfs": [],
       "snippet": "Press Release:Press Information Bureau Ministry of Electronics & IT India AI Impact Summit 2026: Landmark Global Declaration and Major AI Investment Commitments Posted On: 02 MAR 2026 10:09AM by PIB Delhi The India AI Impact Summit 2026, held from 16–21 February 2026, marked a significant milestone in the global artificial intelligence landscape. The Summit witnessed extensive participation, with approximately 6 lakh…"
+    },
+    {
+      "prid": "2234472",
+      "ministry": "NITI Aayog",
+      "title": "NITI Aayog Conducts National Workshop on Natural Farming under State Support Mission",
+      "posted_on_raw": "02 MAR 2026 2:13PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2234472",
+      "pdfs": [
+        {
+          "label": "https://niti.gov.in/sites/default/files/2026-03/Training-Man",
+          "url": "https://niti.gov.in/sites/default/files/2026-03/Training-Manual-English.pdf"
+        },
+        {
+          "label": "https://niti.gov.in/sites/default/files/2026-03/Training-man",
+          "url": "https://niti.gov.in/sites/default/files/2026-03/Training-manual-Hindi.pdf"
+        }
+      ],
+      "snippet": "Press Release:Press Information Bureau NITI Aayog NITI Aayog Conducts National Workshop on Natural Farming under State Support Mission Posted On: 02 MAR 2026 2:13PM by PIB Delhi NITI Aayog organized a two-day national workshop on Natural Farming under its State Support Mission (SSM), bringing together farmers, policymakers, scientists, start-ups and civil society organizations from across the country. A key highlight…"
+    },
+    {
+      "prid": "2234442",
+      "ministry": "Ministry of Finance",
+      "title": "Advancing Self-Reliance and Export Resilience: India’s Growing Global Footprint",
+      "posted_on_raw": "02 MAR 2026 12:38PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2234442",
+      "pdfs": [
+        {
+          "label": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.p",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.pdf"
+        },
+        {
+          "label": "https://www.indiabudget.gov.in/doc/Budget_Speech.pdf",
+          "url": "https://www.indiabudget.gov.in/doc/Budget_Speech.pdf"
+        },
+        {
+          "label": "https://static.pib.gov.in/WriteReadData/specificdocs/documen",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025818614701.pdf"
+        },
+        {
+          "label": "https://www.commerce.gov.in/wp-content/uploads/2026/01/PIB-R",
+          "url": "https://www.commerce.gov.in/wp-content/uploads/2026/01/PIB-Release-15.1.2026.pdf"
+        },
+        {
+          "label": "https://static.pib.gov.in/WriteReadData/specificdocs/documen",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc202623777901.pdf"
+        },
+        {
+          "label": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease",
+          "url": "https://d2p5j06zete1i7.cloudfront.net/Cms/admin/PressRelease/1770478760.pdf"
+        },
+        {
+          "label": "https://www.niti.gov.in/sites/default/files/2026-01/Trade_Wa",
+          "url": "https://www.niti.gov.in/sites/default/files/2026-01/Trade_Watch_Quarterly_April_June_Q1_FY26.pdf"
+        },
+        {
+          "label": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU939_",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU939_dYGgDX.pdf?source=pqals"
+        },
+        {
+          "label": "https://sansad.in/getFile/annex/268/AU2897_xM8Uo8.pdf?source",
+          "url": "https://sansad.in/getFile/annex/268/AU2897_xM8Uo8.pdf?source=pqars"
+        },
+        {
+          "label": "https://unctad.org/system/files/official-document/tdr2025_en",
+          "url": "https://unctad.org/system/files/official-document/tdr2025_en.pdf"
+        },
+        {
+          "label": "https://thedocs.worldbank.org/en/doc/7ce50b5aa95bef66048680b",
+          "url": "https://thedocs.worldbank.org/en/doc/7ce50b5aa95bef66048680bba9926ec8-0050012026/related/GEP-Jan-2026-Analysis-SAR.pdf"
+        },
+        {
+          "label": "click here to see PDF",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc202632808201.pdf"
+        }
+      ],
+      "snippet": "Press Release:Press Information Bureau PIB Headquarters Advancing Self-Reliance and Export Resilience: India’s Growing Global Footprint Posted On: 02 MAR 2026 12:38PM by PIB Delhi Key Takeaways Cumulative exports reached USD 720.76 billion Apr-Jan 2025-26 (+ 6.15% YoY) During Apr-Jan 2025-26, services exports reached USD 354.13 billion (+10.57% YoY) Sectors such as electronics, automobiles, pharmaceuticals and defens…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

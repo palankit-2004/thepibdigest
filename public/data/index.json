@@ -1,7 +1,21 @@
 {
-  "updated_at_utc": "2026-03-06T05:12:32.218848+00:00",
-  "count": 1,
+  "updated_at_utc": "2026-03-06T06:59:53.580303+00:00",
+  "count": 2,
   "items": [
+    {
+      "prid": "2235818",
+      "ministry": "Ministry of Rural Development",
+      "title": "Key Interventions for Women’s Economic Advancement",
+      "posted_on_raw": "06 MAR 2026 11:18AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235818",
+      "pdfs": [
+        {
+          "label": "Click here to see pdf",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc202636813101.pdf"
+        }
+      ],
+      "snippet": "Press Release:Press Information Bureau PIB Headquarters Key Interventions for Women’s Economic Advancement Posted On: 06 MAR 2026 11:18AM by PIB Delhi India's Journey Towards Women's Financial Empowerment Empowering women builds resilient families, thriving communities, and a prosperous nation. Recognising this, India's landscape for women's economic independence has undergone a remarkable transformation in the last …"
+    },
     {
       "prid": "2235796",
       "ministry": "Ministry of Women and Child Development",

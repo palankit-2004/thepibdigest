@@ -1,174 +1,44 @@
 {
-  "updated_at_utc": "2026-03-05T18:12:14.763893+00:00",
-  "count": 15,
+  "updated_at_utc": "2026-03-06T05:12:32.218848+00:00",
+  "count": 1,
   "items": [
     {
-      "prid": "2235573",
-      "ministry": "Ministry of Coal",
-      "title": "Moving Beyond Extraction: India’s First National Workshop on Mine Closure & Repurposing Held at Neyveli",
-      "posted_on_raw": "05 MAR 2026 4:12PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235573",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Coal Moving Beyond Extraction: India’s First National Workshop on Mine Closure & Repurposing Held at Neyveli Posted On: 05 MAR 2026 4:12PM by PIB Delhi The two-day National Workshop on Mine Closure & Repurposing was successfully conducted on 23rd and 24th February 2026 at Neyveli, Tamil Nadu, under the aegis of the Ministry of Coal and NLC India Limited. Inaugurated …"
-    },
-    {
-      "prid": "2235764",
-      "ministry": "Ministry of Defence",
-      "title": "Raksha Mantri exhorts GRSE to build niche platforms in today’s evolving tech-driven era to realise Govt’s Viksit Bharat goal",
-      "posted_on_raw": "05 MAR 2026 9:23PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235764",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Defence Raksha Mantri exhorts GRSE to build niche platforms in today’s evolving tech-driven era to realise Govt’s Viksit Bharat goal Posted On: 05 MAR 2026 9:23PM by PIB Delhi Raksha Mantri Shri Rajnath Singh has called upon Garden Reach Shipbuilders & Engineers (GRSE) Limited to continue coming forth with state-of-the-art platforms in sync with the technology-driven…"
-    },
-    {
-      "prid": "2235602",
-      "ministry": "Ministry of Environment, Forest and Climate Change",
-      "title": "India and Finland renew MoU on Environmental Cooperation",
-      "posted_on_raw": "05 MAR 2026 4:53PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235602",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Environment, Forest and Climate Change India and Finland renew MoU on Environmental Cooperation Renewal will further strengthen India-Finland partnership on pollution control, waste management, circular economy and climate action Posted On: 05 MAR 2026 4:53PM by PIB Delhi The Union Minister of Environment, Forest and Climate Change, Shri Bhupender Yadav, and the Mini…"
-    },
-    {
-      "prid": "2235767",
-      "ministry": "Ministry of Finance",
-      "title": "8th Central Pay Commission Invites Representations from Stakeholders",
-      "posted_on_raw": "05 MAR 2026 9:31PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235767",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Finance 8th Central Pay Commission Invites Representations from Stakeholders Online submission through innovateindia.mygov.in and 8cpc.gov.in Employees, Pensioners and Organizations Invited to Submit Memorandums before 30th April, 2026 Posted On: 05 MAR 2026 9:31PM by PIB Delhi The Eighth Central Pay Commission has provided an online structured format for inviting Me…"
-    },
-    {
-      "prid": "2235710",
-      "ministry": "Ministry of Health and Family Welfare",
-      "title": "Union Minister for Health and Family Welfare Shri Jagat Prakash Nadda Virtually Addresses Press Briefing at World Health Organization Headquarters; Reaffirms India’s Commitment to Eliminating Cervical Cancer and Advancing Global Health Cooperation",
-      "posted_on_raw": "05 MAR 2026 7:46PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235710",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Health and Family Welfare Union Minister for Health and Family Welfare Shri Jagat Prakash Nadda Virtually Addresses Press Briefing at World Health Organization Headquarters; Reaffirms India’s Commitment to Eliminating Cervical Cancer and Advancing Global Health Cooperation Government of India Adopts Multi-Pronged Strategy Focused on Prevention, Screening, Early Detec…"
-    },
-    {
-      "prid": "2235675",
-      "ministry": "Ministry of Home Affairs",
-      "title": "Union Home Minister and Minister of Cooperation, Shri Amit Shah will address 57th Raising Day ceremony of CISF as the Chief Guest in Mundali, Odisha tomorrow",
-      "posted_on_raw": "05 MAR 2026 6:19PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235675",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation, Shri Amit Shah will address 57th Raising Day ceremony of CISF as the Chief Guest in Mundali, Odisha tomorrow Union Home Minister will also lay the foundation stone of the campuses of NFSU and CFSL in Bhubaneswar, and will virtually inaugurate the transit campus of NFSU Union Home Minister will inaugurate t…"
-    },
-    {
-      "prid": "2235470",
-      "ministry": "Ministry of Home Affairs",
-      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah soft launches digital tools and mascots – Pragati (female) and “Vikas” (male) - for Census-2027, in New Delhi",
-      "posted_on_raw": "05 MAR 2026 1:11PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235470",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation Shri Amit Shah soft launches digital tools and mascots – Pragati (female) and “Vikas” (male) - for Census-2027, in New Delhi Census-2027, to be conducted in 2 phases, world's largest census exercise For the first time, the Census will be conducted digitally, and for the first time, the option of Self-Enumer…"
-    },
-    {
-      "prid": "2235678",
-      "ministry": "Ministry of Jal Shakti",
-      "title": "Union Jal Shakti Minister Shri C. R. Patil and Chief Minister Shri Mohan Yadav Review JSJB 2.0 with District Collectors and Divisional Commissioners of Madhya Pradesh",
-      "posted_on_raw": "05 MAR 2026 6:21PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235678",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Jal Shakti Union Jal Shakti Minister Shri C. R. Patil and Chief Minister Shri Mohan Yadav Review JSJB 2.0 with District Collectors and Divisional Commissioners of Madhya Pradesh Discussions Focus on Groundwater Recharge, River Rejuvenation and Strengthening Jan Bhagidari in Water Conservation Posted On: 05 MAR 2026 6:21PM by PIB Delhi Union Minister of Jal Shakti, Sh…"
-    },
-    {
-      "prid": "2235468",
-      "ministry": "Ministry of Jal Shakti",
-      "title": "Jal Sanchay Jan Bhagidari: How Korea’s 5% Model Turned Water Scarcity into Water Security",
-      "posted_on_raw": "05 MAR 2026 1:08PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235468",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Jal Shakti Jal Sanchay Jan Bhagidari: How Korea’s 5% Model Turned Water Scarcity into Water Security Posted On: 05 MAR 2026 1:08PM by PIB Delhi In a time when water scarcity is emerging as one of the most pressing climate challenges, Korea district of Chhattisgarh has demonstrated that the most powerful solutions do not begin with large dams or heavy machinery; they …"
-    },
-    {
-      "prid": "2235560",
-      "ministry": "Ministry of Railways",
-      "title": "New Milestone in Food Grain Supply Chain in Mizoram: 25,900 Quintals of Rice Reach Sairang from Punjab by Rail Improving Food Supply",
-      "posted_on_raw": "05 MAR 2026 4:00PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235560",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Railways New Milestone in Food Grain Supply Chain in Mizoram: 25,900 Quintals of Rice Reach Sairang from Punjab by Rail Improving Food Supply Historic Unloading of FCI Cargo Train at Sairang Boosts Operational Capabilities and Strengthens Mizoram’s Logistics and Food Distribution Network Posted On: 05 MAR 2026 4:00PM by PIB Delhi With the introduction of passenger an…"
-    },
-    {
-      "prid": "2235721",
-      "ministry": "Ministry of Rural Development",
-      "title": "Union Ministry of Rural Development, in collaboration with MY Bharat, to launch nationwide digital campaign ‘VB-G RAM G Youth Digital Campaign’ from tomorrow",
-      "posted_on_raw": "05 MAR 2026 7:56PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235721",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Rural Development Union Ministry of Rural Development, in collaboration with MY Bharat, to launch nationwide digital campaign ‘VB-G RAM G Youth Digital Campaign’ from tomorrow Through activities such as quizzes, video challenges and creative competitions, youths across the country will be able to participate in a digital mass movement Youths aged 15 to 29 will be abl…"
-    },
-    {
-      "prid": "2235474",
-      "ministry": "Ministry of Science & Technology",
-      "title": "Union Minister Dr Jitendra Singh presents awards to 26 young medical professionals from across the country, who have excelled in different specialities",
-      "posted_on_raw": "05 MAR 2026 1:17PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235474",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Science & Technology Union Minister Dr Jitendra Singh presents awards to 26 young medical professionals from across the country, who have excelled in different specialities Dr Jitendra Singh appreciates the decision to award such doctors who were just entering the prime of their career and an award at this stage meant a huge recognition as well as a boost for them, c…"
-    },
-    {
-      "prid": "2235703",
-      "ministry": "Ministry of Tribal Affairs",
-      "title": "Government Strengthens Convergence-Driven Livelihood Frameworks for Tribal Communities; Ministry of Tribal Affairs Concludes Consultative Workshop with Key Line Ministries Under DAJGUA",
-      "posted_on_raw": "05 MAR 2026 7:30PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235703",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Tribal Affairs Government Strengthens Convergence-Driven Livelihood Frameworks for Tribal Communities; Ministry of Tribal Affairs Concludes Consultative Workshop with Key Line Ministries Under DAJGUA Posted On: 05 MAR 2026 7:30PM by PIB Delhi Guided by the vision of Hon’ble Prime Minister Shri Narendra Modi for holistic and saturation-based development of tribal comm…"
-    },
-    {
-      "prid": "2235681",
-      "ministry": "NITI Aayog",
-      "title": "NITI Aayog and UNICEF India Sign Statement of Intent to Strengthen Nutrition and Health Outcomes in Aspirational Districts and Blocks",
-      "posted_on_raw": "05 MAR 2026 6:23PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235681",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau NITI Aayog NITI Aayog and UNICEF India Sign Statement of Intent to Strengthen Nutrition and Health Outcomes in Aspirational Districts and Blocks Posted On: 05 MAR 2026 6:23PM by PIB Delhi In a significant step towards strengthening collaborative efforts for improving nutrition and health outcomes, NITI Aayog and UNICEF India today signed a Statement of Intent to support strategi…"
-    },
-    {
-      "prid": "2235433",
-      "ministry": "Ministry of Finance",
-      "title": "Policy Reforms That Transformed Business Environment",
-      "posted_on_raw": "05 MAR 2026 11:50AM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235433",
+      "prid": "2235796",
+      "ministry": "Ministry of Women and Child Development",
+      "title": "Foundations of Women Empowerment",
+      "posted_on_raw": "06 MAR 2026 10:06AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2235796",
       "pdfs": [
         {
-          "label": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.p",
-          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.pdf"
+          "label": "https://www.education.gov.in/sites/upload_files/mhrd/files/s",
+          "url": "https://www.education.gov.in/sites/upload_files/mhrd/files/statistics-new/UDISE%2BReport%202024-25%20-%20NEP%20Structure.pdf"
         },
         {
-          "label": "https://www.indiabudget.gov.in/doc/budget_speech.pdf",
-          "url": "https://www.indiabudget.gov.in/doc/budget_speech.pdf"
+          "label": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU2395",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU2395_XUtMv0.pdf?source=pqals"
         },
         {
-          "label": "https://sansad.in/getFile/annex/270/AU381_Ff7hlQ.pdf?source=",
-          "url": "https://sansad.in/getFile/annex/270/AU381_Ff7hlQ.pdf?source=pqars"
+          "label": "https://static.pib.gov.in/WriteReadData/specificdocs/documen",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jan/doc2026123765001.pdf"
         },
         {
-          "label": "https://sansad.in/getFile/annex/268/AU1488_UIHVq7.pdf?source",
-          "url": "https://sansad.in/getFile/annex/268/AU1488_UIHVq7.pdf?source=pqars"
+          "label": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU2310",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU2310_FmCOE8.pdf?source=pqals"
         },
         {
-          "label": "https://rbidocs.rbi.org.in/rdocs//PublicationReport/Pdfs/0FS",
-          "url": "https://rbidocs.rbi.org.in/rdocs/PublicationReport/Pdfs/0FSRDEC25D1EB9AAEE5724BD5A3E068490996BAD5.PDF"
+          "label": "https://sansad.in/getFile/annex/269/AU339_sh2ONP.pdf?source=",
+          "url": "https://sansad.in/getFile/annex/269/AU339_sh2ONP.pdf?source=pqars"
         },
         {
-          "label": "https://www.jawaharcustoms.gov.in/pdf/Authorised%20Economic%",
-          "url": "https://www.jawaharcustoms.gov.in/pdf/Authorised%20Economic%20Operator%20(AEO)_FAQ_English.pdf"
-        },
-        {
-          "label": "https://ibbi.gov.in/uploads/publication/e42fddce80e99d28b683",
-          "url": "https://ibbi.gov.in/uploads/publication/e42fddce80e99d28b683a7e21c81110e.pdf"
+          "label": "https://sansad.in/getFile/annex/266/AU1777_3tO520.pdf?source",
+          "url": "https://sansad.in/getFile/annex/266/AU1777_3tO520.pdf?source=pqars"
         },
         {
           "label": "Click here to see pdf",
-          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc202635811201.pdf"
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc202636812501.pdf"
         }
       ],
-      "snippet": "Press Release:Press Information Bureau PIB Headquarters Policy Reforms That Transformed Business Environment Posted On: 05 MAR 2026 11:50AM by PIB Delhi Key Takeaways · Business registrations in India grew by ~27% from 1.55 lakh in 2020–21 to 1.98 lakh in 2025–26 (as on 3 February 2026). · The Union Budget 2026–27 further enhances India’s ease of doing business ecosystem with various measures proposed such as digital…"
+      "snippet": "Press Release:Press Information Bureau PIB Headquarters Foundations of Women Empowerment Posted On: 06 MAR 2026 10:06AM by PIB Delhi Introduction A nation’s economic strength is closely tied to the well-being and participation of its women and children. When girls grow up healthy, educated, and safe, they are better able to learn, work, and contribute meaningfully to society. Conversely, gaps in nutrition, healthcare…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

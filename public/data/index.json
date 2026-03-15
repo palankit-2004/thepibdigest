@@ -1,141 +1,33 @@
 {
-  "updated_at_utc": "2026-03-14T16:40:36.199328+00:00",
-  "count": 10,
+  "updated_at_utc": "2026-03-15T05:39:23.281975+00:00",
+  "count": 3,
   "items": [
     {
-      "prid": "2240230",
-      "ministry": "Ministry of Coal",
-      "title": "Union Minister of Coal and Mines Shri G Kishan Reddy Performs Bhumi Pujan for two Coal Gasification Projects in Maharashtra",
-      "posted_on_raw": "14 MAR 2026 7:26PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240230",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Coal Union Minister of Coal and Mines Shri G Kishan Reddy Performs Bhumi Pujan for two Coal Gasification Projects in Maharashtra Coal Minister Reviews Murpar Mine Closure Site; Holds Mine Closure Advisory Committee Meeting Posted On: 14 MAR 2026 7:26PM by PIB Delhi On the Second day of his two-day visit to Maharashtra, Union Minister of Coal and Mines Shri G Kishan R…"
-    },
-    {
-      "prid": "2240074",
-      "ministry": "Ministry of Coal",
-      "title": "Union Minister of Coal and Mines, Shri G. Kishan Reddy, Inaugurates Multiple Projects in WCL",
-      "posted_on_raw": "14 MAR 2026 11:09AM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240074",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Coal Union Minister of Coal and Mines, Shri G. Kishan Reddy, Inaugurates Multiple Projects in WCL Posted On: 14 MAR 2026 11:09AM by PIB Delhi Union Minister of Coal and Mines, Shri G. Kishan Reddy, who is on a two-day visit to Western Coalfields Limited (WCL), virtually inaugurated and laid the foundation stone for various important projects and conducted a review me…"
-    },
-    {
-      "prid": "2240097",
-      "ministry": "Ministry of Defence",
-      "title": "INDIAN NAVAL SHIP TRIKAND CONCLUDES PORT CALL AT PORT LOUIS, MAURITIUS",
-      "posted_on_raw": "14 MAR 2026 1:27PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240097",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Defence INDIAN NAVAL SHIP TRIKAND CONCLUDES PORT CALL AT PORT LOUIS, MAURITIUS Posted On: 14 MAR 2026 1:27PM by PIB Delhi INS Trikand concluded her port call at Port Louis, Mauritius on 13 Mar 26. The ship participated in the 58th Mauritius National Day Parade on 12 Mar 26 with a marching contingent, naval band and integral helicopter for the fly-past, at Champ de Ma…"
-    },
-    {
-      "prid": "2240072",
-      "ministry": "Ministry of Defence",
-      "title": "INDIAN NAVAL SAIL TRAINING SHIP INS SUDARSHINI ARRIVES AT VALLETTA, MALTA, BOLSTERING MEDITERRANEAN MARITIME TIES",
-      "posted_on_raw": "14 MAR 2026 10:35AM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240072",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Defence INDIAN NAVAL SAIL TRAINING SHIP INS SUDARSHINI ARRIVES AT VALLETTA, MALTA, BOLSTERING MEDITERRANEAN MARITIME TIES Posted On: 14 MAR 2026 10:35AM by PIB Delhi The Indian Naval Sail Training Ship INS Sudarshini arrived at the historic port of Valletta, Malta on 12 Mar 2026, marking a significant milestone in her landmark transoceanic expedition Lokayan-26. The …"
-    },
-    {
-      "prid": "2240151",
-      "ministry": "Ministry of Health and Family Welfare",
-      "title": "Union Health Minister Shri J.P. Nadda Addresses Convocation Ceremony at Teerthanker Mahaveer University; Calls on Graduates to Serve Society with Commitment during India’s Amrit Kaal",
-      "posted_on_raw": "14 MAR 2026 4:03PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240151",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Health and Family Welfare Union Health Minister Shri J.P. Nadda Addresses Convocation Ceremony at Teerthanker Mahaveer University; Calls on Graduates to Serve Society with Commitment during India’s Amrit Kaal Graduates Entering Professional World During Second Phase of Amrit Kaal Carry Both Opportunity and Responsibility in Building Viksit Bharat by 2047: Shri Nadda …"
-    },
-    {
-      "prid": "2240077",
-      "ministry": "Ministry of Home Affairs",
-      "title": "Government remains committed to fostering an environment of peace, stability, and mutual trust in Ladakh to facilitate constructive and meaningful dialogue with all stakeholders",
-      "posted_on_raw": "14 MAR 2026 11:26AM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240077",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Home Affairs Government remains committed to fostering an environment of peace, stability, and mutual trust in Ladakh to facilitate constructive and meaningful dialogue with all stakeholders In furtherance of this objective, and after due consideration, the Government/MHA decides to revoke the detention of Shri Sonam Wangchuk with immediate effect Government reiterat…"
-    },
-    {
-      "prid": "2240166",
-      "ministry": "Ministry of Law and Justice",
-      "title": "Regional Workshop on Tele-Law Programme under DISHA Scheme organised in Chennai, Tamil Nadu",
-      "posted_on_raw": "14 MAR 2026 4:30PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240166",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Law and Justice Regional Workshop on Tele-Law Programme under DISHA Scheme organised in Chennai, Tamil Nadu 12,560 Common Service Centres across 38 Districts and 16 Aspirational Blocks in Tamil Nadu Delivering Pre-Litigation Legal Services Toll-free helpline 14454 for probono legal services Posted On: 14 MAR 2026 4:30PM by PIB Chennai A Regional Workshop on Tele-Law …"
-    },
-    {
-      "prid": "2240205",
-      "ministry": "Ministry of Power",
-      "title": "Government amends Electricity Rules to strengthen captive power framework and support industrial competitiveness",
-      "posted_on_raw": "14 MAR 2026 6:13PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240205",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Power Government amends Electricity Rules to strengthen captive power framework and support industrial competitiveness Posted On: 14 MAR 2026 6:13PM by PIB Delhi Government of India has notified the Electricity (Amendment) Rules, 2026 , amending Rule 3 of the Electricity Rules, 2005 relating to Captive Generating Plants (CGPs) . The amendments aim to remove interpret…"
-    },
-    {
-      "prid": "2240201",
-      "ministry": "Ministry of Science & Technology",
-      "title": "Dr Jitendra Singh lays foundation of Rs 600 crore Multi National Company pharma manufacturing facility in J&K's Kathua town",
-      "posted_on_raw": "14 MAR 2026 5:56PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240201",
-      "pdfs": [],
-      "snippet": "Press Release:Press Information Bureau Ministry of Science & Technology Dr Jitendra Singh lays foundation of Rs 600 crore Multi National Company pharma manufacturing facility in J&K's Kathua town With its growing industrial infrastructure, Kathua has potential to push J&K on India’s pharma export map: Dr Jitendra Singh J&K becoming torch bearer of India’s growth story with infrastructure expansion, and new opportunit…"
-    },
-    {
-      "prid": "2240065",
+      "prid": "2240297",
       "ministry": "Ministry of Finance",
-      "title": "Union Budget FY 2026-27: A Push for India’s Services Exports",
-      "posted_on_raw": "14 MAR 2026 9:34AM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240065",
-      "pdfs": [
-        {
-          "label": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.p",
-          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.pdf"
-        },
-        {
-          "label": "https://www.indiabudget.gov.in/doc/budget_speech.pdf",
-          "url": "https://www.indiabudget.gov.in/doc/budget_speech.pdf"
-        },
-        {
-          "label": "https://static.pib.gov.in/WriteReadData/specificdocs/documen",
-          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/dec/doc20251218737701.pdf"
-        },
-        {
-          "label": "https://www.commerce.gov.in/wp-content/uploads/2026/03/FTAs-",
-          "url": "https://www.commerce.gov.in/wp-content/uploads/2026/03/FTAs-achievement.pdf"
-        },
-        {
-          "label": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1208964",
-          "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1208964F52A6DCBA464A91D091157FBCEC65.PDF"
-        },
-        {
-          "label": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1428675",
-          "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR14286754E6C89EA04E6FBCE6626CE3CDF389.PDF"
-        },
-        {
-          "label": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR21919AC",
-          "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR21919AC9681140584EFDB0D359321C6149A5.PDF"
-        },
-        {
-          "label": "https://unctad.org/system/files/official-document/tir2025ch3",
-          "url": "https://unctad.org/system/files/official-document/tir2025ch3_en.pdf"
-        },
-        {
-          "label": "https://documents1.worldbank.org/curated/en/0991125251605360",
-          "url": "https://documents1.worldbank.org/curated/en/099112525160536089/pdf/P505350-59c98ca8-0803-4f23-b470-17f3dab010ab.pdf"
-        },
-        {
-          "label": "https://financing.desa.un.org/sites/default/files/2024-10/CR",
-          "url": "https://financing.desa.un.org/sites/default/files/2024-10/CRP%2024%20APA%20FAQs%20Appendix%20A%20.pdf"
-        },
-        {
-          "label": "See in PDF",
-          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc2026314824001.pdf"
-        }
-      ],
-      "snippet": "Press Release:Press Information Bureau PIB Headquarters Union Budget FY 2026-27: A Push for India’s Services Exports Building on India’s strong services export performance Posted On: 14 MAR 2026 9:34AM by PIB Delhi Key Takeaways Services exports recorded USD 348.4 billion in Apr-Jan FY26 Services exports reached 10% of GDP in first half of FY26 (Apr-Sept) Software services lead India’s services exports, while busines…"
+      "title": "DRI cracks down on organised gold smuggling and illegal melting racket operating in Delhi and Kolkata; gold, silver and cash worth ₹14.13 crore seized; six persons arrested",
+      "posted_on_raw": "15 MAR 2026 10:59AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240297",
+      "pdfs": [],
+      "snippet": "Press Release:Press Information Bureau Ministry of Finance DRI cracks down on organised gold smuggling and illegal melting racket operating in Delhi and Kolkata; gold, silver and cash worth ₹14.13 crore seized; six persons arrested Posted On: 15 MAR 2026 10:59AM by PIB Delhi The Directorate of Revenue Intelligence (DRI) has unearthed an organised syndicate involved in the smuggling of foreign-origin gold into India, …"
+    },
+    {
+      "prid": "2240289",
+      "ministry": "Ministry of Heavy Industries",
+      "title": "ARAI Testing Centre to be established in Mandya in Karnataka",
+      "posted_on_raw": "15 MAR 2026 8:54AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240289",
+      "pdfs": [],
+      "snippet": "Press Release:Press Information Bureau Ministry of Heavy Industries ARAI Testing Centre to be established in Mandya in Karnataka Union Minister Announces Progress on Establishing ARAI Testing Centre in Mandya in Karnataka Facility to benefit Mandya and neighbouring districts; employment opportunities to increase Posted On: 15 MAR 2026 8:54AM by PIB Delhi Union Minister for Heavy Industries and Steel Shri. H.D. Kumara…"
+    },
+    {
+      "prid": "2240288",
+      "ministry": "Ministry of Heavy Industries",
+      "title": "Union ministers Dr Mansukh Madnaviya and Shir H D Kumaraswamy lays foundation of indoor sports complex in Mandya in Karnataka",
+      "posted_on_raw": "15 MAR 2026 8:51AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240288",
+      "pdfs": [],
+      "snippet": "Press Release:Press Information Bureau Ministry of Heavy Industries Union ministers Dr Mansukh Madnaviya and Shir H D Kumaraswamy lays foundation of indoor sports complex in Mandya in Karnataka Posted On: 15 MAR 2026 8:51AM by PIB Delhi Union Minister for Youth Affairs and Sports Mansukh Mandaviya and Union Minister for Heavy Industries and Steel H.D. Kumaraswamy on Saturday performed the Bhoomi Pooja and laid the fo…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

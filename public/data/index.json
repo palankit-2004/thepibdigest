@@ -1,7 +1,16 @@
 {
-  "updated_at_utc": "2026-03-20T05:17:55.121919+00:00",
-  "count": 1,
+  "updated_at_utc": "2026-03-20T07:04:38.833022+00:00",
+  "count": 4,
   "items": [
+    {
+      "prid": "2242838",
+      "ministry": "Ministry of Health and Family Welfare",
+      "title": "Union Ministry of Health & Family Welfare convenes ‘Suraksha Sankalp Karyashala’ to accelerate district-level HIV response in Haryana and Delhi",
+      "posted_on_raw": "20 MAR 2026 11:28AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2242838",
+      "pdfs": [],
+      "snippet": "Press Release:Press Information Bureau Ministry of Health and Family Welfare Union Ministry of Health & Family Welfare convenes ‘Suraksha Sankalp Karyashala’ to accelerate district-level HIV response in Haryana and Delhi 219 districts identified as priority for intensified HIV/AIDS interventions nationwide; 11 in Haryana and 7 in Delhi Whole-of-system synergy key to bridging gaps in HIV care continuum: Dr. Rakesh Gup…"
+    },
     {
       "prid": "2242811",
       "ministry": "Ministry of Heavy Industries",
@@ -10,6 +19,49 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2242811",
       "pdfs": [],
       "snippet": "Press Release:Press Information Bureau Ministry of Heavy Industries Ministry of Heavy Industries invites bids through Global Tender for selection of beneficiaries to set up integrated Sintered Rare Earth Permanent Magnet manufacturing facilities of 6,000 MTPA capacity under the Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnet Bidding process to be held online through a transparent Least Cost Sy…"
+    },
+    {
+      "prid": "2242847",
+      "ministry": "Ministry of Home Affairs",
+      "title": "Union Home Minister and Minister of Cooperation, Shri Amit Shah, pays tribute to Veerangana Rani Avantibai Lodhi on her martyrdom day",
+      "posted_on_raw": "20 MAR 2026 11:39AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2242847",
+      "pdfs": [],
+      "snippet": "Press Release:Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation, Shri Amit Shah, pays tribute to Veerangana Rani Avantibai Lodhi on her martyrdom day Veerangana Rani Avantibai Lodhi’s life remains an unparalleled example of courage, sacrifice and patriotism During the Revolt of 1857, she fought valiantly against the British and chose martyrdom over surrender Posted On: …"
+    },
+    {
+      "prid": "2242853",
+      "ministry": "Ministry of Finance",
+      "title": "AI-Driven Transformation of India’s Statistical and Data Ecosystem",
+      "posted_on_raw": "20 MAR 2026 12:08PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2242853",
+      "pdfs": [
+        {
+          "label": "https://www.mospi.gov.in/sites/default/files/announcements/R",
+          "url": "https://www.mospi.gov.in/sites/default/files/announcements/Revised_DI_Lab_Guidelines_0_0.pdf"
+        },
+        {
+          "label": "https://static.pib.gov.in/WriteReadData/specificdocs/documen",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026214789901.pdf"
+        },
+        {
+          "label": "https://uidai.gov.in/images/FaceAuthTransation.pdf",
+          "url": "https://uidai.gov.in/images/FaceAuthTransation.pdf"
+        },
+        {
+          "label": "https://uidai.gov.in/images/The_Invisible_Shield_Press_relea",
+          "url": "https://uidai.gov.in/images/The_Invisible_Shield_Press_release.pdf"
+        },
+        {
+          "label": "https://niti.gov.in/sites/default/files/2025-02/Annual%20Rep",
+          "url": "https://niti.gov.in/sites/default/files/2025-02/Annual%20Report%202024-25%20English_FINAL_LOW%20RES_0.pdf"
+        },
+        {
+          "label": "See in PDF",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc2026320830501.pdf"
+        }
+      ],
+      "snippet": "Press Release:Press Information Bureau PIB Headquarters AI-Driven Transformation of India’s Statistical and Data Ecosystem Posted On: 20 MAR 2026 12:08PM by PIB Delhi Key Takeaways AI tools for NIC coding, unlocking legacy data, intelligent document search, AI enabled chatbot on website have been introduced e-Sankhyiki has integrated MCP and semantic search, for ease of access of official statistical datasets NDAP is…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

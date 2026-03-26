@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-03-26T09:05:53.341476+00:00",
-  "count": 3,
+  "updated_at_utc": "2026-03-26T11:00:23.876103+00:00",
+  "count": 4,
   "items": [
     {
       "prid": "2245575",
@@ -28,6 +28,48 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245608",
       "pdfs": [],
       "snippet": "Press Release:Press Information Bureau Ministry of Science & Technology India to scale up critical mineral exploration and build strong domestic value chains to reduce import dependence and meet strategic needs: Dr. Jitendra Singh 'National Mineral Exploration and Development Trust' (NMET) Governing Body Meeting reviews critical mineral exploration, calls for faster pace, startup participation, and stronger domestic …"
+    },
+    {
+      "prid": "2245639",
+      "ministry": "Ministry of Finance",
+      "title": "India’s Resilient Production Systems in Agriculture",
+      "posted_on_raw": "26 MAR 2026 3:05PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245639",
+      "pdfs": [
+        {
+          "label": "https://teaboard.gov.in/pdf/State_Region_wise_tea_production",
+          "url": "https://teaboard.gov.in/pdf/State_Region_wise_tea_production_2024_and_2024_25_Apr_Dec_pdf4332.pdf"
+        },
+        {
+          "label": "Nov Journal, Pg:14",
+          "url": "https://coconutboard.gov.in/docs/icj/icj-2025-11.pdf"
+        },
+        {
+          "label": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.p",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.pdf"
+        },
+        {
+          "label": "https://www.indiabudget.gov.in/economicsurvey/doc/stat/tab1.",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/stat/tab1.18.pdf"
+        },
+        {
+          "label": "https://www.indiabudget.gov.in/doc/budget_speech.pdf",
+          "url": "https://www.indiabudget.gov.in/doc/budget_speech.pdf"
+        },
+        {
+          "label": "https://www.indiabudget.gov.in/budget2025-26/doc/eb/vol1.pdf",
+          "url": "https://www.indiabudget.gov.in/budget2025-26/doc/eb/vol1.pdf"
+        },
+        {
+          "label": "https://www.indiabudget.gov.in/doc/eb/allsbe.pdf",
+          "url": "https://www.indiabudget.gov.in/doc/eb/allsbe.pdf"
+        },
+        {
+          "label": "Click here to see pdf",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc2026326833901.pdf"
+        }
+      ],
+      "snippet": "Press Release:Press Information Bureau PIB Headquarters India’s Resilient Production Systems in Agriculture “From Fields to Market” Posted On: 26 MAR 2026 3:05PM by PIB Delhi Key Takeaways India achieved a record foodgrain production of 357.73 MMT (2024-25), with horticulture output at 362.08 MT, reflecting a strong shift towards high-value crops. India ranks among the top producers globally, with 150.18 MT of rice, …"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

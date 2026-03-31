@@ -1,7 +1,25 @@
 {
-  "updated_at_utc": "2026-03-31T11:01:57.716071+00:00",
-  "count": 10,
+  "updated_at_utc": "2026-03-31T13:49:14.650906+00:00",
+  "count": 14,
   "items": [
+    {
+      "prid": "2247343",
+      "ministry": "Ministry of Defence",
+      "title": "LAUNCH OF FIRST NEXT GENERATION OFFSHORE PATROL VESSEL (YARD 1280, SHACHI) AT M/S GSL, GOA",
+      "posted_on_raw": "31 MAR 2026 6:48PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247343",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence LAUNCH OF FIRST NEXT GENERATION OFFSHORE PATROL VESSEL (YARD 1280, SHACHI) AT M/S GSL, GOA Posted On: 31 MAR 2026 6:48PM by PIB Delhi Yard 1280 (Shachi), the first of eleven Next Generation Offshore Patrol Vessels (NGOPVs) , was launched at M/s GSL, Goa on 31 Mar 2026 by Mrs Shagun Sobti, in the presence of VAdm Tarun Sobti, Deputy Chief of the Naval S…"
+    },
+    {
+      "prid": "2247339",
+      "ministry": "Ministry of Defence",
+      "title": "DELIVERY OF MALWAN – THE SECOND ANTI-SUBMARINE WARFARE SHALLOW WATER CRAFT BUILT BY CSL, KOCHI",
+      "posted_on_raw": "31 MAR 2026 6:36PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247339",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence DELIVERY OF MALWAN – THE SECOND ANTI-SUBMARINE WARFARE SHALLOW WATER CRAFT BUILT BY CSL, KOCHI Posted On: 31 MAR 2026 6:36PM by PIB Delhi ‘Malwan’, the second of eight Anti-Submarine Warfare Shallow Water Craft (ASW SWC) built by Cochin Shipyard Limited (CSL), Kochi, was delivered to the Indian Navy on 31 Mar 2026. The vessel has been indigenously desi…"
+    },
     {
       "prid": "2247262",
       "ministry": "Ministry of Defence",
@@ -39,6 +57,15 @@
       "snippet": "Press Release Page | Press Information Bureau Ministry of Defence INDIGENOUS STEALTH FRIGATE ‘DUNAGIRI’ DELIVERED TO INDIAN NAVY – A MAJOR BOOST TO AATMANIRBHARTA IN WARSHIP BUILDING INDIAN NAVY RECEIVES INDIGENOUS STEALTH FRIGATE ‘DUNAGIRI’ UNDER PROJECT 17A AT GRSE, KOLKATA Posted On: 31 MAR 2026 9:12AM by PIB Delhi Dunagiri (Yard 3023), the fifth ship of Nilgiri Class (Project 17A) and second of the class built at…"
     },
     {
+      "prid": "2247310",
+      "ministry": "Ministry of Electronics & IT",
+      "title": "Nyaya Setu AI Chatbot and Mascot “DISHIKA” Unveiled at DISHA Programme; BHASHINI Enables Real-Time Multilingual Translation During Vice-President’s Address",
+      "posted_on_raw": "31 MAR 2026 5:11PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247310",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT Nyaya Setu AI Chatbot and Mascot “DISHIKA” Unveiled at DISHA Programme; BHASHINI Enables Real-Time Multilingual Translation During Vice-President’s Address Posted On: 31 MAR 2026 5:11PM by PIB Delhi The Nyaya Setu AI Chatbot, along with its official mascot “Dishika”, was unveiled at the DISHA programme organised by the Department of Justice at…"
+    },
+    {
       "prid": "2247141",
       "ministry": "Ministry of Environment, Forest and Climate Change",
       "title": "India emerges as Global Leader in issuing Compliance Certificates under Nagoya Protocol",
@@ -46,6 +73,28 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247141",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Environment, Forest and Climate Change India emerges as Global Leader in issuing Compliance Certificates under Nagoya Protocol Posted On: 31 MAR 2026 8:53AM by PIB Delhi India has emerged as the global leader in issuing Internationally Recognized Certificates of Compliance (IRCCs) under the Nagoya Protocol on Access and Benefit-sharing (ABS), accounting for ov…"
+    },
+    {
+      "prid": "2247313",
+      "ministry": "Ministry of Finance",
+      "title": "In pursuance of Union Budget 2026-27 announcement, CBIC operationalises comprehensive reforms for e-commerce exports and courier trade to enhance ease of doing business from April 1, 2026",
+      "posted_on_raw": "31 MAR 2026 5:20PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247313",
+      "pdfs": [
+        {
+          "label": "COURIER IMPORTS AND EXPORTS (ELECTRONIC DECLARATION AND PROC",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc2026331837301.pdf"
+        },
+        {
+          "label": "COURIER IMPORTS AND EXPORTS (CLEARANCE) REGULATIONS, 1998 VI",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc2026331837201.pdf"
+        },
+        {
+          "label": "CIRCULAR NO. 17/2026-CUSTOMS",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc2026331837101.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Finance In pursuance of Union Budget 2026-27 announcement, CBIC operationalises comprehensive reforms for e-commerce exports and courier trade to enhance ease of doing business from April 1, 2026 ₹10 lakh cap on courier export consignments removed to boost e-commerce exports Measures to strengthen India’s e-commerce export ecosystem and global competitiveness …"
     },
     {
       "prid": "2247224",

@@ -1,42 +1,73 @@
 {
-  "updated_at_utc": "2026-04-05T16:45:18.436292+00:00",
-  "count": 4,
+  "updated_at_utc": "2026-04-06T09:17:05.177903+00:00",
+  "count": 2,
   "items": [
     {
-      "prid": "2249175",
-      "ministry": "Ministry of Defence",
-      "title": "INDIAN NAVAL SHIP TRIKAND CALLS AT DAR-ES-SALAAM, TANZANIA",
-      "posted_on_raw": "05 APR 2026 3:30PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249175",
+      "prid": "2249255",
+      "ministry": "Ministry of Science & Technology",
+      "title": "TDB-DST SUPPORTS SCHARGE PVT. LTD. UNDER INDIA–UK COLLABORATIVE R&D PROGRAMME FOR ADVANCED EV CHARGING INFRASTRUCTURE",
+      "posted_on_raw": "06 APR 2026 1:17PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249255",
       "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence INDIAN NAVAL SHIP TRIKAND CALLS AT DAR-ES-SALAAM, TANZANIA Posted On: 05 APR 2026 3:30PM by PIB Delhi INS Trikand, frontline guided missile frigate of the Indian Navy, arrived at Dar-es-Salaam, Tanzania on 03 Apr 2026, as part of its ongoing deployment in the South West Indian Ocean Region. The visit aims to strengthen maritime cooperation and enhance …"
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology TDB-DST SUPPORTS SCHARGE PVT. LTD. UNDER INDIA–UK COLLABORATIVE R&D PROGRAMME FOR ADVANCED EV CHARGING INFRASTRUCTURE Posted On: 06 APR 2026 1:17PM by PIB Delhi The Technology Development Board (TDB), Department of Science & Technology (DST), Government of India, has signed an agreement with M/s Scharge Pvt Limited for the project titled “…"
     },
     {
-      "prid": "2249103",
-      "ministry": "Ministry of Home Affairs",
-      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah pays tributes to Babu Jagjivan Ram on his birth anniversary",
-      "posted_on_raw": "05 APR 2026 1:03PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249103",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation Shri Amit Shah pays tributes to Babu Jagjivan Ram on his birth anniversary Babu Jagjivan Ram dedicated his entire life to the service of the nation and social justice His struggle for the rights of the weaker and underprivileged sections of society will continue to inspire us Posted On: 05 APR 2026 1…"
-    },
-    {
-      "prid": "2249101",
-      "ministry": "Ministry of Home Affairs",
-      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah extends greetings on National Maritime Day",
-      "posted_on_raw": "05 APR 2026 12:57PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249101",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation Shri Amit Shah extends greetings on National Maritime Day Your professionalism and courage have played a crucial role in steering the nation’s growth Posted On: 05 APR 2026 12:57PM by PIB Delhi Union Home Minister and Minister of Cooperation, Shri Amit Shah extended his greetings to the personnel of …"
-    },
-    {
-      "prid": "2249178",
-      "ministry": "Ministry of Tribal Affairs",
-      "title": "Bharat Tribes Fest 2026 Concludes with Grand Closing Ceremony; Top Tribal Artisans and Sellers Felicitated",
-      "posted_on_raw": "05 APR 2026 7:00PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249178",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Tribal Affairs Bharat Tribes Fest 2026 Concludes with Grand Closing Ceremony; Top Tribal Artisans and Sellers Felicitated Over 1.50 Lakh Footfall and Record Sales Highlight Rising Demand for Tribal Products and Empowerment Posted On: 05 APR 2026 7:00PM by PIB Delhi Bharat Tribes Fest 2026, a flagship initiative of the Ministry of Tribal Affairs organised in as…"
+      "prid": "2249228",
+      "ministry": "Ministry of Finance",
+      "title": "Advancing India’s Fisheries Sector",
+      "posted_on_raw": "06 APR 2026 11:45AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249228",
+      "pdfs": [
+        {
+          "label": "https://dof.gov.in/sites/default/files/2025-04/AnnualReport2",
+          "url": "https://dof.gov.in/sites/default/files/2025-04/AnnualReport2025English.pdf"
+        },
+        {
+          "label": "https://dof.gov.in/sites/default/files/2021-10/Reform_Bookle",
+          "url": "https://dof.gov.in/sites/default/files/2021-10/Reform_Booklet_English.pdf"
+        },
+        {
+          "label": "https://www.mofpi.gov.in/sites/default/files/KnowledgeCentre",
+          "url": "https://www.mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Fisheries.pdf"
+        },
+        {
+          "label": "https://www.indiabudget.gov.in/doc/budget_speech.pdf",
+          "url": "https://www.indiabudget.gov.in/doc/budget_speech.pdf"
+        },
+        {
+          "label": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.p",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.pdf"
+        },
+        {
+          "label": "https://nfdb.gov.in/PDF/100%20SSS%20English.pdf",
+          "url": "https://nfdb.gov.in/PDF/100%20SSS%20English.pdf"
+        },
+        {
+          "label": "https://nfdb.gov.in/PDF/PMMSY-Guidelines24-June2020.pdf",
+          "url": "https://nfdb.gov.in/PDF/PMMSY-Guidelines24-June2020.pdf"
+        },
+        {
+          "label": "https://nfdb.gov.in/PDF/06_Ras%20Booklet%20Eng.pdf",
+          "url": "https://nfdb.gov.in/PDF/06_Ras%20Booklet%20Eng.pdf"
+        },
+        {
+          "label": "https://www.nfdb.gov.in/PDF/Biofloc%20booklet%20v6.pdf",
+          "url": "https://www.nfdb.gov.in/PDF/Biofloc%20booklet%20v6.pdf"
+        },
+        {
+          "label": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU1422",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU1422_vx99Ty.pdf?source=pqals"
+        },
+        {
+          "label": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU1413",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU1413_DS01Ap.pdf?source=pqals"
+        },
+        {
+          "label": "https://sansad.in/getFile/loksabhaquestions/annex/184/AU4924",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/184/AU4924_euUXep.pdf?source=pqals"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau PIB Headquarters Advancing India’s Fisheries Sector Institutions, Investment, and Inclusion Posted On: 06 APR 2026 11:45AM by PIB Delhi Key Takeaways The Union Budget 2026-27 proposed the highest-ever total annual budgetary support of Rs. 2,761.80 crores for the fisheries sector. PMMSY continues to be the central pillar of fisheries development, with an allocation of Rs 2…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

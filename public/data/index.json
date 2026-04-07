@@ -1,7 +1,16 @@
 {
-  "updated_at_utc": "2026-04-07T09:12:25.068752+00:00",
-  "count": 4,
+  "updated_at_utc": "2026-04-07T11:04:44.507467+00:00",
+  "count": 5,
   "items": [
+    {
+      "prid": "2249636",
+      "ministry": "Ministry of Finance",
+      "title": "‘bob SAMVAD’, an AI-powered multilingual conversational platform of Bank of Baroda to transform in-branch customer interactions launched in Mumbai",
+      "posted_on_raw": "07 APR 2026 2:43PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249636",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Finance ‘bob SAMVAD’, an AI-powered multilingual conversational platform of Bank of Baroda to transform in-branch customer interactions launched in Mumbai In-house AI platform enables real-time, low-latency two-way communication across 22 languages, embracing India’s linguistic diversity DFS Secretary terms bob SAMVAD a step towards inclusive banking, strength…"
+    },
     {
       "prid": "2249602",
       "ministry": "Ministry of Health and Family Welfare",

@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-04-08T15:19:43.830916+00:00",
-  "count": 17,
+  "updated_at_utc": "2026-04-08T17:14:33.093928+00:00",
+  "count": 19,
   "items": [
     {
       "prid": "2250262",
@@ -10,6 +10,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2250262",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Civil Aviation Civil Aviation Minister Shri Ram Mohan Naidu announces relief measures for domestic operations of Indian carriers 25% cut in landing & parking charges amid global disruptions Posted On: 08 APR 2026 8:16PM by PIB Delhi The unprecedented situation arising out of the ongoing West Asia crisis has posed significant challenges to global aviation opera…"
+    },
+    {
+      "prid": "2250292",
+      "ministry": "Ministry of Defence",
+      "title": "Raksha Mantri-led IGoM takes stock of India’s readiness in view of evolving West Asia situation",
+      "posted_on_raw": "08 APR 2026 9:25PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2250292",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence Raksha Mantri-led IGoM takes stock of India’s readiness in view of evolving West Asia situation Focus must remain on preparedness, coordination & resilience building: Shri Rajnath Singh “Govt is ensuring continued availability of LPG, petrol, diesel & fertilisers and facilitating supply of essential commodities” Posted On: 08 APR 2026 9:25PM by PIB Del…"
     },
     {
       "prid": "2250186",
@@ -127,6 +136,20 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249920",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Women and Child Development National launch of 8th Poshan Pakhwada 2026 to take place tomorrow with Focus on Theme ‘Maximizing Brain Development in the First Six Years of Life Ministry of Women and Child Development will celebrate Poshan Pakhwada from 9th to 23rd April 2026, reaffirming the Government’s commitment to improving nutritional outcomes across the c…"
+    },
+    {
+      "prid": "2250306",
+      "ministry": "NITI Aayog",
+      "title": "NITI Aayog Organises Workshop and Releases Report on Roadmap for Horticulture Development in Jammu & Kashmir",
+      "posted_on_raw": "08 APR 2026 10:10PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2250306",
+      "pdfs": [
+        {
+          "label": "https://niti.gov.in/sites/default/files/2026-04/Roadmap-for-",
+          "url": "https://niti.gov.in/sites/default/files/2026-04/Roadmap-for-Horticulture-Development-in-the-UT-of-Jammu-and-Kashmir.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau NITI Aayog NITI Aayog Organises Workshop and Releases Report on Roadmap for Horticulture Development in Jammu & Kashmir Posted On: 08 APR 2026 10:10PM by PIB Delhi NITI Aayog today organised a workshop and released the report titled “Roadmap for Horticulture Development in the Union Territory of Jammu & Kashmir” at NITI Aayog, New Delhi. The report was released in the pre…"
     },
     {
       "prid": "2250026",

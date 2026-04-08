@@ -1,7 +1,16 @@
 {
-  "updated_at_utc": "2026-04-08T05:50:31.635968+00:00",
-  "count": 2,
+  "updated_at_utc": "2026-04-08T07:45:14.823855+00:00",
+  "count": 4,
   "items": [
+    {
+      "prid": "2249936",
+      "ministry": "Ministry of Defence",
+      "title": "INDIAN NAVAL SHIP TRIKAND ARRIVES AT MOMBASA, KENYA",
+      "posted_on_raw": "08 APR 2026 12:30PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249936",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence INDIAN NAVAL SHIP TRIKAND ARRIVES AT MOMBASA, KENYA Posted On: 08 APR 2026 12:30PM by PIB Delhi INS Trikand, frontline guided missile frigate of the Indian Navy, arrived at Mombasa, Kenya, on 07 Apr 2026, as part of its ongoing deployment in the South West Indian Ocean Region. The visit aims to strengthen maritime cooperation and enhance bilateral ties…"
+    },
     {
       "prid": "2249915",
       "ministry": "Ministry of Finance",
@@ -19,6 +28,32 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249920",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Women and Child Development National launch of 8th Poshan Pakhwada 2026 to take place tomorrow with Focus on Theme ‘Maximizing Brain Development in the First Six Years of Life Ministry of Women and Child Development will celebrate Poshan Pakhwada from 9th to 23rd April 2026, reaffirming the Government’s commitment to improving nutritional outcomes across the c…"
+    },
+    {
+      "prid": "2249942",
+      "ministry": "Ministry of Finance",
+      "title": "11 Years of Pradhan Mantri MUDRA Yojana",
+      "posted_on_raw": "08 APR 2026 12:36PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249942",
+      "pdfs": [
+        {
+          "label": "https://www.mudra.org.in/Default/DownloadFile/Annual-Report-",
+          "url": "https://www.mudra.org.in/Default/DownloadFile/Annual-Report-2024-25.pdf"
+        },
+        {
+          "label": "https://sansad.in/getFile/loksabhaquestions/annex/187/AS336_",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AS336_mnJub0.pdf?source=pqals"
+        },
+        {
+          "label": "https://sbi.bank.in/documents/13958/43951007/10%2BYears%2Bof",
+          "url": "https://sbi.bank.in/documents/13958/43951007/10%2BYears%2Bof%2BPMMY_SBI%2BReport.pdf/93f97f57-e655-dcfc-0733-cd638e82fe0e?t=1743585995479"
+        },
+        {
+          "label": "Click here to see pdf",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc202648842601.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau PIB Headquarters 11 Years of Pradhan Mantri MUDRA Yojana Driving Financial Inclusion and Micro-Enterprise Growth Posted On: 08 APR 2026 12:36PM by PIB Delhi Key Takeaways PMMY has evolved into a powerful instrument of empowerment and aspiration, with 57 crore+ loans amounting to ₹40.07 lakh crore . Easy credit access with four distinct loan categories: Shishu, Kishor, Tar…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

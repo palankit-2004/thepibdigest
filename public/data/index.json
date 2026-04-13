@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-04-13T15:23:18.816654+00:00",
-  "count": 10,
+  "updated_at_utc": "2026-04-13T17:13:12.512848+00:00",
+  "count": 11,
   "items": [
     {
       "prid": "2251608",
@@ -19,6 +19,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2251542",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Defence National Cadet Corps Launches Nationwide Cyber Security Capacity Building Programme for Cadets Posted On: 13 APR 2026 4:35PM by PIB Delhi In a major step towards empowering cadets with structured training in cyber awareness, digital hygiene and practical cyber defence skills, National Cadet Corps (NCC), in collaboration with the National Institute of E…"
+    },
+    {
+      "prid": "2251715",
+      "ministry": "Ministry of Electronics & IT",
+      "title": "e-SafeHER – a Cyber Security Awareness Training Programme to enable one million Cyber Sakhis across rural India",
+      "posted_on_raw": "13 APR 2026 9:32PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2251715",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT e-SafeHER – a Cyber Security Awareness Training Programme to enable one million Cyber Sakhis across rural India The initiative leverages MeitY’s Information Security Education and Awareness (ISEA) Programme and will be jointly delivered by C-DAC, Hyderabad and Reliance Foundation e-SafeHER aims to build a gender-responsive, community-led model…"
     },
     {
       "prid": "2251655",

@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-04-16T14:03:21.064942+00:00",
-  "count": 5,
+  "updated_at_utc": "2026-04-16T17:22:33.057324+00:00",
+  "count": 8,
   "items": [
     {
       "prid": "2252427",
@@ -21,6 +21,29 @@
       "snippet": "Press Release Page | Press Information Bureau Ministry of Defence INS SUDARSHINI ARRIVES AT CASABLANCA, MOROCCO Posted On: 16 APR 2026 7:06PM by PIB Delhi Indian Navy’s Sail Training Ship, INS Sudarshini, made port call at Casablanca, Morocco on 15 Apr 2026, as part of its ongoing transoceanic deployment under Lokayan 26. The ship’s arrival at this prominent port marks an important milestone in the expedition and ref…"
     },
     {
+      "prid": "2252739",
+      "ministry": "Ministry of Electronics & IT",
+      "title": "Government Constitutes AI Governance and Economic Group (AIGEG) to Lead India’s National AI Governance Strategy",
+      "posted_on_raw": "16 APR 2026 8:21PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2252739",
+      "pdfs": [
+        {
+          "label": "https://d12aarmt01l54a.cloudfront.net/cms/files/constitution",
+          "url": "https://d12aarmt01l54a.cloudfront.net/cms/files/constitution-of-aigeg/1776346498.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT Government Constitutes AI Governance and Economic Group (AIGEG) to Lead India’s National AI Governance Strategy A High-Level Inter-Ministerial Body to Coordinate Policy, Promote Responsible AI Innovation and Address Labour Market Impacts Posted On: 16 APR 2026 8:21PM by PIB Delhi The Ministry of Electronics and Information Technology (MeitY), …"
+    },
+    {
+      "prid": "2252727",
+      "ministry": "Ministry of Environment, Forest and Climate Change",
+      "title": "CAQM Invokes GRAP Stage-I in Delhi-NCR as Air Quality Deteriorates to 'Poor' Category",
+      "posted_on_raw": "16 APR 2026 7:38PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2252727",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Environment, Forest and Climate Change CAQM Invokes GRAP Stage-I in Delhi-NCR as Air Quality Deteriorates to 'Poor' Category Posted On: 16 APR 2026 7:38PM by PIB Delhi The Commission for Air Quality Management in National Capital Region and Adjoining Areas (CAQM) Sub-Committee on the Graded Response Action Plan (GRAP) today invoked all actions under Stage-I of…"
+    },
+    {
       "prid": "2252520",
       "ministry": "Ministry of Finance",
       "title": "Financial Intelligence Unit-India and Pension Fund Regulatory and Development Authority sign MoU to combat money laundering and financial crimes",
@@ -37,6 +60,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2252517",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Finance Financial Intelligence Unit-India and Securities and Exchange Board of India sign MoU to combat money laundering and financial crimes Posted On: 16 APR 2026 1:19PM by PIB Delhi In a significant step towards strengthening India's fight against money laundering and financial crimes, the Financial Intelligence Unit-India (FIU-IND) and Securities and Excha…"
+    },
+    {
+      "prid": "2252748",
+      "ministry": "Ministry of Home Affairs",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah intervenes in the discussion in the Lok Sabha on the Delimitation Bill, 2026, the Constitution (131st Amendment) Bill, 2026, and the Union Territories Laws (Amendment) Bill, 2026",
+      "posted_on_raw": "16 APR 2026 8:44PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2252748",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation Shri Amit Shah intervenes in the discussion in the Lok Sabha on the Delimitation Bill, 2026, the Constitution (131st Amendment) Bill, 2026, and the Union Territories Laws (Amendment) Bill, 2026 No injustice will be done to any state, particularly to the states of South India The Delimitation Bill, 20…"
     },
     {
       "prid": "2252547",

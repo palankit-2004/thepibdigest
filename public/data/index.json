@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-04-17T06:07:47.890469+00:00",
-  "count": 2,
+  "updated_at_utc": "2026-04-17T09:25:27.879378+00:00",
+  "count": 4,
   "items": [
     {
       "prid": "2252846",
@@ -12,6 +12,15 @@
       "snippet": "Press Release Page | Press Information Bureau Ministry of Defence ARMY COMMANDERS’ CONFERENCE CONCLUDES IN NEW DELHI Posted On: 17 APR 2026 11:27AM by PIB Delhi The biannual Army Commanders’ Conference (ACC) which commenced on 13 April 26, culminated on 16 April 26. The conference chaired by Chief of the Army Staff (COAS), was attended by apex military leadership and was addressed by senior functionaries in the gover…"
     },
     {
+      "prid": "2252858",
+      "ministry": "Ministry of Electronics & IT",
+      "title": "10 Cutting-Edge Indian Startups Selected for Cohort II  of the IndiaAI Startups Global Acceleration Programme",
+      "posted_on_raw": "17 APR 2026 11:50AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2252858",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT 10 Cutting-Edge Indian Startups Selected for Cohort II of the IndiaAI Startups Global Acceleration Programme Second cohort spans Health Tech, Climate Tech, EdTech, Satellite Intelligence, Cognitive AI and more — continuing India's drive to build global AI leaders through IndiaAI Mission's partnership with Station F and HEC Paris Posted On: 17 …"
+    },
+    {
       "prid": "2252835",
       "ministry": "Ministry of Science & Technology",
       "title": "SCIENTISTS EXPLORE POSSIBILITY OF DWARF GALAXIES HOSTING BLACK HOLES",
@@ -19,6 +28,20 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2252835",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology SCIENTISTS EXPLORE POSSIBILITY OF DWARF GALAXIES HOSTING BLACK HOLES Posted On: 17 APR 2026 10:42AM by PIB Delhi A new study has probed the possibility of some of the smallest galaxies in the universe, particularly dwarf spheroidal galaxies orbiting the Milky Way, hosting black holes. This can help advancing our understanding of black hole…"
+    },
+    {
+      "prid": "2252895",
+      "ministry": "Ministry of Jal Shakti",
+      "title": "The River Basin Management Scheme: Strengthening Water Governance",
+      "posted_on_raw": "17 APR 2026 1:11PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2252895",
+      "pdfs": [
+        {
+          "label": "See In PDF",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc2026417849801.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau PIB Headquarters The River Basin Management Scheme: Strengthening Water Governance Posted On: 17 APR 2026 1:11PM by PIB Delhi Key Takeaways The RBM Scheme promotes basin-level planning to ensure sustainable use, protection, and development of surface and groundwater resources. The scheme will continue during the 2026–27 to 2030–31 period with an estimated cost of ₹2183 cr…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

@@ -1,7 +1,25 @@
 {
-  "updated_at_utc": "2026-04-17T11:03:52.151859+00:00",
-  "count": 4,
+  "updated_at_utc": "2026-04-17T13:46:19.124482+00:00",
+  "count": 12,
   "items": [
+    {
+      "prid": "2253054",
+      "ministry": "Ministry of Coal",
+      "title": "Ministry of Coal Drives Energy Security Push; Hosts Key Stakeholders’ Consultation and Launches 15th Round of Commercial Coal mine Auction",
+      "posted_on_raw": "17 APR 2026 6:00PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253054",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Coal Ministry of Coal Drives Energy Security Push; Hosts Key Stakeholders’ Consultation and Launches 15th Round of Commercial Coal mine Auction Posted On: 17 APR 2026 6:00PM by PIB Delhi The Ministry of Coal today convened the Stakeholder Consultation on ‘Atmanirbhar Bharat: Coal for Energy Security’, alongside the launch of the 15th round of Commercial Coal M…"
+    },
+    {
+      "prid": "2253095",
+      "ministry": "Ministry of Defence",
+      "title": "India Highlights Maritime Security Leadership at World Border Security Congress 2026 in Vienna",
+      "posted_on_raw": "17 APR 2026 7:09PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253095",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence India Highlights Maritime Security Leadership at World Border Security Congress 2026 in Vienna Posted On: 17 APR 2026 7:09PM by PIB Delhi India showcased its leadership in maritime security and reinforced its commitment to international cooperation during its participation in the World Border Security Congress 2026 held in Vienna, Austria from April 14…"
+    },
     {
       "prid": "2252846",
       "ministry": "Ministry of Defence",
@@ -21,6 +39,51 @@
       "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT 10 Cutting-Edge Indian Startups Selected for Cohort II of the IndiaAI Startups Global Acceleration Programme Second cohort spans Health Tech, Climate Tech, EdTech, Satellite Intelligence, Cognitive AI and more — continuing India's drive to build global AI leaders through IndiaAI Mission's partnership with Station F and HEC Paris Posted On: 17 …"
     },
     {
+      "prid": "2253094",
+      "ministry": "Ministry of Law and Justice",
+      "title": "Press Communiqué",
+      "posted_on_raw": "17 APR 2026 7:08PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253094",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Law and Justice Press Communiqué Posted On: 17 APR 2026 7:08PM by PIB Delhi In exercise of the power conferred by the Constitution of India, the President of India, after consultation with Chief Justice of India, is pleased to appoint the following Additional Judges as Permanent Judges in the Chhattisgarh High Court: S. No. Name of the Additional Judge (S/Shri…"
+    },
+    {
+      "prid": "2253013",
+      "ministry": "Ministry of Power",
+      "title": "Workshop on SHANTI Act, 2025: Enabling India’s 100 GW Nuclear Power Roadmap through Public–Private Partnership",
+      "posted_on_raw": "17 APR 2026 5:07PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253013",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Power Workshop on SHANTI Act, 2025: Enabling India’s 100 GW Nuclear Power Roadmap through Public–Private Partnership Posted On: 17 APR 2026 5:07PM by PIB Delhi The Central Electricity Authority (CEA), in association with the Ministry of Power, Department of Atomic Energy (DAE), and NTPC Limited, organized a high-level workshop today at the Scope Convention Cen…"
+    },
+    {
+      "prid": "2253072",
+      "ministry": "Ministry of Railways",
+      "title": "Stronger Tracks, Better Maintenance and Advanced Monitoring Systems Making Railway Journeys Safer and Earning Passenger Trust Across the Nation",
+      "posted_on_raw": "17 APR 2026 6:24PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253072",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Railways Stronger Tracks, Better Maintenance and Advanced Monitoring Systems Making Railway Journeys Safer and Earning Passenger Trust Across the Nation Driven by Systemic Changes, “Safety Is a Matter of Public Trust, Not a Technical Metric”: Shri Ashwini Vaishnaw Rail Fractures Reduced by 92% , Weld Failures Come Down by 93% Increased Use of Heavier 60 kg Rai…"
+    },
+    {
+      "prid": "2253064",
+      "ministry": "Ministry of Railways",
+      "title": "Ahmedabad based Kankaria Becomes India’s First Water Neutral Coaching Depot; Does the Wonder by Using Plants to Purify Water",
+      "posted_on_raw": "17 APR 2026 6:13PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253064",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Railways Ahmedabad based Kankaria Becomes India’s First Water Neutral Coaching Depot; Does the Wonder by Using Plants to Purify Water Depot Saves 1.60 Lakh Litres Daily through Wastewater Treatment and Reuse, Reducing Freshwater Dependence Kankaria Depot Promotes Environmental Protection and Greener Railways through Eco-Friendly Phytoremediation Technique and …"
+    },
+    {
+      "prid": "2253011",
+      "ministry": "Ministry of Science & Technology",
+      "title": "Simultaneous oscillations in solar filaments provides new clues to their properties",
+      "posted_on_raw": "17 APR 2026 5:05PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253011",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology Simultaneous oscillations in solar filaments provides new clues to their properties Posted On: 17 APR 2026 5:05PM by PIB Delhi A new study by astronomers has unveiled a powerful method to estimate the hidden physical properties of solar filaments by analysing their oscillations, offering deeper insights into the Sun’s magnetic structure. S…"
+    },
+    {
       "prid": "2252835",
       "ministry": "Ministry of Science & Technology",
       "title": "SCIENTISTS EXPLORE POSSIBILITY OF DWARF GALAXIES HOSTING BLACK HOLES",
@@ -28,6 +91,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2252835",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology SCIENTISTS EXPLORE POSSIBILITY OF DWARF GALAXIES HOSTING BLACK HOLES Posted On: 17 APR 2026 10:42AM by PIB Delhi A new study has probed the possibility of some of the smallest galaxies in the universe, particularly dwarf spheroidal galaxies orbiting the Milky Way, hosting black holes. This can help advancing our understanding of black hole…"
+    },
+    {
+      "prid": "2253004",
+      "ministry": "Ministry of Women and Child Development",
+      "title": "Khawbung ICDS Project in Mizoram Celebrates Poshan Pakhwada 2026 with Community Participation and Nutrition-Focused Activities",
+      "posted_on_raw": "17 APR 2026 4:56PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253004",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Women and Child Development Khawbung ICDS Project in Mizoram Celebrates Poshan Pakhwada 2026 with Community Participation and Nutrition-Focused Activities Posted On: 17 APR 2026 4:56PM by PIB Delhi As part of the nationwide Poshan Pakhwada 2026, the Khawbung ICDS Project in Mizoram marked the occasion on April 17, 2026, with a series of impactful activities ai…"
     },
     {
       "prid": "2252895",

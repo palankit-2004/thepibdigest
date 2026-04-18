@@ -1,7 +1,30 @@
 {
-  "updated_at_utc": "2026-04-18T10:49:53.894268+00:00",
-  "count": 10,
+  "updated_at_utc": "2026-04-18T13:16:32.075759+00:00",
+  "count": 13,
   "items": [
+    {
+      "prid": "2253324",
+      "ministry": "Ministry of Electronics & IT",
+      "title": "BHASHINI Sanchalan/Seva Workshop on Gurmukhi Language Held at SGTB Khalsa College, University of Delhi to Advance Minority Language AI Ecosystem",
+      "posted_on_raw": "18 APR 2026 5:41PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253324",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT BHASHINI Sanchalan/Seva Workshop on Gurmukhi Language Held at SGTB Khalsa College, University of Delhi to Advance Minority Language AI Ecosystem Posted On: 18 APR 2026 5:41PM by PIB Delhi In a significant step towards strengthening minority language preservation through AI-led innovation, the BHASHINI Sanchalan/Seva Workshop on Gurmukhi Langua…"
+    },
+    {
+      "prid": "2253322",
+      "ministry": "Ministry of Electronics & IT",
+      "title": "Government Constitutes Technology and Policy Expert Committee (TPEC) to Provide Expert Advisory Support to India’s AI Governance Architecture",
+      "posted_on_raw": "18 APR 2026 5:40PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253322",
+      "pdfs": [
+        {
+          "label": "https://d12aarmt01l54a.cloudfront.net/cms/files/constitution",
+          "url": "https://d12aarmt01l54a.cloudfront.net/cms/files/constitution-of-tpec/1776447206.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT Government Constitutes Technology and Policy Expert Committee (TPEC) to Provide Expert Advisory Support to India’s AI Governance Architecture Standing Committee of Technical, Legal and Policy Experts to Inform AI Governance decisions and advise the newly constituted AIGEG Posted On: 18 APR 2026 5:40PM by PIB Delhi The Ministry of Electronics a…"
+    },
     {
       "prid": "2253245",
       "ministry": "Ministry of Finance",
@@ -19,6 +42,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253243",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Finance Cabinet approves proposal for creation of ‘Bharat Maritime Insurance Pool’ (BMI pool) with a sovereign guarantee of Rs 12,980 crore to facilitate continuous maritime insurance coverages The Domestic Insurance Pool addresses global volatility, geopolitical instability and reduces external Insurance dependency of Indian vessels The pool covers all mariti…"
+    },
+    {
+      "prid": "2253329",
+      "ministry": "Ministry of Health and Family Welfare",
+      "title": "NHA Concludes Two-Day Chintan Shivir on AB PM-JAY and ABDM in Pune; Focus on Innovation, Digital Health and Cooperative Governance",
+      "posted_on_raw": "18 APR 2026 6:04PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253329",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare NHA Concludes Two-Day Chintan Shivir on AB PM-JAY and ABDM in Pune; Focus on Innovation, Digital Health and Cooperative Governance States Showcase Best Practices in Digital Health and Clinical Governance at NHA Chintan Shivir Data-Driven Innovations and ABDM Integration Take Centre Stage on Day 2 of NHA Chintan Shivir NHA Honours Stat…"
     },
     {
       "prid": "2253228",

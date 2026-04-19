@@ -1,164 +1,64 @@
 {
-  "updated_at_utc": "2026-04-18T16:52:02.320712+00:00",
-  "count": 16,
+  "updated_at_utc": "2026-04-19T06:02:58.139062+00:00",
+  "count": 1,
   "items": [
     {
-      "prid": "2253373",
-      "ministry": "Ministry of Defence",
-      "title": "RM-led IGoM takes stock of West Asia situation & India’s preparedness",
-      "posted_on_raw": "18 APR 2026 8:10PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253373",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence RM-led IGoM takes stock of West Asia situation & India’s preparedness India must remain prepared for de-escalation as well as any renewed escalation: Raksha Mantri “PM Modi-led Govt continues to take swift & effective action to mitigate any potential challenges” Posted On: 18 APR 2026 8:10PM by PIB Delhi The Informal Group of Ministers (IGoM), headed b…"
-    },
-    {
-      "prid": "2253324",
-      "ministry": "Ministry of Electronics & IT",
-      "title": "BHASHINI Sanchalan/Seva Workshop on Gurmukhi Language Held at SGTB Khalsa College, University of Delhi to Advance Minority Language AI Ecosystem",
-      "posted_on_raw": "18 APR 2026 5:41PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253324",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT BHASHINI Sanchalan/Seva Workshop on Gurmukhi Language Held at SGTB Khalsa College, University of Delhi to Advance Minority Language AI Ecosystem Posted On: 18 APR 2026 5:41PM by PIB Delhi In a significant step towards strengthening minority language preservation through AI-led innovation, the BHASHINI Sanchalan/Seva Workshop on Gurmukhi Langua…"
-    },
-    {
-      "prid": "2253322",
-      "ministry": "Ministry of Electronics & IT",
-      "title": "Government Constitutes Technology and Policy Expert Committee (TPEC) to Provide Expert Advisory Support to India’s AI Governance Architecture",
-      "posted_on_raw": "18 APR 2026 5:40PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253322",
+      "prid": "2253483",
+      "ministry": "Ministry of Finance",
+      "title": "Accelerating India’s High Value Crop Diversification",
+      "posted_on_raw": "19 APR 2026 11:25AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253483",
       "pdfs": [
         {
-          "label": "https://d12aarmt01l54a.cloudfront.net/cms/files/constitution",
-          "url": "https://d12aarmt01l54a.cloudfront.net/cms/files/constitution-of-tpec/1776447206.pdf"
-        }
-      ],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT Government Constitutes Technology and Policy Expert Committee (TPEC) to Provide Expert Advisory Support to India’s AI Governance Architecture Standing Committee of Technical, Legal and Policy Experts to Inform AI Governance decisions and advise the newly constituted AIGEG Posted On: 18 APR 2026 5:40PM by PIB Delhi The Ministry of Electronics a…"
-    },
-    {
-      "prid": "2253354",
-      "ministry": "Ministry of Environment, Forest and Climate Change",
-      "title": "CAQM reviews enforcement actions across NCR; 162 inspections conducted",
-      "posted_on_raw": "18 APR 2026 7:27PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253354",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Environment, Forest and Climate Change CAQM reviews enforcement actions across NCR; 162 inspections conducted Posted On: 18 APR 2026 7:27PM by PIB Delhi The 129th meeting of the Enforcement Task Force (ETF) of the Commission for Air Quality Management in NCR and Adjoining Areas (CAQM) was held on 17.04.2026 to review enforcement actions and inspections underta…"
-    },
-    {
-      "prid": "2253245",
-      "ministry": "Ministry of Finance",
-      "title": "Cabinet approves additional instalment of Dearness Allowance to Central Government employees and Dearness Relief (DR) to pensioners w.e.f. 01.01.2026",
-      "posted_on_raw": "18 APR 2026 3:14PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253245",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Finance Cabinet approves additional instalment of Dearness Allowance to Central Government employees and Dearness Relief (DR) to pensioners w.e.f. 01.01.2026 Posted On: 18 APR 2026 3:14PM by PIB Delhi The Union Cabinet chaired by the Prime Minister Shri Narendra Modi has approved to release an additional instalment of Dearness Allowance (DA) to Central Governm…"
-    },
-    {
-      "prid": "2253243",
-      "ministry": "Ministry of Finance",
-      "title": "Cabinet approves proposal for creation of ‘Bharat Maritime Insurance Pool’ (BMI pool) with a sovereign guarantee of Rs 12,980 crore to facilitate continuous maritime insurance coverages",
-      "posted_on_raw": "18 APR 2026 3:12PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253243",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Finance Cabinet approves proposal for creation of ‘Bharat Maritime Insurance Pool’ (BMI pool) with a sovereign guarantee of Rs 12,980 crore to facilitate continuous maritime insurance coverages The Domestic Insurance Pool addresses global volatility, geopolitical instability and reduces external Insurance dependency of Indian vessels The pool covers all mariti…"
-    },
-    {
-      "prid": "2253329",
-      "ministry": "Ministry of Health and Family Welfare",
-      "title": "NHA Concludes Two-Day Chintan Shivir on AB PM-JAY and ABDM in Pune; Focus on Innovation, Digital Health and Cooperative Governance",
-      "posted_on_raw": "18 APR 2026 6:04PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253329",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare NHA Concludes Two-Day Chintan Shivir on AB PM-JAY and ABDM in Pune; Focus on Innovation, Digital Health and Cooperative Governance States Showcase Best Practices in Digital Health and Clinical Governance at NHA Chintan Shivir Data-Driven Innovations and ABDM Integration Take Centre Stage on Day 2 of NHA Chintan Shivir NHA Honours Stat…"
-    },
-    {
-      "prid": "2253228",
-      "ministry": "Ministry of Health and Family Welfare",
-      "title": "Scientific Conclave on Indian Pharmacopoeia (IP) 2026 held at CSIR-IIIM, Jammu",
-      "posted_on_raw": "18 APR 2026 1:51PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253228",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Scientific Conclave on Indian Pharmacopoeia (IP) 2026 held at CSIR-IIIM, Jammu IP 2026 Conclave Brings Together Regulators, Academia, and Industry to Advance Drug Standards and Ensure Medicine Quality, Safety, and Efficacy Indian Pharmacopoeia Commission Reaffirms Commitment to Advancing Pharmacopoeial Standards for Stronger Public He…"
-    },
-    {
-      "prid": "2253202",
-      "ministry": "Ministry of Home Affairs",
-      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah extends heartfelt greetings on the Parkash Purab of the second Sikh Guru, Shri Guru Angad Dev Ji",
-      "posted_on_raw": "18 APR 2026 11:06AM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253202",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation Shri Amit Shah extends heartfelt greetings on the Parkash Purab of the second Sikh Guru, Shri Guru Angad Dev Ji Guru Angad Dev Ji made service, devotion and social reform the fundamental pillars of his life He propagated the Sikh faith through the development of the Gurmukhi script and espoused the m…"
-    },
-    {
-      "prid": "2253217",
-      "ministry": "Ministry of Information & Broadcasting",
-      "title": "BECIL Signs MoU with C-DAC to Strengthen Collaboration in Advanced Technologies and Digital Transformation",
-      "posted_on_raw": "18 APR 2026 1:00PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253217",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Information & Broadcasting BECIL Signs MoU with C-DAC to Strengthen Collaboration in Advanced Technologies and Digital Transformation Collaboration Aimed to Push Joint Projects, Tech Solutions and Skill Development in AI, 5G, Cyber Security and Emerging Technologies Posted On: 18 APR 2026 1:00PM by PIB Delhi Broadcast Engineering Consultants India Limited (BEC…"
-    },
-    {
-      "prid": "2253254",
-      "ministry": "Ministry of Parliamentary Affairs",
-      "title": "Both Houses of Parliament Adjourn Sine-Die",
-      "posted_on_raw": "18 APR 2026 3:29PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253254",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Parliamentary Affairs Both Houses of Parliament Adjourn Sine-Die Both Houses of Parliament Pass 9 Bills during the Budget Session The productivity of Lok Sabha during the Budget Session is approx. 93% and that of Rajya Sabha is approx. 110% Posted On: 18 APR 2026 3:29PM by PIB Delhi The Budget Session, 2026 of Parliament commenced on Wednesday, the 28 th of Ja…"
-    },
-    {
-      "prid": "2253250",
-      "ministry": "Ministry of Railways",
-      "title": "Cabinet approves two multitracking projects covering 15 Districts across the states of Uttar Pradesh and Andhra Pradesh, increasing the existing network of Indian Railways by about 601 Kms",
-      "posted_on_raw": "18 APR 2026 3:21PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253250",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Railways Cabinet approves two multitracking projects covering 15 Districts across the states of Uttar Pradesh and Andhra Pradesh, increasing the existing network of Indian Railways by about 601 Kms The total estimated cost of the projects is Rs 24,815 crore to be completed up to 2030-31 Posted On: 18 APR 2026 3:21PM by PIB Delhi The Cabinet Committee on Econom…"
-    },
-    {
-      "prid": "2253393",
-      "ministry": "Ministry of Rural Development",
-      "title": "Commitment to the smooth implementation of MGNREGA and ensuring timely employment to workers",
-      "posted_on_raw": "18 APR 2026 8:43PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253393",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Rural Development Commitment to the smooth implementation of MGNREGA and ensuring timely employment to workers Union Minister Shri Shivraj Singh Chouhan reviews preparedness of States for Viksit Bharat – G RAM G with Ministers of Rural Development from States and Union Territories Posted On: 18 APR 2026 8:43PM by PIB Delhi The Union Minister of Rural Developme…"
-    },
-    {
-      "prid": "2253248",
-      "ministry": "Ministry of Rural Development",
-      "title": "Cabinet approves Continuation of Pradhan Mantri Gram Sadak Yojana-III (PMGSY-III) beyond March 2025 upto March 2028",
-      "posted_on_raw": "18 APR 2026 3:16PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253248",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Rural Development Cabinet approves Continuation of Pradhan Mantri Gram Sadak Yojana-III (PMGSY-III) beyond March 2025 upto March 2028 Posted On: 18 APR 2026 3:16PM by PIB Delhi The Union Cabinet, chaired by the Prime Minister Shri Narendra Modi, today has given its approval for the continuation of Pradhan Mantri Gram Sadak Yojana-III (PMGSY-III) beyond March 2…"
-    },
-    {
-      "prid": "2253213",
-      "ministry": "Ministry of Women and Child Development",
-      "title": "Under Poshan Pakhwada 2026 Preschool children participate in event  with  strong focus on nutrition awareness in Andhra Pradesh",
-      "posted_on_raw": "18 APR 2026 12:41PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253213",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Women and Child Development Under Poshan Pakhwada 2026 Preschool children participate in event with strong focus on nutrition awareness in Andhra Pradesh Posted On: 18 APR 2026 12:41PM by PIB Delhi As part of the ongoing Poshan Pakhwada celebrations, a unique initiative was undertaken in the Ongole Project of Prakasam district, Andhra Pradesh, where preschool …"
-    },
-    {
-      "prid": "2253199",
-      "ministry": "Ministry of Commerce and Industry",
-      "title": "Protection and Conservation of Monuments in India",
-      "posted_on_raw": "18 APR 2026 10:17AM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253199",
-      "pdfs": [
-        {
-          "label": "https://culture.gov.in/files/inline-documents/Museum_Grant_S",
-          "url": "https://culture.gov.in/files/inline-documents/Museum_Grant_Scheme_Guideline_24182021MI001.pdf"
+          "label": "https://www.indiabudget.gov.in/doc/budget_speech.pdf",
+          "url": "https://www.indiabudget.gov.in/doc/budget_speech.pdf"
         },
         {
-          "label": "Click here to see pdf",
-          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc2026418850901.pdf"
+          "label": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.p",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.pdf"
+        },
+        {
+          "label": "https://agriwelfare.gov.in/Documents/AR_Eng_2024_25.pdf",
+          "url": "https://agriwelfare.gov.in/Documents/AR_Eng_2024_25.pdf"
+        },
+        {
+          "label": "https://coconutboard.gov.in/docs/icj/icj-2025-11.pdf",
+          "url": "https://coconutboard.gov.in/docs/icj/icj-2025-11.pdf"
+        },
+        {
+          "label": "https://coconutboard.gov.in/docs/icj/icj-2026-01.pdf",
+          "url": "https://coconutboard.gov.in/docs/icj/icj-2026-01.pdf"
+        },
+        {
+          "label": "https://coconutboard.gov.in/docs/operational-guidelines.pdf",
+          "url": "https://coconutboard.gov.in/docs/operational-guidelines.pdf"
+        },
+        {
+          "label": "https://coconutboard.gov.in/docs/FPO-concept-note.pdf",
+          "url": "https://coconutboard.gov.in/docs/FPO-concept-note.pdf"
+        },
+        {
+          "label": "Coastal Agricultural Resource Inventory.pdf",
+          "url": "https://ccari.res.in/Coastal%20Agricultural%20Resource%20Inventory.pdf"
+        },
+        {
+          "label": "https://bsi.gov.in/uploads/documents/NonDetriment%20Findings",
+          "url": "https://bsi.gov.in/uploads/documents/NonDetriment%20Findings%20(NDFs)/NDF%20Study%20Report%20of%20Aquilaria%20malaccensis%20(Agarwood)%20in%20India.pdf"
+        },
+        {
+          "label": "Climate-Change-and-the-Vulnerable-Indian-Coast_compressed.pd",
+          "url": "https://moef.gov.in/uploads/2019/10/Climate-Change-and-the-Vulnerable-Indian-Coast_compressed.pdf"
+        },
+        {
+          "label": "https://necouncil.gov.in/sites/default/files/Final%20Report-",
+          "url": "https://necouncil.gov.in/sites/default/files/Final%20Report-%20Action%20Plan%20on%20value%20Chain%20Development%20of%20Horticulture-Fruits%20%26%20Vegetables%20Sector%20in%20NER.pdf"
+        },
+        {
+          "label": "https://himcoste.hp.gov.in/RnD_Website/Research%20and%20deve",
+          "url": "https://himcoste.hp.gov.in/RnD_Website/Research%20and%20development%20Projects/Chilgoza%20Booklet.pdf"
         }
       ],
-      "snippet": "Press Release Page | Press Information Bureau PIB Headquarters Protection and Conservation of Monuments in India Posted On: 18 APR 2026 10:17AM by PIB Delhi Key Takeaways Archaeological Survey of India safeguards 3,686 centrally protected monuments, supported by strengthened conservation systems and scientific restoration methods. Heritage and monument preservation has advanced through large-scale digitisation, creat…"
+      "snippet": "Press Release Page | Press Information Bureau PIB Headquarters Accelerating India’s High Value Crop Diversification “From Coastal Plantations to Himalayan Nut Crops” Posted On: 19 APR 2026 11:25AM by PIB Delhi Key Takeaways The Union Budget 2026-27 emphasises promotion of high value crops across coastal, North Eastern and hilly regions to strengthen farm incomes and diversify farm outputs. India ranks second in the w…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

@@ -1,7 +1,16 @@
 {
-  "updated_at_utc": "2026-04-23T14:00:49.918752+00:00",
-  "count": 9,
+  "updated_at_utc": "2026-04-23T17:27:05.059751+00:00",
+  "count": 12,
   "items": [
+    {
+      "prid": "2255045",
+      "ministry": "Ministry of Civil Aviation",
+      "title": "Minister Ram Mohan Naidu chairs high-level stakeholder meeting at Delhi Airport",
+      "posted_on_raw": "23 APR 2026 10:04PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255045",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Civil Aviation Minister Ram Mohan Naidu chairs high-level stakeholder meeting at Delhi Airport Civil Aviation Minister Reviews Readiness for Hub-and-Spoke Operations Posted On: 23 APR 2026 10:04PM by PIB Delhi Minister of Civil Aviation, Shri Ram Mohan Naidu, today reviewed the readiness of Delhi Airport for the implementation of hub-and-spoke operations, chai…"
+    },
     {
       "prid": "2254953",
       "ministry": "Ministry of Coal",
@@ -10,6 +19,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254953",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Coal Bharat Coking Coal Limited Introduces PI Relaxation and Cash Discount Scheme for Power Sector Consumers in Q1 FY 2026-27 Posted On: 23 APR 2026 6:53PM by PIB Delhi Bharat Coking Coal Limited (BCCL) has announced a scheme providing relaxation in Performance Incentive (PI) and offering Cash Discount to power sector consumers for the first quarter of Financi…"
+    },
+    {
+      "prid": "2255004",
+      "ministry": "Ministry of Defence",
+      "title": "RRM Highlights Vital Role of Naval Civilians at Naval Civilian Function 2026 in Delhi",
+      "posted_on_raw": "23 APR 2026 8:36PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255004",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence RRM Highlights Vital Role of Naval Civilians at Naval Civilian Function 2026 in Delhi Posted On: 23 APR 2026 8:36PM by PIB Delhi Raksha Rajya Mantri Shri Sanjay Seth attended the Naval Civilian Function conducted by the Indian Navy on April 23, 2026 at the Manekshaw Centre, New Delhi. The event was organised to recognise and honour the invaluable contr…"
     },
     {
       "prid": "2254952",
@@ -48,6 +66,15 @@
       "snippet": "Press Release Page | Press Information Bureau Ministry of Defence 11th Joint Defence Committee meeting between India & Egypt held in Cairo Posted On: 23 APR 2026 12:32PM by PIB Delhi The India-Egypt Joint Defence Committee (JDC) held productive discussions towards enhancing bilateral defence cooperation during its 11 th meeting in Cairo from April 20 to 22, 2026. The Indian delegation was led by Joint Secretary (Inte…"
     },
     {
+      "prid": "2254997",
+      "ministry": "Ministry of Environment, Forest and Climate Change",
+      "title": "CAQM carries out inspection drive to assess road dust and cleaning measures in Delhi",
+      "posted_on_raw": "23 APR 2026 8:25PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254997",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Environment, Forest and Climate Change CAQM carries out inspection drive to assess road dust and cleaning measures in Delhi Posted On: 23 APR 2026 8:25PM by PIB Delhi The Commission for Air Quality Management in NCR and Adjoining Areas conducted an inspection drive in Delhi on 22.04.2026, focusing on assessing visible road dust levels contributing to air pollu…"
+    },
+    {
       "prid": "2254929",
       "ministry": "Ministry of Health and Family Welfare",
       "title": "Vice-President Shri C.P. Radhakrishnan Addresses 6th Convocation of AIIMS Rishikesh; Calls for Ethical, Compassionate and Future-Ready Healthcare Workforce",
@@ -62,7 +89,12 @@
       "title": "National Panchayati Raj Day to be celebrated Pan India on 24th April 2026",
       "posted_on_raw": "23 APR 2026 7:27PM",
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254972",
-      "pdfs": [],
+      "pdfs": [
+        {
+          "label": "MoPR Highlights",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc2026423855501.pdf"
+        }
+      ],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Panchayati Raj National Panchayati Raj Day to be celebrated Pan India on 24th April 2026 Message of Prime Minister Shri Narendra Modi to be Read Out during the National Event in New Delhi Tommorow Posted On: 23 APR 2026 7:27PM by PIB Delhi The Ministry of Panchayati Raj will celebrate National Panchayati Raj Day (NPRD) on 24th April 2026 at Vigyan Bhawan in Ne…"
     },
     {

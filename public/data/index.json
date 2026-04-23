@@ -1,7 +1,25 @@
 {
-  "updated_at_utc": "2026-04-23T11:15:08.888045+00:00",
-  "count": 3,
+  "updated_at_utc": "2026-04-23T14:00:49.918752+00:00",
+  "count": 9,
   "items": [
+    {
+      "prid": "2254953",
+      "ministry": "Ministry of Coal",
+      "title": "Bharat Coking Coal Limited Introduces PI Relaxation and Cash Discount Scheme for Power Sector Consumers in Q1 FY 2026-27",
+      "posted_on_raw": "23 APR 2026 6:53PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254953",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Coal Bharat Coking Coal Limited Introduces PI Relaxation and Cash Discount Scheme for Power Sector Consumers in Q1 FY 2026-27 Posted On: 23 APR 2026 6:53PM by PIB Delhi Bharat Coking Coal Limited (BCCL) has announced a scheme providing relaxation in Performance Incentive (PI) and offering Cash Discount to power sector consumers for the first quarter of Financi…"
+    },
+    {
+      "prid": "2254952",
+      "ministry": "Ministry of Defence",
+      "title": "Defence Secretary Inaugurates the Robotic Orthopaedic System and Maternity Operation Theatre at Cantonment General Hospital, Delhi",
+      "posted_on_raw": "23 APR 2026 6:51PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254952",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence Defence Secretary Inaugurates the Robotic Orthopaedic System and Maternity Operation Theatre at Cantonment General Hospital, Delhi Posted On: 23 APR 2026 6:51PM by PIB Delhi Defence Secretary, Shri Rajesh Kumar Singh inaugurated the Robotic Orthopaedic System and Maternity Operation Theatre at Cantonment General Hospital, Delhi Cantt in the presence of…"
+    },
     {
       "prid": "2254861",
       "ministry": "Ministry of Defence",
@@ -28,6 +46,63 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254773",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Defence 11th Joint Defence Committee meeting between India & Egypt held in Cairo Posted On: 23 APR 2026 12:32PM by PIB Delhi The India-Egypt Joint Defence Committee (JDC) held productive discussions towards enhancing bilateral defence cooperation during its 11 th meeting in Cairo from April 20 to 22, 2026. The Indian delegation was led by Joint Secretary (Inte…"
+    },
+    {
+      "prid": "2254929",
+      "ministry": "Ministry of Health and Family Welfare",
+      "title": "Vice-President Shri C.P. Radhakrishnan Addresses 6th Convocation of AIIMS Rishikesh; Calls for Ethical, Compassionate and Future-Ready Healthcare Workforce",
+      "posted_on_raw": "23 APR 2026 5:46PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254929",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Vice-President Shri C.P. Radhakrishnan Addresses 6th Convocation of AIIMS Rishikesh; Calls for Ethical, Compassionate and Future-Ready Healthcare Workforce Vice-President Highlights India’s Resilient COVID-19 Response, World’s Largest Free Vaccination Drive and Global Leadership through Vaccine Maitri during 6th Convocation ceremony o…"
+    },
+    {
+      "prid": "2254972",
+      "ministry": "Ministry of Panchayati Raj",
+      "title": "National Panchayati Raj Day to be celebrated Pan India on 24th April 2026",
+      "posted_on_raw": "23 APR 2026 7:27PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254972",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Panchayati Raj National Panchayati Raj Day to be celebrated Pan India on 24th April 2026 Message of Prime Minister Shri Narendra Modi to be Read Out during the National Event in New Delhi Tommorow Posted On: 23 APR 2026 7:27PM by PIB Delhi The Ministry of Panchayati Raj will celebrate National Panchayati Raj Day (NPRD) on 24th April 2026 at Vigyan Bhawan in Ne…"
+    },
+    {
+      "prid": "2254964",
+      "ministry": "Ministry of Railways",
+      "title": "Railway Minister Ashwini Vaishnaw Reviews Running of Additional Trains during Summer Season",
+      "posted_on_raw": "23 APR 2026 7:18PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254964",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Railways Railway Minister Ashwini Vaishnaw Reviews Running of Additional Trains during Summer Season Posted On: 23 APR 2026 7:18PM by PIB Delhi Union Minister of Railways Ashwini Vaishnaw reviewed the progress of Summer Special trains in a meeting with officials in New Delhi today. Indian Railways is easing passenger flow, and improving travel convenience thro…"
+    },
+    {
+      "prid": "2254950",
+      "ministry": "Ministry of Finance",
+      "title": "Insurance for All: Expanding Coverage, Strengthening Social Security",
+      "posted_on_raw": "23 APR 2026 6:48PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254950",
+      "pdfs": [
+        {
+          "label": "https://www.actuariesindia.org/sites/default/files/inline-fi",
+          "url": "https://www.actuariesindia.org/sites/default/files/inline-files/10.%20IRDAI%20Insurance%20Products%20Regulations%202024.pdf"
+        },
+        {
+          "label": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.p",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.pdf"
+        },
+        {
+          "label": "https://sansad.in/getFile/annex/270/AU413_WHgi9G.pdf?source=",
+          "url": "https://sansad.in/getFile/annex/270/AU413_WHgi9G.pdf?source=pqars"
+        },
+        {
+          "label": "https://esic.gov.in/attachments/publicationfile/ff7d33577dda",
+          "url": "https://esic.gov.in/attachments/publicationfile/ff7d33577ddad1836cdb73547775b01b.pdf"
+        },
+        {
+          "label": "Click Here To See PDF",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc2026423855201.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau PIB Headquarters Insurance for All: Expanding Coverage, Strengthening Social Security Posted On: 23 APR 2026 6:48PM by PIB Delhi Key Takeways India ranks as the 10th largest insurance market globally by premium volume (Swiss Re Report). Share of insurance and pension funds in household financial assets rose to 29.6% in FY25 from 28.6% in FY19, as per Economic Survey 2025-…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

@@ -1,7 +1,16 @@
 {
-  "updated_at_utc": "2026-04-25T10:51:17.355467+00:00",
-  "count": 1,
+  "updated_at_utc": "2026-04-25T13:20:27.846759+00:00",
+  "count": 2,
   "items": [
+    {
+      "prid": "2255538",
+      "ministry": "Ministry of Defence",
+      "title": "DRDO unveils Advanced Armoured Platforms (Tracked & Wheeled)",
+      "posted_on_raw": "25 APR 2026 6:12PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255538",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence DRDO unveils Advanced Armoured Platforms (Tracked & Wheeled) Posted On: 25 APR 2026 6:12PM by PIB Delhi The Advanced Armoured Platforms (Tracked and Wheeled), designed and developed by Vehicles Research & Development Establishment, were unveiled by Secretary Department of Defence (R&D) & Chairman DRDO Dr Samir V Kamat at the premises of the DRDO’s labo…"
+    },
     {
       "prid": "2255490",
       "ministry": "Ministry of Finance",

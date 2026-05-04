@@ -1,7 +1,16 @@
 {
-  "updated_at_utc": "2026-05-04T10:19:31.965611+00:00",
-  "count": 2,
+  "updated_at_utc": "2026-05-04T14:18:37.672569+00:00",
+  "count": 6,
   "items": [
+    {
+      "prid": "2257901",
+      "ministry": "Ministry of Defence",
+      "title": "BRO’s Project Deepak celebrates its 66th Raising Day",
+      "posted_on_raw": "04 MAY 2026 7:14PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257901",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence BRO’s Project Deepak celebrates its 66th Raising Day Posted On: 04 MAY 2026 7:14PM by PIB Delhi Project D eepak of Border Roads Organisation (BRO) celebrates its 66 th Raising Day on May 04, 2026 at Shimla, Himachal Pradesh, marking over six decades of dedicated service in the strategically vital regions of the Western Himalayas. Having area of respons…"
+    },
     {
       "prid": "2257798",
       "ministry": "Ministry of Defence",
@@ -24,6 +33,42 @@
         }
       ],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Union Ministry of Health and Family Welfare Launches Nationwide Fire Safety Week (4–10 May 2026) Union Health Secretary Smt. Punya Salila Srivastava Leads Nationwide Pledge on “Fire Safety in Health Facilities” Ministry of Health Unveils National Guidelines on Fire and Life Safety in Healthcare Facilities (2026), Strengthening Compreh…"
+    },
+    {
+      "prid": "2257855",
+      "ministry": "Ministry of Information & Broadcasting",
+      "title": "Enrolment Open for IICT’s National AI Skilling Programme for the Creative Sector",
+      "posted_on_raw": "04 MAY 2026 4:53PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257855",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Information & Broadcasting Enrolment Open for IICT’s National AI Skilling Programme for the Creative Sector Ministry of I&B and IICT is offering 15,000 AI Skill Scholarships for Creative Talents Posted On: 04 MAY 2026 4:53PM by PIB Mumbai : Mumbai, May 4, 2026 The Ministry of Information & Broadcasting (MIB), in collaboration with the Indian Institute of Creat…"
+    },
+    {
+      "prid": "2257880",
+      "ministry": "Ministry of Panchayati Raj",
+      "title": "Quality Gram Panchayat Development Plans and Digital Planning Tools in Focus at the Two-Day National Workshop in New Delhi",
+      "posted_on_raw": "04 MAY 2026 5:56PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257880",
+      "pdfs": [
+        {
+          "label": "People’s Plan Campaign (PPC)",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202654863201.pdf"
+        },
+        {
+          "label": "Report of the Committee on Enhancing the Quality of Gram Pan",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/may/doc202654863001.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Panchayati Raj Quality Gram Panchayat Development Plans and Digital Planning Tools in Focus at the Two-Day National Workshop in New Delhi Posted On: 04 MAY 2026 5:56PM by PIB Delhi A two-day National Workshop organized by the Ministry of Panchayati Raj on the Preparation of Panchayat Development Plans was inaugurated today in New Delhi. The inaugural session a…"
+    },
+    {
+      "prid": "2257858",
+      "ministry": "Ministry of Science & Technology",
+      "title": "Technology-driven innovation is the key to India’s economic renaissance: Union Minister Dr Jitendra Singh",
+      "posted_on_raw": "04 MAY 2026 5:00PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257858",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology Technology-driven innovation is the key to India’s economic renaissance: Union Minister Dr Jitendra Singh India’s Science Ecosystem Witnesses Transformational Shift in the Last Decade, say Dr. Jitendra Singh Private Sector Participation Unlocking New Opportunities in Science and Technology: Dr. Jitendra Singh Collaboration Between Governme…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

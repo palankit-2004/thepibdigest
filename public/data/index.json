@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-05-06T14:31:20.683840+00:00",
-  "count": 20,
+  "updated_at_utc": "2026-05-06T17:47:36.957564+00:00",
+  "count": 24,
   "items": [
     {
       "prid": "2258448",
@@ -66,6 +66,20 @@
       "snippet": "Press Release Page | Press Information Bureau Ministry of Defence VISIT OF DEPUTY COMMANDER ROYAL NETHERLANDS NAVY AND HNLMS DE RUYTER TO KOCHI Posted On: 06 MAY 2026 11:50AM by PIB Delhi Royal Netherlands Navy Ship HNLMS De Ruyter (F804), a De Zeven Provinciën-class frigate, arrived at Kochi on 04 May 2026. The ship's visit coincides with that of a high-level delegation comprising Major General (Royal Marines) Rob D…"
     },
     {
+      "prid": "2258544",
+      "ministry": "Ministry of Education",
+      "title": "Shri Dharmendra Pradhan launches School Management Committee (SMC) Guidelines in New Delhi",
+      "posted_on_raw": "06 MAY 2026 6:00PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258544",
+      "pdfs": [
+        {
+          "label": "https://dsel.education.gov.in/sites/default/files/guidelines",
+          "url": "https://dsel.education.gov.in/sites/default/files/guidelines/School_Management_Committee_Guidelines.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Education Shri Dharmendra Pradhan launches School Management Committee (SMC) Guidelines in New Delhi School Management Committee Guidelines 2026 to strengthen community participation and school governance - Shri Dharmendra Pradhan Shri Dharmendra Pradhan calls for School Management Committees to become a people’s movement for strengthening education Posted On:…"
+    },
+    {
       "prid": "2258468",
       "ministry": "Ministry of Electronics & IT",
       "title": "Strong public adoption of new Aadhaar App, 21 million downloads in three months",
@@ -82,6 +96,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258491",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Environment, Forest and Climate Change India to host International Big Cat Alliance (IBCA) Summit, on 1st – 2nd June, 2026, in New Delhi Union Environment Minister launches Website and Logo of IBCA Summit, 2026 Shri Bhupender Yadav calls upon Big Cat Range Countries not yet part of IBCA to join Alliance for securing future of these Species Summit will strength…"
+    },
+    {
+      "prid": "2258540",
+      "ministry": "Ministry of Health and Family Welfare",
+      "title": "Multi-Organ Donation at Command Hospital, Chandimandir Saves Multiple Lives; First-Ever Heart Retrieval at Facility",
+      "posted_on_raw": "06 MAY 2026 8:51PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258540",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Multi-Organ Donation at Command Hospital, Chandimandir Saves Multiple Lives; First-Ever Heart Retrieval at Facility Family of Brain Stem Dead Woman Donates Organs, Saves Four Lives in Exemplary Act of Compassion and National Solidarity Union Ministry of Health and Family Welfare Reaffirms Commitment to Strengthening Organ Donation Fra…"
     },
     {
       "prid": "2258300",
@@ -186,6 +209,24 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258349",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology Japan Minister for Science & Technology Policy and Minister of State for Space Policy, Ms. ONODA Kimi, accompanied by a high-level official delegation, calls on Union Minister Dr. Jitendra Singh The meeting marked exchange of a Memorandum of Cooperation (MoC) in the field of health and medical devices and LoI in Quantum Science India and J…"
+    },
+    {
+      "prid": "2258567",
+      "ministry": "Ministry of Tribal Affairs",
+      "title": "Ministry of Tribal Affairs Convenes National Review Meeting with Line Ministries and State Tribal Welfare Departments on DA-JGUA, PM-JANMAN, and Article 275(1) Programmes",
+      "posted_on_raw": "06 MAY 2026 9:33PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258567",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Tribal Affairs Ministry of Tribal Affairs Convenes National Review Meeting with Line Ministries and State Tribal Welfare Departments on DA-JGUA, PM-JANMAN, and Article 275(1) Programmes Launch of New Strategic Initiatives for Strengthening Tribal Livelihoods, Health, and Sustainable Development Posted On: 06 MAY 2026 9:33PM by PIB Delhi The Ministry of Tribal …"
+    },
+    {
+      "prid": "2258523",
+      "ministry": "NITI Aayog",
+      "title": "Atal Innovation Mission convenes AIM Sumvaad North to boost incubators, drive inclusive Innovation & state-centre collaboration",
+      "posted_on_raw": "06 MAY 2026 8:03PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258523",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau NITI Aayog Atal Innovation Mission convenes AIM Sumvaad North to boost incubators, drive inclusive Innovation & state-centre collaboration Posted On: 06 MAY 2026 8:03PM by PIB Chandigarh Atal Innovation Mission, NITI Aayog successfully organized the Regional AIM SUMVAAD, North Edition in Mohali, bringing together key stakeholders from government, industry, academia, incub…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

@@ -1,7 +1,16 @@
 {
-  "updated_at_utc": "2026-05-08T06:03:04.798206+00:00",
-  "count": 1,
+  "updated_at_utc": "2026-05-08T09:45:29.778939+00:00",
+  "count": 3,
   "items": [
+    {
+      "prid": "2258999",
+      "ministry": "Ministry of Defence",
+      "title": "Raksha Rajya Mantri to inaugurate India’s first International Ophthalmology Research Conference in New Delhi",
+      "posted_on_raw": "08 MAY 2026 1:46PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258999",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence Raksha Rajya Mantri to inaugurate India’s first International Ophthalmology Research Conference in New Delhi Posted On: 08 MAY 2026 1:46PM by PIB Delhi The Department of Ophthalmology at Army Hospital (Research & Referral), New Delhi, in collaboration with All-India Ophthalmological Society, is set to host India’s first International Ophthalmology Rese…"
+    },
     {
       "prid": "2258934",
       "ministry": "Ministry of Defence",
@@ -10,6 +19,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258934",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Defence DRDO & IAF successfully conduct maiden flight-trial of Tactical Advanced Range Augmentation weapon Posted On: 08 MAY 2026 10:07AM by PIB Delhi Defence Research and Development Organisation (DRDO) and the Indian Air Force (IAF) successfully conducted the maiden flight-trial of Tactical Advanced Range Augmentation (TARA) weapon off the coast of Odisha on…"
+    },
+    {
+      "prid": "2258965",
+      "ministry": "Ministry of Health and Family Welfare",
+      "title": "Union Health Ministry Launches Integrated Training for Primary Healthcare Teams under a Unified, Competency-Driven Framework to Strengthen Frontline Healthcare Delivery",
+      "posted_on_raw": "08 MAY 2026 12:19PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258965",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Union Health Ministry Launches Integrated Training for Primary Healthcare Teams under a Unified, Competency-Driven Framework to Strengthen Frontline Healthcare Delivery Integrated Training Model to Strengthen the Capacity of the Community-Based Workforce to Deliver Empathetic, Responsive and High-Quality Care Initiative Empowers Women…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

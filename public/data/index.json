@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-05-09T03:38:19.365446+00:00",
-  "count": 3,
+  "updated_at_utc": "2026-05-09T06:22:18.816653+00:00",
+  "count": 5,
   "items": [
     {
       "prid": "2259249",
@@ -28,6 +28,73 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259242",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Defence Lieutenant General NS Raja Subramani (Retd) appointed as Chief of Defence Staff Posted On: 09 MAY 2026 7:21AM by PIB Delhi The Government has appointed Lieutenant General NS Raja Subramani, PVSM, AVSM, SM, VSM (Retd) as the Chief of Defence Staff, who shall also function as the Secretary to Government of India, Department of Military Affairs, with effe…"
+    },
+    {
+      "prid": "2259251",
+      "ministry": "Ministry of Finance",
+      "title": "Three Jan Suraksha Schemes - Pradhan Mantri Suraksha Bima Yojana (PMSBY), Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) and Atal Pension Yojana (APY) complete 11 years of providing social security cover",
+      "posted_on_raw": "09 MAY 2026 9:07AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259251",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Finance Three Jan Suraksha Schemes - Pradhan Mantri Suraksha Bima Yojana (PMSBY), Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) and Atal Pension Yojana (APY) complete 11 years of providing social security cover Cumulative enrolments under PMJJBY have been more than 27.43 crore and an amount of Rs. 21,512.50 crore has been paid as on 29.04.2026 Cumulative en…"
+    },
+    {
+      "prid": "2259279",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "title": "National Mission for Sustainable Agriculture",
+      "posted_on_raw": "09 MAY 2026 11:29AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2259279",
+      "pdfs": [
+        {
+          "label": "https://agriwelfare.gov.in/Documents/AR_Eng_2024_25.pdf",
+          "url": "https://agriwelfare.gov.in/Documents/AR_Eng_2024_25.pdf"
+        },
+        {
+          "label": "https://nmsa.dac.gov.in/pdfdoc/NMSA_Guidelines_English.pdf",
+          "url": "https://nmsa.dac.gov.in/pdfdoc/NMSA_Guidelines_English.pdf"
+        },
+        {
+          "label": "https://agri.odisha.gov.in/sites/default/files/2025-03/RAD%2",
+          "url": "https://agri.odisha.gov.in/sites/default/files/2025-03/RAD%20Operational%20Guidelines%20%28Revised%29.pdf"
+        },
+        {
+          "label": "https://cdp.nhb.gov.in/cdp_docs/PDMC%20guidlines.pdf",
+          "url": "https://cdp.nhb.gov.in/cdp_docs/PDMC%20guidlines.pdf"
+        },
+        {
+          "label": "https://www.nitiforstates.gov.in/public-assets/Policy/policy",
+          "url": "https://www.nitiforstates.gov.in/public-assets/Policy/policy_files/PNCNAA000616.pdf"
+        },
+        {
+          "label": "https://pdmc.da.gov.in/files/General-Information/Circular/1-",
+          "url": "https://pdmc.da.gov.in/files/General-Information/Circular/1-1726680979.pdf"
+        },
+        {
+          "label": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU1763",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU1763_AZOUl0.pdf?source=pqals"
+        },
+        {
+          "label": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU393_",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU393_IBh7LW.pdf?source=pqals"
+        },
+        {
+          "label": "https://sansad.in/getFile/annex/270/AU1605_b2lOyp.pdf?source",
+          "url": "https://sansad.in/getFile/annex/270/AU1605_b2lOyp.pdf?source=pqars"
+        },
+        {
+          "label": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU1424",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU1424_eZX914.pdf?source=pqals"
+        },
+        {
+          "label": "https://www.icar.gov.in/sites/default/files/Circulars/RU2902",
+          "url": "https://www.icar.gov.in/sites/default/files/Circulars/RU2902.pdf"
+        },
+        {
+          "label": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.p",
+          "url": "https://www.indiabudget.gov.in/economicsurvey/doc/echapter.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau PIB Backgrounder National Mission for Sustainable Agriculture “Building Climate-Resilient Farming in India” Posted On: 09 MAY 2026 11:29AM by PIB Delhi Key Takeaways Since 2014-15, ₹ 2,119.84 crore has been released under Rainfed Area Development , covering 8.50 lakh hectares and benefiting 14.35 lakh farmers through Integrated Farming System . Implemented since 2015-16, …"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

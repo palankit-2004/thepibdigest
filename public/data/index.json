@@ -1,7 +1,16 @@
 {
-  "updated_at_utc": "2026-05-18T10:17:21.069662+00:00",
-  "count": 3,
+  "updated_at_utc": "2026-05-18T15:47:43.960160+00:00",
+  "count": 11,
   "items": [
+    {
+      "prid": "2262449",
+      "ministry": "Ministry of Defence",
+      "title": "INDIAN OCEAN SHIP SAGAR DEPARTS COLOMBO AFTER SUCCESSFUL PORT CALL",
+      "posted_on_raw": "18 MAY 2026 6:38PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2262449",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence INDIAN OCEAN SHIP SAGAR DEPARTS COLOMBO AFTER SUCCESSFUL PORT CALL Posted On: 18 MAY 2026 6:38PM by PIB Delhi The Indian Navy’s Indian Ocean Ship (IOS) Sagar departed Colombo, Sri Lanka on 18 May 2026 following a successful three-day port call, further reinforcing the enduring maritime partnership between India and Sri Lanka and advancing India’s visio…"
+    },
     {
       "prid": "2262109",
       "ministry": "Ministry of Defence",
@@ -10,6 +19,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2262109",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Defence Raksha Mantri to undertake an official visit to Vietnam & South Korea Focus on bolstering military cooperation, industrial partnerships and maritime collaboration, promoting peace & stability in Indo-Pacific region: Shri Rajnath Singh Posted On: 18 MAY 2026 10:21AM by PIB Delhi Raksha Mantri Shri Rajnath Singh will pay an official visit to Vietnam from…"
+    },
+    {
+      "prid": "2262302",
+      "ministry": "Ministry of Electronics & IT",
+      "title": "Shri Saurabh Vijay assumes charge as Chief Executive Officer of Unique Identification Authority of India",
+      "posted_on_raw": "18 MAY 2026 4:06PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2262302",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT Shri Saurabh Vijay assumes charge as Chief Executive Officer of Unique Identification Authority of India Posted On: 18 MAY 2026 4:06PM by PIB Delhi Shri Saurabh Vijay assumed charge as the Chief Executive Officer of Unique Identification Authority of India (UIDAI) on Monday. He is an IAS officer of the 1998 batch of the Maharashtra cadre. A ci…"
     },
     {
       "prid": "2262252",
@@ -21,6 +39,33 @@
       "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Union Health Secretary Smt. Punya Salila Srivastava Addresses Diamond Jubilee Valedictory Function of HLL Lifecare Limited, Commemorating Six Decades of Distinguished Service to the Nation HLL Lifecare Limited Advancing Inclusive, Affordable and Quality Healthcare in Line with Hon’ble Prime Minister’s Vision: Smt. Punya Salila Srivast…"
     },
     {
+      "prid": "2262512",
+      "ministry": "Ministry of Home Affairs",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah meets families of martyrs, CAPFs personnel and victims of naxal violence in Jagdalpur, Chhattisgarh",
+      "posted_on_raw": "18 MAY 2026 8:23PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2262512",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation Shri Amit Shah meets families of martyrs, CAPFs personnel and victims of naxal violence in Jagdalpur, Chhattisgarh I can declare with my head held high that India is now Naxal-free In just 3–4 years, Modi government achieved the goal of making the country Naxal-free—a feat that once seemed daunting t…"
+    },
+    {
+      "prid": "2262365",
+      "ministry": "Ministry of Home Affairs",
+      "title": "Union Home Minister and Minister of Cooperation, Shri Amit Shah, inaugurates Shaheed Veer Gundadhur Seva Dera Jan Suvidha Kendra in Bastar, Chhattisgarh",
+      "posted_on_raw": "18 MAY 2026 5:03PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2262365",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation, Shri Amit Shah, inaugurates Shaheed Veer Gundadhur Seva Dera Jan Suvidha Kendra in Bastar, Chhattisgarh Netanar village in Bastar—the birthplace of the martyr Veer Gundadhur—is revered as a pilgrimage site, establishment of a CSC cent there following the eradication of Naxalism marks a historic mile…"
+    },
+    {
+      "prid": "2262489",
+      "ministry": "Ministry of Jal Shakti",
+      "title": "Centre Signs Reform-Linked MoUs with Andaman & Nicobar Islands and West Bengal under Jal Jeevan Mission 2.0",
+      "posted_on_raw": "18 MAY 2026 7:44PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2262489",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Jal Shakti Centre Signs Reform-Linked MoUs with Andaman & Nicobar Islands and West Bengal under Jal Jeevan Mission 2.0 Posted On: 18 MAY 2026 7:44PM by PIB Delhi Continuing the nationwide rollout of reform linked implementation under Jal Jeevan Mission 2.0; UT of Andaman and Nicobar Islands and State of West Bengal signed MoUs with the Union Government today. …"
+    },
+    {
       "prid": "2262219",
       "ministry": "Ministry of Law and Justice",
       "title": "BRICS SENIOR OFFICIALS’ MEETING AND JUSTICE MINISTERS’ MEETING ON STRENGTHENING ALTERNATIVE DISPUTE RESOLUTION THROUGH CAPACITY BUILDING IN MEDIATION AND ARBITRATION",
@@ -28,6 +73,33 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2262219",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Law and Justice BRICS SENIOR OFFICIALS’ MEETING AND JUSTICE MINISTERS’ MEETING ON STRENGTHENING ALTERNATIVE DISPUTE RESOLUTION THROUGH CAPACITY BUILDING IN MEDIATION AND ARBITRATION Posted On: 18 MAY 2026 1:53PM by PIB Delhi The Department of Legal Affairs, Ministry of Law and Justice, Government of India, under the aegis of India’s BRICS Chairship , is hostin…"
+    },
+    {
+      "prid": "2262303",
+      "ministry": "Ministry of Rural Development",
+      "title": "MoRD Charts Roadmap for Women-Led Rural Marketing Ecosystems Across India Through SHE-MARTs",
+      "posted_on_raw": "18 MAY 2026 4:09PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2262303",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Rural Development MoRD Charts Roadmap for Women-Led Rural Marketing Ecosystems Across India Through SHE-MARTs DAY-NRLM Leads National Consultation on SHE-MARTs for Women-Led Rural Marketing Ecosystems Across India Posted On: 18 MAY 2026 4:09PM by PIB Delhi The Ministry of Rural Development (MoRD), Government of India, through the Deendayal Antyodaya Yojana-Nat…"
+    },
+    {
+      "prid": "2262315",
+      "ministry": "Ministry of Science & Technology",
+      "title": "U.S. Industry Delegation Discusses Private Investment Opportunities in India’s Nuclear Sector with Dr. Jitendra Singh",
+      "posted_on_raw": "18 MAY 2026 4:20PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2262315",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology U.S. Industry Delegation Discusses Private Investment Opportunities in India’s Nuclear Sector with Dr. Jitendra Singh Union Minister Dr. Jitendra Singh Holds Discussions with U.S. Industry Leaders on Nuclear Energy Cooperation Dr. Jitendra Singh Says India’s Nuclear Expansion and SHANTI Act Creating New Space for Global Industry Partnershi…"
+    },
+    {
+      "prid": "2262288",
+      "ministry": "Ministry of Science & Technology",
+      "title": "NANO-GOLD EMBEDDED IN THIN FILMS PAVES WAY FOR SELF-POWERED SENSORS & WEARABLE ELECTRONICS",
+      "posted_on_raw": "18 MAY 2026 3:48PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2262288",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology NANO-GOLD EMBEDDED IN THIN FILMS PAVES WAY FOR SELF-POWERED SENSORS & WEARABLE ELECTRONICS Posted On: 18 MAY 2026 3:48PM by PIB Delhi New ultrathin flexible film developed by researchers that can efficiently convert tiny temperature fluctuations into electrical signals, could support future smart photodetectors, low-grade heat harvesters, …"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

@@ -1,134 +1,91 @@
 {
-  "updated_at_utc": "2026-06-04T18:24:59.872853+00:00",
-  "count": 11,
+  "updated_at_utc": "2026-06-05T10:02:57.979447+00:00",
+  "count": 6,
   "items": [
     {
-      "prid": "2269040",
-      "ministry": "Ministry of Defence",
-      "title": "India & Zimbabwe reaffirm commitment to deepen bilateral defence cooperation during inaugural JDC meeting",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269040",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence India & Zimbabwe reaffirm commitment to deepen bilateral defence cooperation during inaugural JDC meeting प्रविष्टि तिथि: 04 JUN 2026 7:35PM by PIB Delhi The inaugural meeting of India-Zimbabwe Joint Defence Committee (JDC) took place in New Delhi on June 04, 2026. Both sides agreed to enhance bilateral defence ties by expanding existing cooperation in…"
-    },
-    {
-      "prid": "2268807",
-      "ministry": "Ministry of Defence",
-      "title": "Raksha Mantri approves two-fold increase in financial ceiling for Field Commanders to strengthen operational efficiency",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268807",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence Raksha Mantri approves two-fold increase in financial ceiling for Field Commanders to strengthen operational efficiency Enhanced financial delegation to support procurement exceeding Rs 1.25 lakh crore through revenue route Revised Financial Powers for indigenisation and R&D doubled to boost Aatmanirbharta in defence & minimise import dependency New pr…"
-    },
-    {
-      "prid": "2269054",
-      "ministry": "Ministry of Education",
-      "title": "University of Liverpool Receives Letter of Approval (LoA) to establish its Campus in Bengaluru",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269054",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Education University of Liverpool Receives Letter of Approval (LoA) to establish its Campus in Bengaluru A Milestone in Advancing Internationalisation of Higher Education under National Education Policy 2020 Union Education Minister Shri Dharmendra Pradhan, External Affairs Minister Dr S Jaishankar and UK Foreign Secretary Rt. Hon. Yvette Cooper Witnessed the …"
-    },
-    {
-      "prid": "2269052",
-      "ministry": "Ministry of Home Affairs",
-      "title": "Union Home Minister and Minister of Cooperation, Shri Amit Shah chairs 73rd Plenary Session of North Eastern Council (NEC) in Shillong, capital of Meghalaya",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269052",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation, Shri Amit Shah chairs 73rd Plenary Session of North Eastern Council (NEC) in Shillong, capital of Meghalaya Under Modi Government, peace has returned to Northeast through more than 12 peace accords, while infrastructure development and enhanced rail, road, and air connectivity have bridged not only …"
-    },
-    {
-      "prid": "2269037",
-      "ministry": "Ministry of Parliamentary Affairs",
-      "title": "West Bengal Legislative Assembly Signs MoU for Implementation of National e-Vidhan Application (NeVA)",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269037",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Parliamentary Affairs West Bengal Legislative Assembly Signs MoU for Implementation of National e-Vidhan Application (NeVA) प्रविष्टि तिथि: 04 JUN 2026 7:27PM by PIB Delhi A Tripartite Memorandum of Understanding (MoU) for implementation of the National e-Vidhan Application (NeVA) in the West Bengal Legislative Assembly was signed today in the august presence …"
-    },
-    {
-      "prid": "2268817",
-      "ministry": "Ministry of Agriculture & Farmers Welfare",
-      "title": "17 Projects/ Initiatives selected for the National Awards for e-Governance 2026 across 7 Award categories",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268817",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Personnel, Public Grievances & Pensions 17 Projects/ Initiatives selected for the National Awards for e-Governance 2026 across 7 Award categories 10 Gold Awards, 6 Silver Awards and 1 Jury award to recognise exemplary contributions in e-Governance प्रविष्टि तिथि: 04 JUN 2026 2:18PM by PIB Delhi National Awards for e-Governance (NAeG) are presented every year t…"
-    },
-    {
-      "prid": "2268946",
-      "ministry": "Ministry of Science & Technology",
-      "title": "Dr Jitendra Singh Announces ANRF Portal for Training in Patent Filing and Research Paper Writing; Reviews Progress of Scientific Departments",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268946",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology Dr Jitendra Singh Announces ANRF Portal for Training in Patent Filing and Research Paper Writing; Reviews Progress of Scientific Departments New Platform to Strengthen Research Capacity and Scientific Publishing Ecosystem: Union Minister Dr Jitendra Singh Regular Sharing of Scientific Achievements and Best Practices Can Enhance National Re…"
-    },
-    {
-      "prid": "2268897",
-      "ministry": "Ministry of Science & Technology",
-      "title": "“TDB-DST supports M/s Bioneemtec India Private Limited, Chennai for Commercialization of Green Chemistry-Based Pharmaceutical Manufacturing Technologies”",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268897",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology “TDB-DST supports M/s Bioneemtec India Private Limited, Chennai for Commercialization of Green Chemistry-Based Pharmaceutical Manufacturing Technologies” प्रविष्टि तिथि: 04 JUN 2026 4:07PM by PIB Delhi As India strengthens its position as a global pharmaceutical manufacturing powerhouse, the Technology Development Board (TDB), Department o…"
-    },
-    {
-      "prid": "2268866",
-      "ministry": "Ministry of Science & Technology",
-      "title": "Catalyst that transforms to perform",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268866",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology Catalyst that transforms to perform प्रविष्टि तिथि: 04 JUN 2026 3:38PM by PIB Delhi Scientists have unveiled how the structure of a widely used catalyst transforms itself while triggering the electrolysis of water to yield green hydrogen. This can help guiding the design of efficient, next-generation electrocatalysts for efficient, low-cos…"
-    },
-    {
-      "prid": "2268939",
-      "ministry": "Ministry of Women and Child Development",
-      "title": "Ministry of Women and Child Development Invites Applications for August- September term under Internship Programme of the Ministry",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268939",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Women and Child Development Ministry of Women and Child Development Invites Applications for August- September term under Internship Programme of the Ministry Prospective interns to submit applications online on Internship Programme portal http://wcd.intern.nic.in/ Women students, scholars, social activists and teachers in age group of 21–40 years, belonging t…"
-    },
-    {
-      "prid": "2268795",
+      "prid": "2269191",
       "ministry": "Ministry of Environment, Forest and Climate Change",
-      "title": "India's Green Transformation",
+      "title": "Union Environment Minister inaugurates 18 Namo Oxygen Parks in Delhi; Union and Delhi Governments launch major Green Initiatives on World Environment Day 2026",
+      "posted_on_raw": "05 JUN 2026 12:04PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269191",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Environment, Forest and Climate Change Union Environment Minister inaugurates 18 Namo Oxygen Parks in Delhi; Union and Delhi Governments launch major Green Initiatives on World Environment Day 2026 Shri Bhupender Yadav highlights India's Global Environmental Leadership; Calls for Community-Led Ecological Conservation Delhi to plant 15 Lakh Trees this Year; Chi…"
+    },
+    {
+      "prid": "2269169",
+      "ministry": "Ministry of Finance",
+      "title": "In a major reform, Government announces measures to deepen G-Sec market and facilitate greater Foreign Portfolio Investment (FPI) in equity segment",
       "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268795",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269169",
       "pdfs": [
         {
-          "label": "https://sansad.in/getFile/loksabhaquestions/annex/186/AU37_F",
-          "url": "https://sansad.in/getFile/loksabhaquestions/annex/186/AU37_FI9xnj.pdf?source=pqals"
+          "label": "CLICK HERE TO ACCESS NOTIFICATION OF ORDINANCE",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jun/doc202665883801.pdf"
         },
         {
-          "label": "https://sansad.in/getFile/loksabhaquestions/annex/187/AS234_",
-          "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AS234_hhznl0.pdf?source=pqals"
+          "label": "CLICK HERE TO ACCESS FAQS ON BIS EXEMPTION",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jun/doc202665883901.pdf"
         },
         {
-          "label": "https://sansad.in/getFile/annex/270/AU3108_Dl9aLL.pdf?source",
-          "url": "https://sansad.in/getFile/annex/270/AU3108_Dl9aLL.pdf?source=pqars"
-        },
-        {
-          "label": "https://sansad.in/getFile/annex/259/AU840.pdf?source=pqars",
-          "url": "https://sansad.in/getFile/annex/259/AU840.pdf?source=pqars"
-        },
-        {
-          "label": "https://sansad.in/getFile/annex/265/AU1972_OeRkzs.pdf?source",
-          "url": "https://sansad.in/getFile/annex/265/AU1972_OeRkzs.pdf?source=pqars"
-        },
-        {
-          "label": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU4182",
-          "url": "https://sansad.in/getFile/loksabhaquestions/annex/185/AU4182_QcOAE8.pdf?source=pqals"
-        },
-        {
-          "label": "https://www.mea.gov.in/Images/CPV/G20-New-Delhi-Leaders-Decl",
-          "url": "https://www.mea.gov.in/Images/CPV/G20-New-Delhi-Leaders-Declaration.pdf"
+          "label": "CLICK HERE TO ACCESS FAQS ON FII EXEMPTION",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jun/doc202665884001.pdf"
         }
       ],
-      "snippet": "Press Release Page | Press Information Bureau PIB Backgrounder India's Green Transformation Twelve Years of Vishwaas, Nirman, and Jan Kalyaan प्रविष्टि तिथि: 04 JUN 2026 12:31PM by PIB Delhi India has achieved a sustained environmental transformation through deliberate policy action and consistent implementation. Over twelve years, the country has expanded forest and tree cover, restored wetlands, mangroves, and coas…"
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Finance In a major reform, Government announces measures to deepen G-Sec market and facilitate greater Foreign Portfolio Investment (FPI) in equity segment प्रविष्टि तिथि: 05 JUN 2026 10:41AM by PIB Delhi In line with the Government's commitment to strengthen India's position as a leading global investment destination and to deepen the capital market, the Mini…"
+    },
+    {
+      "prid": "2269192",
+      "ministry": "Ministry of Labour & Employment",
+      "title": "ESIC Invites Applications for Admission to MBBS, BDS and B.Sc. Nursing Courses under Ward of Insured Person Quota for Academic Session 2026-27",
+      "posted_on_raw": "",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269192",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Labour & Employment ESIC Invites Applications for Admission to MBBS, BDS and B.Sc. Nursing Courses under Ward of Insured Person Quota for Academic Session 2026-27 783 Seats Allocated Across 22 Medical Colleges Pan-India to Empower Children of ESI Covered Workers Online Portal For Ward Of IP Certificate Closes on 21st June, 2026 प्रविष्टि तिथि: 05 JUN 2026 12:0…"
+    },
+    {
+      "prid": "2269276",
+      "ministry": "Ministry of Women and Child Development",
+      "title": "Smt. Annpurna Devi extends greetings on World Environment Day",
+      "posted_on_raw": "05 JUN 2026 3:15PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269276",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Women and Child Development Smt. Annpurna Devi extends greetings on World Environment Day Protecting the environment is safeguarding humanity: Smt. Annpurna Devi Posted On: 05 JUN 2026 3:15PM by PIB Delhi Union Minister for Women and Child Development, Smt. Annpurna Devi, extended her heartfelt greetings on the occasion of World Environment Day . In a post on …"
+    },
+    {
+      "prid": "2269253",
+      "ministry": "Ministry of Finance",
+      "title": "4 years of Jan Samarth Portal",
+      "posted_on_raw": "05 JUN 2026 2:29PM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269253",
+      "pdfs": [
+        {
+          "label": "Click here to see PDF",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jun/doc202665884401.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau PIB Backgrounder 4 years of Jan Samarth Portal Expanding Access and Bringing Credit Schemes Closer to Citizens Posted On: 05 JUN 2026 2:29PM by PIB Delhi Launched on 6 June 2022, the Jan Samarth Portal marks 4 years of digital financial inclusion and seamless credit delivery. Regarded as a single-window platform, it simplifies access to institutional credit through techno…"
+    },
+    {
+      "prid": "2269147",
+      "ministry": "Ministry of Environment, Forest and Climate Change",
+      "title": "India’s Biodiversity: Commitments and Achievements",
+      "posted_on_raw": "05 JUN 2026 10:09AM",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269147",
+      "pdfs": [
+        {
+          "label": "http://nbaindia.org/cebpol/pub/enewsletter2.pdf",
+          "url": "http://nbaindia.org/cebpol/pub/enewsletter2.pdf"
+        },
+        {
+          "label": "https://www.indiacode.nic.in/bitstream/123456789/21545/1/the",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/21545/1/the_biological_diversity_act%2C_2002.pdf"
+        },
+        {
+          "label": "Click here to see PDF",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jun/doc202665883601.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau PIB Backgrounder India’s Biodiversity: Commitments and Achievements From legal frameworks to local action Posted On: 05 JUN 2026 10:09AM by PIB Delhi India’s biodiversity governance is organised through a three‑tier structure that links national policy with state action and local implementation. The National Biodiversity Authority operates at the national level, while Sta…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

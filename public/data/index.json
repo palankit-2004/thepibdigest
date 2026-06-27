@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-06-27T08:44:11.184903+00:00",
-  "count": 4,
+  "updated_at_utc": "2026-06-27T11:39:54.486205+00:00",
+  "count": 5,
   "items": [
     {
       "prid": "2278375",
@@ -37,6 +37,32 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278346",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Union Ministry of Health to Convene 16th Conference of the Central Council of Health and Family Welfare on 29th June at Vigyan Bhawan, New Delhi Union Health Minister Shri J.P. Nadda to Chair the 16th Conference of the Central Council of Health and Family Welfare Conference to deliberate on NHM-SDG Goals & Priorities, Food & Drug Refo…"
+    },
+    {
+      "prid": "2278422",
+      "ministry": "Ministry of Finance",
+      "title": "The Digital India",
+      "posted_on_raw": "",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278422",
+      "pdfs": [
+        {
+          "label": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU3991",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU3991_M3rthT.pdf?source=pqals"
+        },
+        {
+          "label": "https://sansad.in/getFile/annex/270/AU4273_LT3Fyr.pdf?source",
+          "url": "https://sansad.in/getFile/annex/270/AU4273_LT3Fyr.pdf?source=pqars"
+        },
+        {
+          "label": "https://icrier.org/pdf/State_of_India_Digital_Economy_Report",
+          "url": "https://icrier.org/pdf/State_of_India_Digital_Economy_Report_2026.pdf"
+        },
+        {
+          "label": "Click here for pdf file.",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jun/doc2026627904001.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau PIB Backgrounder The Digital India 11 Years of Transformation प्रविष्टि तिथि: 27 JUN 2026 4:51PM by PIB Delhi Digital India Programme has shaped how citizens connect, learn, transact, and access public services across the country. Over the past 11 years, India has built one of the world’s largest Digital Public Infrastructure ecosystems at scale. Digital platforms have ex…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

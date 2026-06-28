@@ -1,140 +1,47 @@
 {
-  "updated_at_utc": "2026-06-27T17:18:11.864532+00:00",
-  "count": 13,
+  "updated_at_utc": "2026-06-28T09:20:24.479289+00:00",
+  "count": 4,
   "items": [
     {
-      "prid": "2278482",
-      "ministry": "Ministry of Civil Aviation",
-      "title": "First Phase of 2026 Char Dham Helicopter Operations concludes successfully",
+      "prid": "2278589",
+      "ministry": "Ministry of Environment, Forest and Climate Change",
+      "title": "Shri Bhupender Yadav inaugurates National Workshop on Tiger Re-introduction at Alwar, Rajasthan",
       "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278482",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278589",
       "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Civil Aviation First Phase of 2026 Char Dham Helicopter Operations concludes successfully Strict Adherence to Safety Protocols ensured Incident-Free operations प्रविष्टि तिथि: 27 JUN 2026 8:14PM by PIB Delhi The Ministry of Civil Aviation proudly takes note of the safe and successful conduct of helicopter operations during the first phase of the Char Dham Yatr…"
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Environment, Forest and Climate Change Shri Bhupender Yadav inaugurates National Workshop on Tiger Re-introduction at Alwar, Rajasthan Protecting Tigers Also Safeguards Forests, Watersheds and Rich Biodiversity: Environment Minister Minister Releases Road Map on Active Management of Tigers in India, Booklet on Reintroduction and Recovery of Tigers in India and…"
     },
     {
-      "prid": "2278486",
-      "ministry": "Ministry of Defence",
-      "title": "ICGS Akshay Commissioned into Bharatiya Tatrakshak Fleet",
-      "posted_on_raw": "27 JUN 2026 8:23PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278486",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence ICGS Akshay Commissioned into Bharatiya Tatrakshak Fleet Posted On: 27 JUN 2026 8:23PM by PIB Delhi Bharatiya Tatrakshak marked another milestone in its force modernisation with the commissioning of ICGS Akshay, a new-generation Fast Patrol Vessel (FPV), at Goa Shipyard Limited, Goa, on June 27, 2026. Named Akshay, meaning Indestructible , the Fast Pat…"
-    },
-    {
-      "prid": "2278473",
-      "ministry": "Ministry of Defence",
-      "title": "Honouring the bravehearts",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278473",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence Honouring the bravehearts प्रविष्टि तिथि: 27 JUN 2026 7:47PM by PIB Delhi Certain reports circulating in sections of the media and on social media platforms have incorrectly suggested that the supreme sacrifice of six bravehearts during Operation Sindoor have been acknowledged or brought to public notice for the first time only recently. It is clarifie…"
-    },
-    {
-      "prid": "2278444",
-      "ministry": "Ministry of Defence",
-      "title": "Statement on misrepresentation of Raksha Mantri’s Parliamentary address of July 28, 2025",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278444",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence Statement on misrepresentation of Raksha Mantri’s Parliamentary address of July 28, 2025 प्रविष्टि तिथि: 27 JUN 2026 6:00PM by PIB Delhi Certain posts circulating on social media platforms have sought to misrepresent the Raksha Mantri's address delivered on the floor of Parliament on July 28, 2025. These posts have selectively quoted an isolated portio…"
-    },
-    {
-      "prid": "2278423",
-      "ministry": "Ministry of Defence",
-      "title": "INS IKSHAK ARRIVES AT PORT VICTORIA, SEYCHELLES",
-      "posted_on_raw": "27 JUN 2026 5:07PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278423",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence INS IKSHAK ARRIVES AT PORT VICTORIA, SEYCHELLES Posted On: 27 JUN 2026 5:07PM by PIB Delhi INS Ikshak, Indian Navy's indigenously built Survey Vessel Large (SVL), arrived at Port Victoria, Seychelles, on 26 Jun 2026, as part of her operational deployment to the South West Indian Ocean Region. This visit coincides with the 50th National Day celebrations…"
-    },
-    {
-      "prid": "2278375",
-      "ministry": "Ministry of Defence",
-      "title": "INDIAN NAVY’S EASTERN FLEET SHIPS UDAYGIRI, KAVARATTI, AND SHAKTI ARRIVE AT SATTAHIP, THAILAND",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278375",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence INDIAN NAVY’S EASTERN FLEET SHIPS UDAYGIRI, KAVARATTI, AND SHAKTI ARRIVE AT SATTAHIP, THAILAND प्रविष्टि तिथि: 27 JUN 2026 1:40PM by PIB Delhi Indian Naval Ships Udaygiri, Kavaratti, and Shakti of the Eastern Fleet arrived at Sattahip, Thailand, as part of their operational deployment to the South East Asia Region. The ships, led by RAdm Alok Ananda, F…"
-    },
-    {
-      "prid": "2278366",
-      "ministry": "Ministry of Defence",
-      "title": "INDIAN NAVY’S TALL SHIP INS SUDARSHINI ARRIVES IN BALTIMORE, USA",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278366",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence INDIAN NAVY’S TALL SHIP INS SUDARSHINI ARRIVES IN BALTIMORE, USA प्रविष्टि तिथि: 27 JUN 2026 12:47PM by PIB Delhi Indian Navy's Sail Training Ship INS Sudarshini arrived at the Port of Baltimore, Maryland, USA, on 26 Jun 2026, as part of the landmark transoceanic expedition, Lokayan 26. The passage from Norfolk involved transit through the historic Che…"
-    },
-    {
-      "prid": "2278453",
-      "ministry": "Ministry of Electronics & IT",
-      "title": "Digital India Nears 11 Years, Driving India's Next Phase of Technology-Led Growth through Artificial Intelligence, Semiconductor Manufacturing, Digital Public Infrastructure and Affordable Digital Connectivity",
-      "posted_on_raw": "27 JUN 2026 6:24PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278453",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT Digital India Nears 11 Years, Driving India's Next Phase of Technology-Led Growth through Artificial Intelligence, Semiconductor Manufacturing, Digital Public Infrastructure and Affordable Digital Connectivity ₹1.64 Lakh Crore Investment Approved Across 12 Semiconductor Projects; Electronics Emerges as India's Third-Largest Export Category Sha…"
-    },
-    {
-      "prid": "2278498",
-      "ministry": "Ministry of Finance",
-      "title": "DRI busts firecracker smuggling syndicate, seizes Chinese origin firecrackers worth Rs. 35 crore in operations at Chennai and Mumbai; 12 persons arrested",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278498",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Finance DRI busts firecracker smuggling syndicate, seizes Chinese origin firecrackers worth Rs. 35 crore in operations at Chennai and Mumbai; 12 persons arrested प्रविष्टि तिथि: 27 JUN 2026 9:14PM by PIB Delhi In a continued crackdown against the illicit import of hazardous contraband, the Directorate of Revenue Intelligence (DRI) has successfully foiled two a…"
-    },
-    {
-      "prid": "2278347",
+      "prid": "2278584",
       "ministry": "Ministry of Health and Family Welfare",
-      "title": "Union Health Minister Shri J.P. Nadda to Launch Aarogya Setu 2.0 and Other Digital Initiatives for Health Sector on 29th June, 2026",
+      "title": "Union Health Minister Shri J.P. Nadda to Release Anemia Mukt Bharat Abhiyaan - Operational Guidelines at 16th CCHFW Meeting",
       "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278347",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278584",
       "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Union Health Minister Shri J.P. Nadda to Launch Aarogya Setu 2.0 and Other Digital Initiatives for Health Sector on 29th June, 2026 Ayushman Sarathi Chatbot, Ayushman App, e-Sushrut Clinic, NHCX and Insurance Plan FHIR Object and health standards to strengthen India's Digital Public Infrastructure for Health New Digital Initiatives to…"
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Union Health Minister Shri J.P. Nadda to Release Anemia Mukt Bharat Abhiyaan - Operational Guidelines at 16th CCHFW Meeting New Guidelines to Introduce 7x7x7 Strategy, T4 Approach and Nationwide Jan Bhagidari Campaign to Accelerate Anemia Reduction Anemia Mukt Bharat to Transition into Anemia Mukt Bharat Abhiyaan with a More Comprehen…"
     },
     {
-      "prid": "2278346",
+      "prid": "2278555",
       "ministry": "Ministry of Health and Family Welfare",
-      "title": "Union Ministry of Health to Convene 16th Conference of the Central Council of Health and Family Welfare on 29th June at Vigyan Bhawan, New Delhi",
+      "title": "Union Ministry of Health and Family Welfare Proposes Amendments to Medical Devices Rules, 2017 to Streamline Licensing Process",
       "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278346",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Union Ministry of Health to Convene 16th Conference of the Central Council of Health and Family Welfare on 29th June at Vigyan Bhawan, New Delhi Union Health Minister Shri J.P. Nadda to Chair the 16th Conference of the Central Council of Health and Family Welfare Conference to deliberate on NHM-SDG Goals & Priorities, Food & Drug Refo…"
-    },
-    {
-      "prid": "2278447",
-      "ministry": "Ministry of Science & Technology",
-      "title": "On the Eve of Doctor's Day, Dr. Jitendra Singh illuminates the practice of precision medicine in the future",
-      "posted_on_raw": "27 JUN 2026 6:13PM",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278447",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology On the Eve of Doctor's Day, Dr. Jitendra Singh illuminates the practice of precision medicine in the future Says India is Developing Homegrown Solutions to Address Global Health Challenges through gene therapy, nuclear medicine and other emerging technologies India's unique genetic diversity, scientific ecosystem and emerging technologies …"
-    },
-    {
-      "prid": "2278422",
-      "ministry": "Ministry of Finance",
-      "title": "The Digital India",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278422",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278555",
       "pdfs": [
         {
-          "label": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU3991",
-          "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU3991_M3rthT.pdf?source=pqals"
-        },
-        {
-          "label": "https://sansad.in/getFile/annex/270/AU4273_LT3Fyr.pdf?source",
-          "url": "https://sansad.in/getFile/annex/270/AU4273_LT3Fyr.pdf?source=pqars"
-        },
-        {
-          "label": "https://icrier.org/pdf/State_of_India_Digital_Economy_Report",
-          "url": "https://icrier.org/pdf/State_of_India_Digital_Economy_Report_2026.pdf"
-        },
-        {
-          "label": "Click here for pdf file.",
-          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jun/doc2026627904001.pdf"
+          "label": "https://egazette.gov.in/WriteReadData/2026/273896.pdf",
+          "url": "https://egazette.gov.in/WriteReadData/2026/273896.pdf"
         }
       ],
-      "snippet": "Press Release Page | Press Information Bureau PIB Backgrounder The Digital India 11 Years of Transformation प्रविष्टि तिथि: 27 JUN 2026 4:51PM by PIB Delhi Digital India Programme has shaped how citizens connect, learn, transact, and access public services across the country. Over the past 11 years, India has built one of the world’s largest Digital Public Infrastructure ecosystems at scale. Digital platforms have ex…"
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Union Ministry of Health and Family Welfare Proposes Amendments to Medical Devices Rules, 2017 to Streamline Licensing Process Draft amendments aim to reduce timelines for grant of manufacturing licences and enhance ease of doing business प्रविष्टि तिथि: 28 JUN 2026 11:12AM by PIB Delhi The Ministry of Health and Family Welfare has pu…"
+    },
+    {
+      "prid": "2278592",
+      "ministry": "Ministry of Rural Development",
+      "title": "Union Minister for Rural Development Shri Shivraj Singh Chouhan Launches AI-Enabled 'Rural Internal Audit Portal' at “Rashtriya Gramin Vikas Sammelan”",
+      "posted_on_raw": "",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278592",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Rural Development Union Minister for Rural Development Shri Shivraj Singh Chouhan Launches AI-Enabled 'Rural Internal Audit Portal' at “Rashtriya Gramin Vikas Sammelan” “Rural Internal Audit Portal”: A First-of-its-Kind Unified Digital Platform for End-to-End Management of Internal Audits Covering Both Risk-Based and Compliance Audits प्रविष्टि तिथि: 28 JUN 20…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

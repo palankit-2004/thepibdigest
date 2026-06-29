@@ -1,74 +1,15 @@
 {
-  "updated_at_utc": "2026-06-28T17:20:12.229537+00:00",
-  "count": 7,
+  "updated_at_utc": "2026-06-29T04:42:34.066635+00:00",
+  "count": 1,
   "items": [
     {
-      "prid": "2278589",
-      "ministry": "Ministry of Environment, Forest and Climate Change",
-      "title": "Shri Bhupender Yadav inaugurates National Workshop on Tiger Re-introduction at Alwar, Rajasthan",
+      "prid": "2278735",
+      "ministry": "Ministry of Panchayati Raj",
+      "title": "National Study Report on “Low Participation in Gram Sabha Across States and Union Territories” to be Released on 30th June 2026",
       "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278589",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278735",
       "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Environment, Forest and Climate Change Shri Bhupender Yadav inaugurates National Workshop on Tiger Re-introduction at Alwar, Rajasthan Protecting Tigers Also Safeguards Forests, Watersheds and Rich Biodiversity: Environment Minister Minister Releases Road Map on Active Management of Tigers in India, Booklet on Reintroduction and Recovery of Tigers in India and…"
-    },
-    {
-      "prid": "2278645",
-      "ministry": "Ministry of Health and Family Welfare",
-      "title": "Union Health Minister Shri J.P. Nadda to Launch Samagra Shishu Bal Swasthya Karyakram (SSBSK) at 16th CCHFW Conference",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278645",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Union Health Minister Shri J.P. Nadda to Launch Samagra Shishu Bal Swasthya Karyakram (SSBSK) at 16th CCHFW Conference Unified programme will integrate Home-Based Newborn Care and Home-Based Care for Young Child under the vision of \"पहले तीन साल सम्पूर्ण देखभाल\" Programme will introduce risk-stratified care, extended home visits, nurt…"
-    },
-    {
-      "prid": "2278584",
-      "ministry": "Ministry of Health and Family Welfare",
-      "title": "Union Health Minister Shri J.P. Nadda to Release Anemia Mukt Bharat Abhiyaan - Operational Guidelines at 16th CCHFW Meeting",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278584",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Union Health Minister Shri J.P. Nadda to Release Anemia Mukt Bharat Abhiyaan - Operational Guidelines at 16th CCHFW Meeting New Guidelines to Introduce 7x7x7 Strategy, T4 Approach and Nationwide Jan Bhagidari Campaign to Accelerate Anemia Reduction Anemia Mukt Bharat to Transition into Anemia Mukt Bharat Abhiyaan with a More Comprehen…"
-    },
-    {
-      "prid": "2278555",
-      "ministry": "Ministry of Health and Family Welfare",
-      "title": "Union Ministry of Health and Family Welfare Proposes Amendments to Medical Devices Rules, 2017 to Streamline Licensing Process",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278555",
-      "pdfs": [
-        {
-          "label": "https://egazette.gov.in/WriteReadData/2026/273896.pdf",
-          "url": "https://egazette.gov.in/WriteReadData/2026/273896.pdf"
-        }
-      ],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare Union Ministry of Health and Family Welfare Proposes Amendments to Medical Devices Rules, 2017 to Streamline Licensing Process Draft amendments aim to reduce timelines for grant of manufacturing licences and enhance ease of doing business प्रविष्टि तिथि: 28 JUN 2026 11:12AM by PIB Delhi The Ministry of Health and Family Welfare has pu…"
-    },
-    {
-      "prid": "2278701",
-      "ministry": "Ministry of Home Affairs",
-      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the 'PM Family Care Tracker' pilot project in Gandhinagar, Gujarat, and administers polio drops to children on the occasion",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278701",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the 'PM Family Care Tracker' pilot project in Gandhinagar, Gujarat, and administers polio drops to children on the occasion Prime Minister Shri Narendra Modi has redefined holistic and inclusive development by formulating long-term policies, ensuring their continuous monito…"
-    },
-    {
-      "prid": "2278667",
-      "ministry": "Ministry of Rural Development",
-      "title": "Union Minister Shri Shivraj Singh Chouhan Inaugurates Rashtriya Gramin Vikas Sammelan",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278667",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Rural Development Union Minister Shri Shivraj Singh Chouhan Inaugurates Rashtriya Gramin Vikas Sammelan “Team India, Team Rural Development”: Union Minister Shri Shivraj Singh Chouhan gives the mantra of unity and service “Viksit Bharat will not be formed without developed villages (Viksit Gaon)”: Shri Shivraj Singh Chouhan “Villages are the soul and strength …"
-    },
-    {
-      "prid": "2278592",
-      "ministry": "Ministry of Rural Development",
-      "title": "Union Minister for Rural Development Shri Shivraj Singh Chouhan Launches AI-Enabled 'Rural Internal Audit Portal' at “Rashtriya Gramin Vikas Sammelan”",
-      "posted_on_raw": "",
-      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278592",
-      "pdfs": [],
-      "snippet": "Press Release Page | Press Information Bureau Ministry of Rural Development Union Minister for Rural Development Shri Shivraj Singh Chouhan Launches AI-Enabled 'Rural Internal Audit Portal' at “Rashtriya Gramin Vikas Sammelan” “Rural Internal Audit Portal”: A First-of-its-Kind Unified Digital Platform for End-to-End Management of Internal Audits Covering Both Risk-Based and Compliance Audits प्रविष्टि तिथि: 28 JUN 20…"
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Panchayati Raj National Study Report on “Low Participation in Gram Sabha Across States and Union Territories” to be Released on 30th June 2026 Report Highlights Challenges & Pathways to Strengthen Gram Sabha Participation प्रविष्टि तिथि: 29 JUN 2026 10:10AM by PIB Delhi The National Study Report on \"Low Participation in Gram Sabha across States and Union Terri…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

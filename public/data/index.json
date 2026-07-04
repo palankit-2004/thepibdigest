@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-07-04T15:12:06.009950+00:00",
-  "count": 7,
+  "updated_at_utc": "2026-07-04T17:13:35.624520+00:00",
+  "count": 9,
   "items": [
     {
       "prid": "2281051",
@@ -19,6 +19,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281017",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Defence India’s last 12 years have been a progression from shortages to building Viksit Bharat: Raksha Mantri “Transformational change in India’s global stature, the world today listens attentively to India’s perspective on international issues” “Record defence exports proof of global confidence in Make-in-India platforms” “Defence and security are matters of …"
+    },
+    {
+      "prid": "2281174",
+      "ministry": "Ministry of Electronics & IT",
+      "title": "\"India Has Entered a New Era in Semiconductors\" Says Union Minister Ashwini Vaishnaw as CG SEMI's OSAT Facility Begins Commercial Production in Sanand",
+      "posted_on_raw": "",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281174",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Electronics & IT \"India Has Entered a New Era in Semiconductors\" Says Union Minister Ashwini Vaishnaw as CG SEMI's OSAT Facility Begins Commercial Production in Sanand Five Semiconductor Plants Expected to Start Production in India by End of 2026; Atmanirbhar Bharat to Get New Momentum: Ashwini Vaishnaw Not Just a Technical Achievement But Also a Symbol of Soc…"
     },
     {
       "prid": "2280989",
@@ -60,6 +69,40 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281062",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Science & Technology India's Liver Epidemic, Diabetes Surge Part of a Larger Metabolic Nexus; Calls for Mission-Mode Public Awareness: Dr Jitendra Singh Liver, despite being the body's most resilient organ, is increasingly coming under stress from unhealthy dietary habits, lifestyle factors, inappropriate sleep patterns, stressful behaviour, and environmental …"
+    },
+    {
+      "prid": "2281148",
+      "ministry": "Ministry of Education",
+      "title": "Academic Bank of Credits and APAAR",
+      "posted_on_raw": "",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281148",
+      "pdfs": [
+        {
+          "label": "https://static.pib.gov.in/WriteReadData/userfiles/NEP_Final_",
+          "url": "https://static.pib.gov.in/WriteReadData/userfiles/NEP_Final_English_0.pdf"
+        },
+        {
+          "label": "https://www.ugc.gov.in/pdfnews/5572622_Academic-Bank-of-Cred",
+          "url": "https://www.ugc.gov.in/pdfnews/5572622_Academic-Bank-of-Credits-Regulation.pdf"
+        },
+        {
+          "label": "https://www.ugc.gov.in/pdfnews/9363820_Academic-Bank-of-Cred",
+          "url": "https://www.ugc.gov.in/pdfnews/9363820_Academic-Bank-of-Credits-(ABC).pdf"
+        },
+        {
+          "label": "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Cr",
+          "url": "https://www.ugc.gov.in/pdfnews/9028476_Report-of-National-Credit-Framework.pdf"
+        },
+        {
+          "label": "https://static.pib.gov.in/WriteReadData/specificdocs/documen",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/jul/doc2025729593701.pdf%20"
+        },
+        {
+          "label": "Click here to see pdf",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202674911501.pdf"
+        }
+      ],
+      "snippet": "Press Release Page | Press Information Bureau PIB Backgrounder Academic Bank of Credits and APAAR Building India's Lifelong Learning Ecosystem प्रविष्टि तिथि: 04 JUL 2026 8:47PM by PIB Delhi Building India's Lifelong Learning Ecosystem ­ Academic Bank of Credits: An Overview The Academic Bank of Credits (ABC) is a revolutionary initiative by the Ministry of Education and is regulated by the University Grants Commissi…"
     },
     {
       "prid": "2280986",

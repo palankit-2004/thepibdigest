@@ -1,7 +1,16 @@
 {
-  "updated_at_utc": "2026-07-04T06:52:14.947201+00:00",
-  "count": 2,
+  "updated_at_utc": "2026-07-04T10:17:45.955629+00:00",
+  "count": 4,
   "items": [
+    {
+      "prid": "2281017",
+      "ministry": "Ministry of Defence",
+      "title": "India’s last 12 years have been a progression from shortages to building Viksit Bharat: Raksha Mantri",
+      "posted_on_raw": "",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281017",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Defence India’s last 12 years have been a progression from shortages to building Viksit Bharat: Raksha Mantri “Transformational change in India’s global stature, the world today listens attentively to India’s perspective on international issues” “Record defence exports proof of global confidence in Make-in-India platforms” “Defence and security are matters of …"
+    },
     {
       "prid": "2280989",
       "ministry": "Ministry of Finance",
@@ -17,10 +26,19 @@
       "snippet": "Press Release Page | Press Information Bureau Ministry of Finance India-Israel Bilateral Investment Agreement (BIA) comes into force today Government of the Republic of India and the Government of the State of Israel had signed Bilateral Investment Agreement (BIA) on 8th September 2025 in New Delhi प्रविष्टि तिथि: 04 JUL 2026 9:00AM by PIB Delhi The Bilateral Investment Agreement (BIA) between the Government of the R…"
     },
     {
+      "prid": "2280998",
+      "ministry": "Ministry of Home Affairs",
+      "title": "Taking another significant step under Modi government's 'Zero Tolerance Policy' against terrorism, Ministry of Home Affairs, under guidance of Union Home Minister Shri Amit Shah, has declared 23 more individuals as 'terrorists'",
+      "posted_on_raw": "",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280998",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Home Affairs Taking another significant step under Modi government's 'Zero Tolerance Policy' against terrorism, Ministry of Home Affairs, under guidance of Union Home Minister Shri Amit Shah, has declared 23 more individuals as 'terrorists' Union Home Minister and Minister of Cooperation Shri Amit Shah say Modi government is committed to eliminating every terr…"
+    },
+    {
       "prid": "2280986",
       "ministry": "Ministry of Rural Development",
       "title": "LokOS: A Digital Backbone for Rural Livelihoods",
-      "posted_on_raw": "04 JUL 2026 9:23AM",
+      "posted_on_raw": "",
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280986",
       "pdfs": [
         {
@@ -28,7 +46,7 @@
           "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202674911001.pdf"
         }
       ],
-      "snippet": "Press Release Page | Press Information Bureau PIB Backgrounder LokOS: A Digital Backbone for Rural Livelihoods 26th Strengthening Transparency and Financial Inclusion Posted On: 04 JUL 2026 9:23AM by PIB Delhi Strengthening Digital Governance under Deendayal Antyodaya Yojana- National Rural Livelihoods Mission (DAY-NRLM) LokOS (Lok = People, OS = Operating System) is a web and mobile platform under the Deendayal Anty…"
+      "snippet": "Press Release Page | Press Information Bureau PIB Backgrounder LokOS: A Digital Backbone for Rural Livelihoods 26th Strengthening Transparency and Financial Inclusion प्रविष्टि तिथि: 04 JUL 2026 9:23AM by PIB Delhi Strengthening Digital Governance under Deendayal Antyodaya Yojana- National Rural Livelihoods Mission (DAY-NRLM) LokOS (Lok = People, OS = Operating System) is a web and mobile platform under the Deendayal…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"

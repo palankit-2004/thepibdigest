@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-07-05T13:53:42.555998+00:00",
-  "count": 9,
+  "updated_at_utc": "2026-07-05T15:17:50.107217+00:00",
+  "count": 10,
   "items": [
     {
       "prid": "2281357",
@@ -37,6 +37,15 @@
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281222",
       "pdfs": [],
       "snippet": "Press Release Page | Press Information Bureau Ministry of Health and Family Welfare ICMR wins Gold at National Awards for e-Governance 2026 ICMR-MINDS receives DARPG honour for Al-enabled citizen-centric healthcare innovation Digital platform empowers frontline healthcare workers to deliver standardised mental healthcare प्रविष्टि तिथि: 05 JUL 2026 12:43PM by PIB Delhi The Indian Council of Medical Research (ICMR)'s …"
+    },
+    {
+      "prid": "2281361",
+      "ministry": "Ministry of Home Affairs",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah and Minister for Coal and Mines Shri G. Kishan Reddy reviewed situation of illegal coal mining and coal theft",
+      "posted_on_raw": "",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281361",
+      "pdfs": [],
+      "snippet": "Press Release Page | Press Information Bureau Ministry of Home Affairs Union Home Minister and Minister of Cooperation Shri Amit Shah and Minister for Coal and Mines Shri G. Kishan Reddy reviewed situation of illegal coal mining and coal theft Home Minister expressed concern over worsening situation of illegal coal mining and theft in Dhanbad and nearby areas Shri Amit Shah appreciated steps taken so far by the Minis…"
     },
     {
       "prid": "2281212",
@@ -78,7 +87,7 @@
       "prid": "2281287",
       "ministry": "Ministry of Law and Justice",
       "title": "Ethanol Blending in India",
-      "posted_on_raw": "",
+      "posted_on_raw": "05 JUL 2026 3:33PM",
       "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281287",
       "pdfs": [
         {
@@ -86,7 +95,7 @@
           "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202675912001.pdf"
         }
       ],
-      "snippet": "Press Release Page | Press Information Bureau PIB Backgrounder Ethanol Blending in India Policy Evolution, Key Milestones and Frequently Raised Concerns प्रविष्टि तिथि: 05 JUL 2026 3:33PM by PIB Delhi Overview of the Ethanol Blended Petrol (EBP) Programme Ethanol Blended Petrol (EBP) Programme has emerged as a key pillar of India's energy transition and biofuel strategy. It aims to improve energy security, support fa…"
+      "snippet": "Press Release Page | Press Information Bureau PIB Backgrounder Ethanol Blending in India Policy Evolution, Key Milestones and Frequently Raised Concerns Posted On: 05 JUL 2026 3:33PM by PIB Delhi Overview of the Ethanol Blended Petrol (EBP) Programme Ethanol Blended Petrol (EBP) Programme has emerged as a key pillar of India's energy transition and biofuel strategy. It aims to improve energy security, support farmers…"
     }
   ],
   "note": "listing=https://www.pib.gov.in/Allrel.aspx?lang=1&reg=3"
